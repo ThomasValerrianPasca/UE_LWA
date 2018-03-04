@@ -1,0 +1,5 @@
+#!/bash/bin
+val= ps -a | grep lte-softmodem | cut -c1-5
+echo $val
+#!echo ${val[*]}
+#!ps -T -p $val
