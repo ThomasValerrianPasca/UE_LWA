@@ -1,9 +1,9 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/rrh_gw.dir/home/mukesh/openairinterface5g/targets/RT/USER/rrh_gw.c.o"
-  "CMakeFiles/rrh_gw.dir/home/mukesh/openairinterface5g/targets/RT/USER/eNB_transport_IQ.c.o"
-  "CMakeFiles/rrh_gw.dir/home/mukesh/openairinterface5g/targets/RT/USER/UE_transport_IQ.c.o"
-  "CMakeFiles/rrh_gw.dir/home/mukesh/openairinterface5g/targets/RT/USER/rt_wrapper.c.o"
-  "CMakeFiles/rrh_gw.dir/home/mukesh/openairinterface5g/targets/ARCH/COMMON/common_lib.c.o"
+  "CMakeFiles/rrh_gw.dir/home/thomas/lwa_ue_working/targets/RT/USER/rrh_gw.c.o"
+  "CMakeFiles/rrh_gw.dir/home/thomas/lwa_ue_working/targets/RT/USER/eNB_transport_IQ.c.o"
+  "CMakeFiles/rrh_gw.dir/home/thomas/lwa_ue_working/targets/RT/USER/UE_transport_IQ.c.o"
+  "CMakeFiles/rrh_gw.dir/home/thomas/lwa_ue_working/targets/RT/USER/rt_wrapper.c.o"
+  "CMakeFiles/rrh_gw.dir/home/thomas/lwa_ue_working/targets/ARCH/COMMON/common_lib.c.o"
   "rrh_gw.pdb"
   "rrh_gw"
 )

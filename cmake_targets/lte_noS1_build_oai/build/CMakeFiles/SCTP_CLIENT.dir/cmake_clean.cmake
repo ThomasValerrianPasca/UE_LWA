@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o"
-  "CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o"
-  "CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o"
+  "CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o"
+  "CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o"
+  "CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o"
   "libSCTP_CLIENT.pdb"
   "libSCTP_CLIENT.a"
 )

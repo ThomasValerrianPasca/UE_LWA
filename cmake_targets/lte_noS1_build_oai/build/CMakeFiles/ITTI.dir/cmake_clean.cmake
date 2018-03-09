@@ -1,10 +1,10 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o"
-  "CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o"
-  "CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o"
-  "CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o"
-  "CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o"
-  "CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o"
+  "CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o"
+  "CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o"
+  "CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o"
+  "CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o"
+  "CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o"
+  "CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o"
   "libITTI.pdb"
   "libITTI.a"
 )

@@ -1,6 +1,6 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/generate_T"
-  "/home/mukesh/openairinterface5g/common/utils/T/T_IDs.h"
+  "/home/thomas/lwa_ue_working/common/utils/T/T_IDs.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai
+CMAKE_SOURCE_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build
+CMAKE_BINARY_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SCTP_CLIENT.dir/depend.make
@@ -52,87 +52,87 @@ include CMakeFiles/SCTP_CLIENT.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SCTP_CLIENT.dir/flags.make
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o: CMakeFiles/SCTP_CLIENT.dir/flags.make
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o: /home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o   -c /home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o: CMakeFiles/SCTP_CLIENT.dir/flags.make
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o: /home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o   -c /home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c > CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.i
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c > CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.i
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c -o CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.s
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c -o CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.s
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o.requires:
-.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o.requires
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o.requires:
+.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o.requires
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o.provides: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o.requires
-	$(MAKE) -f CMakeFiles/SCTP_CLIENT.dir/build.make CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o.provides.build
-.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o.provides
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o.provides: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o.requires
+	$(MAKE) -f CMakeFiles/SCTP_CLIENT.dir/build.make CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o.provides.build
+.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o.provides
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o.provides.build: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o.provides.build: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o: CMakeFiles/SCTP_CLIENT.dir/flags.make
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o: /home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o   -c /home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o: CMakeFiles/SCTP_CLIENT.dir/flags.make
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o: /home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o   -c /home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c > CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.i
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c > CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.i
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c -o CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.s
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c -o CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.s
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o.requires:
-.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o.requires
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o.requires:
+.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o.requires
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o.provides: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o.requires
-	$(MAKE) -f CMakeFiles/SCTP_CLIENT.dir/build.make CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o.provides.build
-.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o.provides
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o.provides: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o.requires
+	$(MAKE) -f CMakeFiles/SCTP_CLIENT.dir/build.make CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o.provides.build
+.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o.provides
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o.provides.build: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o.provides.build: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o: CMakeFiles/SCTP_CLIENT.dir/flags.make
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o: /home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o   -c /home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o: CMakeFiles/SCTP_CLIENT.dir/flags.make
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o: /home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o   -c /home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c > CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.i
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c > CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.i
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c -o CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.s
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c -o CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.s
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o.requires:
-.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o.requires
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o.requires:
+.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o.requires
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o.provides: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o.requires
-	$(MAKE) -f CMakeFiles/SCTP_CLIENT.dir/build.make CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o.provides.build
-.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o.provides
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o.provides: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o.requires
+	$(MAKE) -f CMakeFiles/SCTP_CLIENT.dir/build.make CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o.provides.build
+.PHONY : CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o.provides
 
-CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o.provides.build: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o
+CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o.provides.build: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o
 
 # Object files for target SCTP_CLIENT
 SCTP_CLIENT_OBJECTS = \
-"CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o" \
-"CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o" \
-"CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o"
+"CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o" \
+"CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o" \
+"CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o"
 
 # External object files for target SCTP_CLIENT
 SCTP_CLIENT_EXTERNAL_OBJECTS =
 
-libSCTP_CLIENT.a: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o
-libSCTP_CLIENT.a: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o
-libSCTP_CLIENT.a: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o
+libSCTP_CLIENT.a: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o
+libSCTP_CLIENT.a: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o
+libSCTP_CLIENT.a: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o
 libSCTP_CLIENT.a: CMakeFiles/SCTP_CLIENT.dir/build.make
 libSCTP_CLIENT.a: CMakeFiles/SCTP_CLIENT.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libSCTP_CLIENT.a"
@@ -143,9 +143,9 @@ libSCTP_CLIENT.a: CMakeFiles/SCTP_CLIENT.dir/link.txt
 CMakeFiles/SCTP_CLIENT.dir/build: libSCTP_CLIENT.a
 .PHONY : CMakeFiles/SCTP_CLIENT.dir/build
 
-CMakeFiles/SCTP_CLIENT.dir/requires: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_common.c.o.requires
-CMakeFiles/SCTP_CLIENT.dir/requires: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o.requires
-CMakeFiles/SCTP_CLIENT.dir/requires: CMakeFiles/SCTP_CLIENT.dir/home/mukesh/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o.requires
+CMakeFiles/SCTP_CLIENT.dir/requires: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_common.c.o.requires
+CMakeFiles/SCTP_CLIENT.dir/requires: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_task.c.o.requires
+CMakeFiles/SCTP_CLIENT.dir/requires: CMakeFiles/SCTP_CLIENT.dir/home/thomas/lwa_ue_working/openair3/SCTP/sctp_eNB_itti_messaging.c.o.requires
 .PHONY : CMakeFiles/SCTP_CLIENT.dir/requires
 
 CMakeFiles/SCTP_CLIENT.dir/clean:
@@ -153,6 +153,6 @@ CMakeFiles/SCTP_CLIENT.dir/clean:
 .PHONY : CMakeFiles/SCTP_CLIENT.dir/clean
 
 CMakeFiles/SCTP_CLIENT.dir/depend:
-	cd /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/SCTP_CLIENT.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/SCTP_CLIENT.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SCTP_CLIENT.dir/depend
 

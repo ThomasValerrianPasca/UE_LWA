@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai
+CMAKE_SOURCE_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build
+CMAKE_BINARY_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LFDS.dir/depend.make
@@ -52,662 +52,662 @@ include CMakeFiles/LFDS.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LFDS.dir/flags.make
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c
-
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c
+
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_14)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_14)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_15)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_15)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_16)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_16)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_17)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_17)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_18)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_18)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_19)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_19)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_20)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_20)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_21)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_21)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_22)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_22)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_23)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_23)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_24)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_24)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_25)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_25)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o: CMakeFiles/LFDS.dir/flags.make
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o: /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_26)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o   -c /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o: CMakeFiles/LFDS.dir/flags.make
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o: /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_26)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o   -c /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c > CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.i
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c > CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.i
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c -o CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.s
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c -o CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.s
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.requires:
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.requires
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.requires:
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.requires
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.provides: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.requires
-	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.provides.build
-.PHONY : CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.provides
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.provides: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.requires
+	$(MAKE) -f CMakeFiles/LFDS.dir/build.make CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.provides.build
+.PHONY : CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.provides
 
-CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.provides.build: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o
+CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.provides.build: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o
 
 # Object files for target LFDS
 LFDS_OBJECTS = \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o" \
-"CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o"
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o" \
+"CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o"
 
 # External object files for target LFDS
 LFDS_EXTERNAL_OBJECTS =
 
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o
-libLFDS.a: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o
+libLFDS.a: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o
 libLFDS.a: CMakeFiles/LFDS.dir/build.make
 libLFDS.a: CMakeFiles/LFDS.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libLFDS.a"
@@ -718,32 +718,32 @@ libLFDS.a: CMakeFiles/LFDS.dir/link.txt
 CMakeFiles/LFDS.dir/build: libLFDS.a
 .PHONY : CMakeFiles/LFDS.dir/build
 
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.requires
-CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/mukesh/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o.requires
+CMakeFiles/LFDS.dir/requires: CMakeFiles/LFDS.dir/home/thomas/lwa_ue_working/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o.requires
 .PHONY : CMakeFiles/LFDS.dir/requires
 
 CMakeFiles/LFDS.dir/clean:
@@ -751,6 +751,6 @@ CMakeFiles/LFDS.dir/clean:
 .PHONY : CMakeFiles/LFDS.dir/clean
 
 CMakeFiles/LFDS.dir/depend:
-	cd /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/LFDS.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/LFDS.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LFDS.dir/depend
 

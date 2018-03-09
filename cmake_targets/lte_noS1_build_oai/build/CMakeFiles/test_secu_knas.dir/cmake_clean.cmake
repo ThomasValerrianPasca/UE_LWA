@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/test_secu_knas.dir/home/mukesh/openairinterface5g/openair3/TEST/test_secu_knas.c.o"
+  "CMakeFiles/test_secu_knas.dir/home/thomas/lwa_ue_working/openair3/TEST/test_secu_knas.c.o"
   "test_secu_knas.pdb"
   "test_secu_knas"
 )

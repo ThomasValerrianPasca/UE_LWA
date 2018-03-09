@@ -7,12 +7,12 @@ SET(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/mukesh/openairinterface5g/cmake_targets/CMakeLists.txt"
+  "/home/thomas/lwa_ue_working/cmake_targets/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/2.8.12.2/CMakeCCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
-  "/home/mukesh/openairinterface5g/cmake_targets/tools/Kbuild.cmake"
+  "/home/thomas/lwa_ue_working/cmake_targets/tools/Kbuild.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake"

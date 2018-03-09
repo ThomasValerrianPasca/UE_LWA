@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/OPENAIR0_LIB.dir/home/mukesh/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/LIB/openair0_lib.c.o"
+  "CMakeFiles/OPENAIR0_LIB.dir/home/thomas/lwa_ue_working/targets/ARCH/EXMIMO/USERSPACE/LIB/openair0_lib.c.o"
   "libOPENAIR0_LIB.pdb"
   "libOPENAIR0_LIB.a"
 )

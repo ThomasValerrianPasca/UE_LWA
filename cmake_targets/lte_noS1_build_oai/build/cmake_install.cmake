@@ -1,4 +1,4 @@
-# Install script for directory: /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai
+# Install script for directory: /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

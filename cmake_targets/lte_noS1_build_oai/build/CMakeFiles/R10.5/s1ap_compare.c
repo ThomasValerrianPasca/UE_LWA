@@ -22,8 +22,8 @@
 /*******************************************************************************
  * This file had been created by asn1tostruct.py script v1.0.2
  * Please do not modify this file but regenerate it via script.
- * Created on: 2018-03-02 12:15:46.569192 by mukesh
- * from ['/home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-PDU-Contents.asn']
+ * Created on: 2018-03-09 14:58:39.662393 by thomas
+ * from ['/home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-PDU-Contents.asn']
  ******************************************************************************/
 #include <stdlib.h>
 #include <stdio.h>

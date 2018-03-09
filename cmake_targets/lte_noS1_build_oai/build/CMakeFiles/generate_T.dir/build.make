@@ -38,25 +38,25 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai
+CMAKE_SOURCE_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build
+CMAKE_BINARY_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build
 
 # Utility rule file for generate_T.
 
 # Include the progress variables for this target.
 include CMakeFiles/generate_T.dir/progress.make
 
-CMakeFiles/generate_T: /home/mukesh/openairinterface5g/common/utils/T/T_IDs.h
+CMakeFiles/generate_T: /home/thomas/lwa_ue_working/common/utils/T/T_IDs.h
 
-/home/mukesh/openairinterface5g/common/utils/T/T_IDs.h: /home/mukesh/openairinterface5g/common/utils/T/T_messages.txt
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating /home/mukesh/openairinterface5g/common/utils/T/T_IDs.h"
-	cd /home/mukesh/openairinterface5g/common/utils/T && make
+/home/thomas/lwa_ue_working/common/utils/T/T_IDs.h: /home/thomas/lwa_ue_working/common/utils/T/T_messages.txt
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating /home/thomas/lwa_ue_working/common/utils/T/T_IDs.h"
+	cd /home/thomas/lwa_ue_working/common/utils/T && make
 
 generate_T: CMakeFiles/generate_T
-generate_T: /home/mukesh/openairinterface5g/common/utils/T/T_IDs.h
+generate_T: /home/thomas/lwa_ue_working/common/utils/T/T_IDs.h
 generate_T: CMakeFiles/generate_T.dir/build.make
 .PHONY : generate_T
 
@@ -69,6 +69,6 @@ CMakeFiles/generate_T.dir/clean:
 .PHONY : CMakeFiles/generate_T.dir/clean
 
 CMakeFiles/generate_T.dir/depend:
-	cd /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/generate_T.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/generate_T.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/generate_T.dir/depend
 

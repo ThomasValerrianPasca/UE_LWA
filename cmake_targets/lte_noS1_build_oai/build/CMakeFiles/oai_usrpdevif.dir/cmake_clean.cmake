@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/oai_usrpdevif.dir/home/mukesh/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp.o"
+  "CMakeFiles/oai_usrpdevif.dir/home/thomas/lwa_ue_working/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp.o"
   "liboai_usrpdevif.pdb"
   "liboai_usrpdevif.so"
 )

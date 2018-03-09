@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai
+CMAKE_SOURCE_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build
+CMAKE_BINARY_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/test_kdf.dir/depend.make
@@ -52,37 +52,37 @@ include CMakeFiles/test_kdf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test_kdf.dir/flags.make
 
-CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o: CMakeFiles/test_kdf.dir/flags.make
-CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o: /home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o   -c /home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c
+CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o: CMakeFiles/test_kdf.dir/flags.make
+CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o: /home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o   -c /home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c
 
-CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c > CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.i
+CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c > CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.i
 
-CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c -o CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.s
+CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c -o CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.s
 
-CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o.requires:
-.PHONY : CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o.requires
+CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o.requires:
+.PHONY : CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o.requires
 
-CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o.provides: CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o.requires
-	$(MAKE) -f CMakeFiles/test_kdf.dir/build.make CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o.provides.build
-.PHONY : CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o.provides
+CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o.provides: CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o.requires
+	$(MAKE) -f CMakeFiles/test_kdf.dir/build.make CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o.provides.build
+.PHONY : CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o.provides
 
-CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o.provides.build: CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o
+CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o.provides.build: CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o
 
 # Object files for target test_kdf
 test_kdf_OBJECTS = \
-"CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o"
+"CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o"
 
 # External object files for target test_kdf
 test_kdf_EXTERNAL_OBJECTS =
 
-test_kdf: CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o
+test_kdf: CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o
 test_kdf: CMakeFiles/test_kdf.dir/build.make
 test_kdf: libSECU_CN.a
 test_kdf: libUTIL.a
@@ -95,7 +95,7 @@ test_kdf: CMakeFiles/test_kdf.dir/link.txt
 CMakeFiles/test_kdf.dir/build: test_kdf
 .PHONY : CMakeFiles/test_kdf.dir/build
 
-CMakeFiles/test_kdf.dir/requires: CMakeFiles/test_kdf.dir/home/mukesh/openairinterface5g/openair3/TEST/test_kdf.c.o.requires
+CMakeFiles/test_kdf.dir/requires: CMakeFiles/test_kdf.dir/home/thomas/lwa_ue_working/openair3/TEST/test_kdf.c.o.requires
 .PHONY : CMakeFiles/test_kdf.dir/requires
 
 CMakeFiles/test_kdf.dir/clean:
@@ -103,6 +103,6 @@ CMakeFiles/test_kdf.dir/clean:
 .PHONY : CMakeFiles/test_kdf.dir/clean
 
 CMakeFiles/test_kdf.dir/depend:
-	cd /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/test_kdf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/test_kdf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_kdf.dir/depend
 

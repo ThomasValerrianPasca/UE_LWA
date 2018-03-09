@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai
+CMAKE_SOURCE_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build
+CMAKE_BINARY_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/S1AP_ENB.dir/depend.make
@@ -52,15 +52,15 @@ include CMakeFiles/S1AP_ENB.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/S1AP_ENB.dir/flags.make
 
-CMakeFiles/R10.5/s1ap_decoder.c: /home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-CommonDataTypes.asn
-CMakeFiles/R10.5/s1ap_decoder.c: /home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-Constants.asn
-CMakeFiles/R10.5/s1ap_decoder.c: /home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-IEs.asn
-CMakeFiles/R10.5/s1ap_decoder.c: /home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-PDU.asn
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/R10.5/s1ap_decoder.c: /home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-CommonDataTypes.asn
+CMakeFiles/R10.5/s1ap_decoder.c: /home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-Constants.asn
+CMakeFiles/R10.5/s1ap_decoder.c: /home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-IEs.asn
+CMakeFiles/R10.5/s1ap_decoder.c: /home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-PDU.asn
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating CMakeFiles/R10.5/s1ap_decoder.c, CMakeFiles/R10.5/s1ap_encoder.c, CMakeFiles/R10.5/s1ap_xer_print.c, CMakeFiles/R10.5/s1ap_compare.c, CMakeFiles/R10.5/s1ap_ies_defs.h"
-	/home/mukesh/openairinterface5g/cmake_targets/tools/generate_asn1 /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/R10.5 /home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-CommonDataTypes.asn /home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-Constants.asn /home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-IEs.asn /home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-PDU.asn
-	python /home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/asn1tostruct.py -f/home/mukesh/openairinterface5g/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-PDU-Contents.asn -o/home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/R10.5
-	/home/mukesh/openairinterface5g/cmake_targets/tools/fix_asn1 /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/R10.5 S1AP R10
+	/home/thomas/lwa_ue_working/cmake_targets/tools/generate_asn1 /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/R10.5 /home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-CommonDataTypes.asn /home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-Constants.asn /home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-IEs.asn /home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-PDU.asn
+	python /home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/asn1tostruct.py -f/home/thomas/lwa_ue_working/openair3/S1AP/MESSAGES/ASN1/R10.5/S1AP-PDU-Contents.asn -o/home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/R10.5
+	/home/thomas/lwa_ue_working/cmake_targets/tools/fix_asn1 /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/R10.5 S1AP R10
 
 CMakeFiles/R10.5/s1ap_encoder.c: CMakeFiles/R10.5/s1ap_decoder.c
 
@@ -70,312 +70,312 @@ CMakeFiles/R10.5/s1ap_compare.c: CMakeFiles/R10.5/s1ap_decoder.c
 
 CMakeFiles/R10.5/s1ap_ies_defs.h: CMakeFiles/R10.5/s1ap_decoder.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c
-
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c
+
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_9)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_11)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_12)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o: /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_13)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o   -c /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o: CMakeFiles/S1AP_ENB.dir/flags.make
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o: /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_13)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o   -c /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c > CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.i
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c > CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.i
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c -o CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.s
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c -o CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.s
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o.requires:
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o.requires
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o.requires:
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o.requires
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o.requires
-	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o.provides.build
-.PHONY : CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o.provides
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o.provides: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o.requires
+	$(MAKE) -f CMakeFiles/S1AP_ENB.dir/build.make CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o.provides.build
+.PHONY : CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o.provides
 
-CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o
+CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o.provides.build: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o
 
 # Object files for target S1AP_ENB
 S1AP_ENB_OBJECTS = \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o" \
-"CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o"
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o" \
+"CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o"
 
 # External object files for target S1AP_ENB
 S1AP_ENB_EXTERNAL_OBJECTS =
 
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o
-libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o
+libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o
 libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/build.make
 libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libS1AP_ENB.a"
@@ -386,18 +386,18 @@ libS1AP_ENB.a: CMakeFiles/S1AP_ENB.dir/link.txt
 CMakeFiles/S1AP_ENB.dir/build: libS1AP_ENB.a
 .PHONY : CMakeFiles/S1AP_ENB.dir/build
 
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o.requires
-CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/mukesh/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_decoder.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_encoder.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_handlers.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_itti_messaging.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_management_procedures.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nas_procedures.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_nnsf.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_overload.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_trace.c.o.requires
+CMakeFiles/S1AP_ENB.dir/requires: CMakeFiles/S1AP_ENB.dir/home/thomas/lwa_ue_working/openair3/S1AP/s1ap_eNB_ue_context.c.o.requires
 .PHONY : CMakeFiles/S1AP_ENB.dir/requires
 
 CMakeFiles/S1AP_ENB.dir/clean:
@@ -409,6 +409,6 @@ CMakeFiles/S1AP_ENB.dir/depend: CMakeFiles/R10.5/s1ap_encoder.c
 CMakeFiles/S1AP_ENB.dir/depend: CMakeFiles/R10.5/s1ap_xer_print.c
 CMakeFiles/S1AP_ENB.dir/depend: CMakeFiles/R10.5/s1ap_compare.c
 CMakeFiles/S1AP_ENB.dir/depend: CMakeFiles/R10.5/s1ap_ies_defs.h
-	cd /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/S1AP_ENB.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/S1AP_ENB.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/S1AP_ENB.dir/depend
 

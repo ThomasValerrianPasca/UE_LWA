@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai
+CMAKE_SOURCE_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build
+CMAKE_BINARY_DIR = /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ITTI.dir/depend.make
@@ -52,162 +52,162 @@ include CMakeFiles/ITTI.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ITTI.dir/flags.make
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o: CMakeFiles/ITTI.dir/flags.make
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o: /home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o   -c /home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o: CMakeFiles/ITTI.dir/flags.make
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o: /home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o   -c /home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c > CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.i
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c > CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.i
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.s
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.s
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o.requires:
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o.requires
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o.requires:
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o.requires
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o.provides: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o.requires
-	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o.provides.build
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o.provides
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o.provides: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o.requires
+	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o.provides.build
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o.provides
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o.provides.build: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o.provides.build: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o: CMakeFiles/ITTI.dir/flags.make
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o: /home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o   -c /home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o: CMakeFiles/ITTI.dir/flags.make
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o: /home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o   -c /home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c > CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.i
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c > CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.i
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.s
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.s
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o.requires:
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o.requires
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o.requires:
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o.requires
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o.provides: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o.requires
-	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o.provides.build
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o.provides
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o.provides: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o.requires
+	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o.provides.build
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o.provides
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o.provides.build: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o.provides.build: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o: CMakeFiles/ITTI.dir/flags.make
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o: /home/mukesh/openairinterface5g/common/utils/itti/backtrace.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o   -c /home/mukesh/openairinterface5g/common/utils/itti/backtrace.c
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o: CMakeFiles/ITTI.dir/flags.make
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o: /home/thomas/lwa_ue_working/common/utils/itti/backtrace.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o   -c /home/thomas/lwa_ue_working/common/utils/itti/backtrace.c
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/common/utils/itti/backtrace.c > CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.i
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/common/utils/itti/backtrace.c > CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.i
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/common/utils/itti/backtrace.c -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.s
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/common/utils/itti/backtrace.c -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.s
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o.requires:
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o.requires
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o.requires:
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o.requires
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o.provides: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o.requires
-	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o.provides.build
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o.provides
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o.provides: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o.requires
+	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o.provides.build
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o.provides
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o.provides.build: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o.provides.build: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o: CMakeFiles/ITTI.dir/flags.make
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o: /home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o   -c /home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o: CMakeFiles/ITTI.dir/flags.make
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o: /home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o   -c /home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c > CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.i
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c > CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.i
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.s
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.s
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o.requires:
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o.requires
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o.requires:
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o.requires
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o.provides: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o.requires
-	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o.provides.build
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o.provides
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o.provides: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o.requires
+	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o.provides.build
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o.provides
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o.provides.build: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o.provides.build: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o: CMakeFiles/ITTI.dir/flags.make
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o: /home/mukesh/openairinterface5g/common/utils/itti/signals.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o   -c /home/mukesh/openairinterface5g/common/utils/itti/signals.c
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o: CMakeFiles/ITTI.dir/flags.make
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o: /home/thomas/lwa_ue_working/common/utils/itti/signals.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o   -c /home/thomas/lwa_ue_working/common/utils/itti/signals.c
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/common/utils/itti/signals.c > CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.i
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/common/utils/itti/signals.c > CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.i
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/common/utils/itti/signals.c -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.s
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/common/utils/itti/signals.c -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.s
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o.requires:
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o.requires
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o.requires:
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o.requires
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o.provides: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o.requires
-	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o.provides.build
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o.provides
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o.provides: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o.requires
+	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o.provides.build
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o.provides
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o.provides.build: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o.provides.build: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o: CMakeFiles/ITTI.dir/flags.make
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o: /home/mukesh/openairinterface5g/common/utils/itti/timer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o   -c /home/mukesh/openairinterface5g/common/utils/itti/timer.c
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o: CMakeFiles/ITTI.dir/flags.make
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o: /home/thomas/lwa_ue_working/common/utils/itti/timer.c
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o   -c /home/thomas/lwa_ue_working/common/utils/itti/timer.c
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/mukesh/openairinterface5g/common/utils/itti/timer.c > CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.i
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.i"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -E /home/thomas/lwa_ue_working/common/utils/itti/timer.c > CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.i
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/mukesh/openairinterface5g/common/utils/itti/timer.c -o CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.s
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.s"
+	/usr/bin/cc  $(C_DEFINES) $(C_FLAGS) -S /home/thomas/lwa_ue_working/common/utils/itti/timer.c -o CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.s
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o.requires:
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o.requires
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o.requires:
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o.requires
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o.provides: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o.requires
-	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o.provides.build
-.PHONY : CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o.provides
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o.provides: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o.requires
+	$(MAKE) -f CMakeFiles/ITTI.dir/build.make CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o.provides.build
+.PHONY : CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o.provides
 
-CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o.provides.build: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o
+CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o.provides.build: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o
 
 # Object files for target ITTI
 ITTI_OBJECTS = \
-"CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o" \
-"CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o" \
-"CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o" \
-"CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o" \
-"CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o" \
-"CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o"
+"CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o" \
+"CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o" \
+"CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o" \
+"CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o" \
+"CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o" \
+"CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o"
 
 # External object files for target ITTI
 ITTI_EXTERNAL_OBJECTS =
 
-libITTI.a: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o
-libITTI.a: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o
-libITTI.a: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o
-libITTI.a: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o
-libITTI.a: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o
-libITTI.a: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o
+libITTI.a: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o
+libITTI.a: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o
+libITTI.a: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o
+libITTI.a: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o
+libITTI.a: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o
+libITTI.a: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o
 libITTI.a: CMakeFiles/ITTI.dir/build.make
 libITTI.a: CMakeFiles/ITTI.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C static library libITTI.a"
@@ -218,12 +218,12 @@ libITTI.a: CMakeFiles/ITTI.dir/link.txt
 CMakeFiles/ITTI.dir/build: libITTI.a
 .PHONY : CMakeFiles/ITTI.dir/build
 
-CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface.c.o.requires
-CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o.requires
-CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/backtrace.c.o.requires
-CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/memory_pools.c.o.requires
-CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/signals.c.o.requires
-CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/mukesh/openairinterface5g/common/utils/itti/timer.c.o.requires
+CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface.c.o.requires
+CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/intertask_interface_dump.c.o.requires
+CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/backtrace.c.o.requires
+CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/memory_pools.c.o.requires
+CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/signals.c.o.requires
+CMakeFiles/ITTI.dir/requires: CMakeFiles/ITTI.dir/home/thomas/lwa_ue_working/common/utils/itti/timer.c.o.requires
 .PHONY : CMakeFiles/ITTI.dir/requires
 
 CMakeFiles/ITTI.dir/clean:
@@ -231,6 +231,6 @@ CMakeFiles/ITTI.dir/clean:
 .PHONY : CMakeFiles/ITTI.dir/clean
 
 CMakeFiles/ITTI.dir/depend:
-	cd /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build /home/mukesh/openairinterface5g/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/ITTI.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build /home/thomas/lwa_ue_working/cmake_targets/lte_noS1_build_oai/build/CMakeFiles/ITTI.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ITTI.dir/depend
 

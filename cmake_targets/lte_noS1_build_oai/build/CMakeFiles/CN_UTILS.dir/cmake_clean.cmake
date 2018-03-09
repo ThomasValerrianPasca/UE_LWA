@@ -1,8 +1,8 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/CN_UTILS.dir/home/mukesh/openairinterface5g/openair3/UTILS/conversions.c.o"
-  "CMakeFiles/CN_UTILS.dir/home/mukesh/openairinterface5g/openair3/UTILS/enum_string.c.o"
-  "CMakeFiles/CN_UTILS.dir/home/mukesh/openairinterface5g/openair3/UTILS/log.c.o"
-  "CMakeFiles/CN_UTILS.dir/home/mukesh/openairinterface5g/openair3/UTILS/mcc_mnc_itu.c.o"
+  "CMakeFiles/CN_UTILS.dir/home/thomas/lwa_ue_working/openair3/UTILS/conversions.c.o"
+  "CMakeFiles/CN_UTILS.dir/home/thomas/lwa_ue_working/openair3/UTILS/enum_string.c.o"
+  "CMakeFiles/CN_UTILS.dir/home/thomas/lwa_ue_working/openair3/UTILS/log.c.o"
+  "CMakeFiles/CN_UTILS.dir/home/thomas/lwa_ue_working/openair3/UTILS/mcc_mnc_itu.c.o"
   "libCN_UTILS.pdb"
   "libCN_UTILS.a"
 )

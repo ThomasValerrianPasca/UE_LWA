@@ -1,9 +1,9 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/SECU_OSA.dir/home/mukesh/openairinterface5g/openair2/UTIL/OSA/osa_key_deriver.c.o"
-  "CMakeFiles/SECU_OSA.dir/home/mukesh/openairinterface5g/openair2/UTIL/OSA/osa_rijndael.c.o"
-  "CMakeFiles/SECU_OSA.dir/home/mukesh/openairinterface5g/openair2/UTIL/OSA/osa_snow3g.c.o"
-  "CMakeFiles/SECU_OSA.dir/home/mukesh/openairinterface5g/openair2/UTIL/OSA/osa_stream_eea.c.o"
-  "CMakeFiles/SECU_OSA.dir/home/mukesh/openairinterface5g/openair2/UTIL/OSA/osa_stream_eia.c.o"
+  "CMakeFiles/SECU_OSA.dir/home/thomas/lwa_ue_working/openair2/UTIL/OSA/osa_key_deriver.c.o"
+  "CMakeFiles/SECU_OSA.dir/home/thomas/lwa_ue_working/openair2/UTIL/OSA/osa_rijndael.c.o"
+  "CMakeFiles/SECU_OSA.dir/home/thomas/lwa_ue_working/openair2/UTIL/OSA/osa_snow3g.c.o"
+  "CMakeFiles/SECU_OSA.dir/home/thomas/lwa_ue_working/openair2/UTIL/OSA/osa_stream_eea.c.o"
+  "CMakeFiles/SECU_OSA.dir/home/thomas/lwa_ue_working/openair2/UTIL/OSA/osa_stream_eia.c.o"
   "libSECU_OSA.pdb"
   "libSECU_OSA.a"
 )
