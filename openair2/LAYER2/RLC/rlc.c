@@ -69,7 +69,7 @@ static void *listener_PDCP_fnt(void *arg);
 struct sched_param sched_param;
 static pthread_t listener_PDCP;
 
-
+uint16_t data_sdu_size;
 list_t lwa_packet_list;
 char list_name[10]="lwa_list";
 mem_block_t  temp_block;
@@ -644,14 +644,17 @@ void rlc_data_ind     (
 	//printf("\n Size of SDU = %d \n",sdu_sizeP);
 
 	uint16_t i;
-	/*for(i=0;i<=sdu_sizeP-1;i++)
-			{ //buffer[i] = toupper(buffer[i]);
-				//printf(" %.2X \t ",*(sdu_pP->data+i));
-				printf(" %.2X \t ",*(sdu_pP->data+i));
-			}*/
+	//printf("PDCP SDU\n");
+	//	for(i=0;i<=sdu_sizeP-1;i++)
+	//			{ //buffer[i] = toupper(buffer[i]);
+	//				//printf(" %.2X \t ",*(sdu_pP->data+i));
+	//				printf(" %.2X \t ",*(sdu_pP->data+i));
+	//			}
 	//memset(temp_block,0,86);
 	//printf("===========================================================\n");
 	//LWA
+//	printf("sdu size in PDCP = %d\n",sdu_sizeP);
+	data_sdu_size=sdu_sizeP;
 	pdcp_data_ind (
 			ctxt_pP,
 			srb_flagP,
@@ -689,7 +692,7 @@ void *listener_PDCP_fnt(void *arg)
 //-----------------------------------------------------------------------------
 {
 	int udpSocket, nBytes;
-	char buffer;
+	char buffer[data_sdu_size];
 	struct sockaddr_in serverAddr;
 	struct sockaddr_storage serverStorage;
 	socklen_t addr_size;
@@ -706,7 +709,7 @@ void *listener_PDCP_fnt(void *arg)
 
 	/*Bind socket with address struct*/
 	int a=bind(udpSocket, (struct sockaddr *) &serverAddr, sizeof(serverAddr));
-	printf("bind = %d",a);
+//	printf("bind = %d",a);
 	/*Initialize size variable to be used later on*/
 	addr_size = sizeof serverStorage;
 	int i;
@@ -719,21 +722,22 @@ void *listener_PDCP_fnt(void *arg)
 	while(1){
 		/* Try to receive any incoming UDP datagram. Address and port of
     	      requesting client will be stored on serverStorage variable */
-		memset(buffer,0,86);
-		nBytes = recvfrom(udpSocket,buffer,86,0,(struct sockaddr *)&serverStorage, &addr_size);
-		//printf("*****No of Bytes\t %d", nBytes);
+		memset(buffer,0,data_sdu_size);
+		nBytes = recvfrom(udpSocket,buffer,(data_sdu_size),0,(struct sockaddr *)&serverStorage, &addr_size);
+//		printf("*****No of Bytes\t %d", nBytes);
 
 		//unsigned char* temp_buffer = &buffer;
 		//printf("Received packets %d\n",j);
 		/*Convert message received to uppercase*/
-		//printf("content");
-		//		for(i=0;i<nBytes;i++)
-		//		{ //buffer[i] = toupper(buffer[i]);
-		//			printf(" %.2X \t ",*(buffer+i));
-		//		}
-		char temp_block2[86];
-		memset(temp_block2,0,86);
-		memcpy(&temp_block2, &buffer, 86);
+//		printf("content");
+//				for(i=0;i<nBytes;i++)
+//				{ //buffer[i] = toupper(buffer[i]);
+//					printf(" %.2X \t ",buffer[i]);
+//				}
+//		printf("\n");
+				char temp_block2[data_sdu_size];
+		memset(temp_block2,0,data_sdu_size);
+		memcpy(&temp_block2, &buffer, data_sdu_size);
 
 		flag_contains=1;
 		//	printf("\n ****enb Index= %d ,\t instance =%d \t module= %d\t  rnti= %d ",temp_ctxt_pP.eNB_index, temp_ctxt_pP.instance, temp_ctxt_pP.module_id, temp_ctxt_pP.rnti);
@@ -751,8 +755,8 @@ void *listener_PDCP_fnt(void *arg)
 		else{
 			difference=(int)((tv.tv_usec/10000)-last_frame);
 		}
-		printf("Original frame=%d  new frame= %d last_frame=%d\n  this_frame=%d",temp_ctxt_pP.frame,temp_ctxt_pP.frame + difference, last_frame, (int)(tv.tv_usec/10000));
-		printf("subframe= %d  new subframe= %d\n", temp_ctxt_pP.subframe ,(int)(tv.tv_usec/1000)-(int)((tv.tv_usec/10000)*10));
+//		printf("Original frame=%d  new frame= %d last_frame=%d\n  this_frame=%d",temp_ctxt_pP.frame,temp_ctxt_pP.frame + difference, last_frame, (int)(tv.tv_usec/10000));
+//		printf("subframe= %d  new subframe= %d\n", temp_ctxt_pP.subframe ,(int)(tv.tv_usec/1000)-(int)((tv.tv_usec/10000)*10));
 
 		if (temp_ctxt_pP.frame + difference <temp_ctxt_pP.frame)
 		{
@@ -762,7 +766,8 @@ void *listener_PDCP_fnt(void *arg)
 		temp_ctxt_pP1.configured = temp_ctxt_pP.configured;
 		temp_ctxt_pP1.eNB_index = temp_ctxt_pP.eNB_index;
 		temp_ctxt_pP1.enb_flag = temp_ctxt_pP.enb_flag;
-		temp_ctxt_pP1.frame = temp_ctxt_pP.frame + difference;
+//		temp_ctxt_pP1.frame = temp_ctxt_pP.frame + difference;
+		temp_ctxt_pP1.frame = temp_ctxt_pP.frame + 1;
 		temp_ctxt_pP1.instance = temp_ctxt_pP.instance;
 		temp_ctxt_pP1.module_id = temp_ctxt_pP.module_id;
 		temp_ctxt_pP1.rnti = temp_ctxt_pP.rnti;
@@ -777,13 +782,19 @@ void *listener_PDCP_fnt(void *arg)
 		temp_rb_idP1= temp_rb_idP ;
 		mem_block_t temp_block1;
 		temp_block1.data=temp_block2;
-		//printf("Size Wifi Packet %d ", sizeof temp_block1);
+		//printf("Size Wifi Packet %d ", );
+//		printf("Wifi SDU of size=%d\n",data_sdu_size);
+//		for(i=0;i<=data_sdu_size-1;i++)
+//				{ //buffer[i] = toupper(buffer[i]);
+//					//printf(" %.2X \t ",*(sdu_pP->data+i));
+//					printf(" %.2X \t ",temp_block1.data[i]);
+//				}
 		pdcp_data_ind (
 				&temp_ctxt_pP1,
 				temp_srb_flagP1,
 				temp_MBMS_flagP1,
 				temp_rb_idP1,
-				256,
+				data_sdu_size,
 				&temp_block1);
 	}
 	return NULL;
@@ -806,7 +817,7 @@ rlc_module_init (void)
 	 */
 
 
-
+	data_sdu_size=1502;
 
 	/*
 	 * Create a thread for listening PDCP packets for LWA

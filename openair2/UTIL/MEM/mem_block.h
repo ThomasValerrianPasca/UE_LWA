@@ -47,6 +47,7 @@ typedef struct mem_block_t {
   struct mem_block_t *next;
   struct mem_block_t *previous;
   unsigned char pool_id;
+  uint16_t identifier;
   unsigned char *data;
 } mem_block_t;
 #include "UTIL/LISTS/list.h"

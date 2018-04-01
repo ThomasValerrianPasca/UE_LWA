@@ -66,6 +66,7 @@
 #include "UTIL/MEM/mem_block.h"
 #include "UTIL/LISTS/list.h"
 #include "COMMON/mac_rrc_primitives.h"
+#include <pthread.h>
 #endif //NON_ACCESS_STRATUM
 //-----------------------------------------------------------------------------
 #include "COMMON/platform_constants.h"
@@ -86,6 +87,7 @@ extern pthread_mutex_t pdcp_mutex;
 extern pthread_cond_t  pdcp_cond;
 extern int             pdcp_instance_cnt;
 
+static pthread_t PDCP_Reordering_timeout;
 #define PROTOCOL_PDCP_CTXT_FMT PROTOCOL_CTXT_FMT"[%s %02u] "
 
 #define PROTOCOL_PDCP_CTXT_ARGS(CTXT_Pp, pDCP_Pp) PROTOCOL_CTXT_ARGS(CTXT_Pp),\
@@ -359,6 +361,8 @@ public_pdcp(int pdcp_module_init     (void);)
 public_pdcp(void pdcp_module_cleanup (void);)
 public_pdcp(void pdcp_layer_init     (void);)
 public_pdcp(void pdcp_layer_cleanup  (void);)
+public_pdcp(void Reordering_timeout  (void);)
+public_pdcp(uint32_t Pdcp_stats_rx_outoforder[MAX_NUM_CCs][NUMBER_OF_UE_MAX][NB_RB_MAX]);
 #if defined(PDCP_USE_NETLINK_QUEUES)
 public_pdcp(int pdcp_netlink_init    (void);)
 
@@ -420,14 +424,15 @@ typedef struct pdcp_missing_pdu_info_t {
 #define PDCP_MAX_SN_5BIT  31   // 2^5-1
 #define PDCP_MAX_SN_7BIT  127  // 2^7-1
 #define PDCP_MAX_SN_12BIT 4095 // 2^12-1
+//#define PDCP_MAX_SN_12BIT 2047 // 2^12-1
 
 /*
  * Reordering_Window: half of the PDCP SN space
  */
 #define REORDERING_WINDOW_SN_5BIT 16
 #define REORDERING_WINDOW_SN_7BIT 64
-#define REORDERING_WINDOW_SN_12BIT 2048
-
+#define REORDERING_WINDOW_SN_12BIT 4096
+//#define REORDERING_WINDOW_SN_12BIT 2048
 /*
  * SN size
  */
@@ -452,9 +457,17 @@ protected_pdcp(unsigned int           pdcp_eNB_UE_instance_to_rnti_index;)
 public_pdcp(pdcp_mbms_t               pdcp_mbms_array_ue[NUMBER_OF_UE_MAX][maxServiceCount][maxSessionPerPMCH];)   // some constants from openair2/RRC/LITE/MESSAGES/asn1_constants.h
 public_pdcp(pdcp_mbms_t               pdcp_mbms_array_eNB[NUMBER_OF_eNB_MAX][maxServiceCount][maxSessionPerPMCH];) // some constants from openair2/RRC/LITE/MESSAGES/asn1_constants.h
 #endif
+public_pdcp(boolean_t   oo_flag;)
+public_pdcp(boolean_t last_oo_flag;)
+public_pdcp(int   oo_timer;)
+public_pdcp(int   oo_timer_sec;)
+public_pdcp(int epoch_time;)
+public_pdcp(boolean_t thread_running;)
+
 protected_pdcp(sdu_size_t             pdcp_output_sdu_bytes_to_write;)
 protected_pdcp(sdu_size_t             pdcp_output_header_bytes_to_write;)
 protected_pdcp(list_t                 pdcp_sdu_list;)
+protected_pdcp(list_t                 pdcp_reorder_list;)
 protected_pdcp(int                    pdcp_sent_a_sdu;)
 protected_pdcp(pdcp_data_req_header_t pdcp_input_header;)
 protected_pdcp(unsigned char          pdcp_input_sdu_buffer[MAX_IP_PACKET_SIZE];)

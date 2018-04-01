@@ -54,7 +54,7 @@ boolean_t pdcp_init_seq_numbers(pdcp_t* pdcp_entity)
   // SN of the last PDCP SDU delivered to upper layers
   // Shall UE and eNB behave differently on initialization? (see 7.1.e)
   pdcp_entity->last_submitted_pdcp_rx_sn = 4095;
-
+  //pdcp_entity->last_submitted_pdcp_rx_sn = 2047;
   return TRUE;
 }
 
@@ -212,8 +212,9 @@ boolean_t pdcp_is_rx_seq_number_valid(uint16_t seq_num, pdcp_t* pdcp_entity,srb_
     }
 
     switch (pdcp_entity->rlc_mode) {
-    case RLC_MODE_AM:
-      if ((seq_num - pdcp_entity->last_submitted_pdcp_rx_sn > reordering_window)  ||
+    case RLC_MODE_UM:
+//    	 printf("Sequence number %d  and reordering window: %d  last submitted pdcp_sn= %d next expected PDCP number =%d\n",seq_num,reordering_window,pdcp_entity->last_submitted_pdcp_rx_sn,pdcp_entity->next_pdcp_rx_sn);
+      if ((seq_num - pdcp_entity->last_submitted_pdcp_rx_sn > reordering_window) || ((seq_num != pdcp_entity->last_submitted_pdcp_rx_sn+1) && (seq_num<reordering_window)) ||
           ((0 <= pdcp_entity->last_submitted_pdcp_rx_sn - seq_num) &&
            (pdcp_entity->last_submitted_pdcp_rx_sn - seq_num < reordering_window)  )) {
 
@@ -230,8 +231,7 @@ boolean_t pdcp_is_rx_seq_number_valid(uint16_t seq_num, pdcp_t* pdcp_entity,srb_
         }
 
         // discard this PDCP SDU;
-        LOG_W(PDCP, "Out of the reordering window (Incoming SN:%d, Expected SN:%d): discard this PDCP SDU\n",
-              seq_num, pdcp_entity->next_pdcp_rx_sn);
+       // LOG_W(PDCP, "Out of the reordering window (Incoming SN:%d, Expected SN:%d): discard this PDCP SDU\n", seq_num, pdcp_entity->next_pdcp_rx_sn);
         return FALSE;
       } else if (pdcp_entity->next_pdcp_rx_sn - seq_num > reordering_window) {
         pdcp_entity->rx_hfn++;
@@ -257,11 +257,11 @@ boolean_t pdcp_is_rx_seq_number_valid(uint16_t seq_num, pdcp_t* pdcp_entity,srb_
 
       break;
 
-    case RLC_MODE_UM :
+    case RLC_MODE_AM :
       if (seq_num <  pdcp_entity->next_pdcp_rx_sn) {
         pdcp_entity->rx_hfn++;
       }
-
+//      printf("Sequence number %d \n",seq_num);
       // decipher the PDCP Data PDU using COUNT based on RX_HFN and the received PDCP SN as specified in the subclause 5.6;
       //set Next_PDCP_RX_SN to the received PDCP SN +1 ;
       pdcp_entity->next_pdcp_rx_sn = seq_num;
