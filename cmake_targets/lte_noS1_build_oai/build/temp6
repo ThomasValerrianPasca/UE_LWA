@@ -1,0 +1,1005 @@
+# /dev/cpu_dma_latency set to 0us
+log init done
+Downlink for CC_id 0 frequency set to 2660000000
+configuring for UE
+CPU Freq is 2.195084 
+[NETLINK]Opened socket with fd 39
+reported resolution = 1 ns
+[HW][I][main] Version: Branch: HEAD Abrev. Hash: c49edd0 Date: Fri Mar 9 22:43:14 2018 +0530
+[PHY][I][main] Set nb_rx_antenna 1 , nb_tx_antenna 1 
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+Initializing UE vars (abstraction 0) for eNB TXant 1, UE RXant 1
+PHY_vars_UE_g[0][0] = 0x7f46eaec0010
+UE[0]->mode = 0
+CPU Freq is 2.195074 
+frame_parms->N_RB_DL=25
+frame_parms->N_RB_UL=25
+frame_parms->Nid_cell=0
+frame_parms->Ncp=0
+frame_parms->Ncp_UL=0
+frame_parms->nushift=0
+frame_parms->frame_type=0
+frame_parms->tdd_config=3
+frame_parms->tdd_config_S=0
+frame_parms->mode1_flag=0
+frame_parms->nb_antenna_ports_eNB=1
+frame_parms->nb_antennas_tx=1
+frame_parms->nb_antennas_rx=1
+frame_parms->ofdm_symbol_size=512
+frame_parms->nb_prefix_samples=36
+frame_parms->nb_prefix_samples0=40
+frame_parms->first_carrier_offset=362
+frame_parms->samples_per_tti=7680
+frame_parms->symbols_per_tti=14
+HW: Configuring card 0, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 0, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 0, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 0, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 0, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 1, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 1, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 1, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 1, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 1, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 2, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 2, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 2, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 2, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 2, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 3, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 3, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 3, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 3, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 3, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 4, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 4, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 4, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 4, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 4, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 5, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 5, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 5, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 5, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 5, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 6, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 6, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 6, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 6, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 6, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 7, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 7, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 7, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 7, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 7, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+[HW][I][main] CPU Affinity of main() function is...  CPU_0  CPU_1  CPU_2  CPU_3  CPU_4  CPU_5  CPU_6  CPU_7  CPU_8  CPU_9  CPU_10  CPU_11  CPU_12  CPU_13  CPU_14  CPU_15  CPU_16  CPU_17  CPU_18  CPU_19 
+[PHY][I][main] Intializing L2
+[MAC][I][l2_init] [MAIN] MAC_INIT_GLOBAL_PARAM IN...
+[MAC][I][mac_init_global_param] [MAIN] CALLING RLC_MODULE_INIT...
+Init PDCP listenerbind = 0Creating pool of resource
+[MAC][I][mac_init_global_param] [MAIN] RLC_MODULE_INIT OK, malloc16 for mac_rlc_xface...
+[MAC][I][mac_init_global_param] [MAIN] malloc16 OK, mac_rlc_xface @ 0x18bff8e0
+[MAC][I][mac_init_global_param] [MAIN] RLC interface setup and init
+[PDCP][I][pdcp_layer_init] PDCP layer has been initialized
+Init Reordering timer[MAC][I][mac_init_global_param] [MAIN] Init Global Param Done
+[MAC][I][l2_init] [MAIN] init eNB MAC functions  
+[MAC][I][l2_init] [MAIN] init UE MAC functions 
+[MAC][I][l2_init] [MAIN] PHY Frame configuration 
+[MAC][I][mac_top_init] [MAIN] Init function start:Nb_UE_INST=1
+[MAC][I][ue_init_mac] [UE0] Applying default macMainConfig
+[MAC][I][mac_top_init] [MAIN] Init function start:Nb_eNB_INST=0
+[MAC][I][mac_top_init] [MAIN] calling RRC
+[RRC][I][fill_ue_capability] Allocating 408 bytes for UE_EUTRA_Capability
+[PHY][I][fill_ue_capability] [RRC]UE Capability encoded, 15 bytes (120 bits)
+[RRC][I][openair_rrc_top_init] [UE] eMBMS active state is 0 
+[MAC][I][mac_top_init] [MAIN][INIT] Init function finished
+ITTI tasks created
+Filling UE band info
+Band 3 (3) : DL 1805000000..1880000000 Hz, UL 1710000000..1785000000 Hz, Duplex FDD 
+Band 20 (20) : DL 791000000..821000000 Hz, UL 832000000..862000000 Hz, Duplex FDD 
+Band 7 (7) : DL 2620000000..2690000000 Hz, UL 2500000000..2570000000 Hz, Duplex FDD 
+Band 38 (38) : DL 2570000000..2630000000 Hz, UL 2570000000..2620000000 Hz, Duplex TDD 
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+UE threads created by 32396
+[PHY][I][setup_ue_buffers] Mapping UE CC_id 0, rx_ant 0, freq 2660000000 on card 0, chain 0
+CPU Affinity of thread UHD Threads is  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 
+[PHY][I][setup_ue_buffers] Mapping UE CC_id 0, tx_ant 0, freq 2660000000 on card 0, chain 0
+waiting for sync (UHD Threads)
+Locked sync_mutex, waiting (UHD Threads)
+Sending sync to all threads
+TYPE <CTRL-C> TO TERMINATE
+Entering ITTI signals handler
+started UHD Threads as PID: 32404
+[PHY][I][device_init] Checking for USRPs : UHD 3.11.0.0-release (3.11.0)
+[PHY][I][device_init] Found USRP B200
+[PHY][I][set_rx_gain_offset] cal 0: freq 3500000000.000000, offset 44.000000, diff 840000000.000000
+[PHY][I][set_rx_gain_offset] cal 1: freq 2660000000.000000, offset 49.800000, diff 0.000000
+[PHY][I][set_rx_gain_offset] cal 2: freq 2300000000.000000, offset 51.000000, diff 360000000.000000
+[PHY][I][set_rx_gain_offset] cal 3: freq 1880000000.000000, offset 53.000000, diff 780000000.000000
+[PHY][I][set_rx_gain_offset] cal 4: freq 816000000.000000, offset 57.000000, diff 1844000000.000000
+[PHY][I][device_init] RX Gain 0 110.000000 (55.800000) => 54.200000 (max 76.000000)
+[PHY][I][device_init] Actual master clock: 30.720000MHz...
+[PHY][I][device_init] RF board max packet size 3836, size for 100µs jitter 768 
+[PHY][I][device_init] rx_max_num_samps 768
+[PHY][I][device_init] RX Channel 0
+[PHY][I][device_init]   Actual RX sample rate: 7.680000MSps...
+[PHY][I][device_init]   Actual RX frequency: 2.660000GHz...
+[PHY][I][device_init]   Actual RX gain: 54.000000...
+[PHY][I][device_init]   Actual RX bandwidth: 20.000000M...
+[PHY][I][device_init]   Actual RX antenna: RX2...
+[PHY][I][device_init] TX Channel 0
+[PHY][I][device_init]   Actual TX sample rate: 7.680000MSps...
+[PHY][I][device_init]   Actual TX frequency: 2.660000GHz...
+[PHY][I][device_init]   Actual TX gain: 89.750000...
+[PHY][I][device_init]   Actual TX bandwidth: 20.000000M...
+[PHY][I][device_init]   Actual TX antenna: TX/RX...
+[PHY][I][device_init] Device timestamp: 0.000422...
+[RRH] has loaded USRP B200 device.
+Init_UE_threads rtd 0 proc 0 nb_threads 2 i 0
+Init_UE_threads rtd 1 proc 1 nb_threads 2 i 1
+CPU Affinity of thread UE_0_proc_0 is  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 
+CPU Affinity of thread UE_0_proc_1 is  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 
+CPU Affinity of thread sync UE 0
+ is  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 
+waiting for sync (sync UE 0
+)
+Locked sync_mutex, waiting (sync UE 0
+)
+started sync UE 0
+ as PID: 32442
+[PHY][I][UE_thread_synch] [SCHED][UE] Check absolute frequency DL 2660000000, UL 2540000000 (oai_exit 0, rx_num_channels 1)
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+waiting for sync (UE_0_proc_0)
+Locked sync_mutex, waiting (UE_0_proc_0)
+started UE_0_proc_0 as PID: 32440
+waiting for sync (UE_0_proc_1)
+Locked sync_mutex, waiting (UE_0_proc_1)
+started UE_0_proc_1 as PID: 32441
+[1;31m[PHY][E][trx_usrp_read] [recv] received 0 samples out of 7680
+[0m[1;31m[PHY][E][trx_usrp_read] ERROR_CODE_OVERFLOW (Out of sequence error)
+
+[0m[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -100 Hz, rxgain 110 (DL 2659999900, UL 2539999900)
+Setting USRP TX Freq 2539999900.000000, RX Freq 2659999900.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [195 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off 100 Hz, rxgain 110 (DL 2660000100, UL 2540000100)
+Setting USRP TX Freq 2540000100.000000, RX Freq 2660000100.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[HW][E][initial_sync] Ignore MIB with high freq offset [400 Hz] estimation 
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -200 Hz, rxgain 110 (DL 2659999800, UL 2539999800)
+Setting USRP TX Freq 2539999800.000000, RX Freq 2659999800.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][initial_sync] [UE0] In synch, rx_offset 31364 samples
+[PHY][I][initial_sync] [UE 0] Frame 800 RRC Measurements => rssi -44.4 dBm (dig 65.6 dB, gain 110), N0 -113 dBm,  rsrp -69.2 dBm/RE, rsrq 9.0 dB
+[PHY][I][initial_sync] [UE 0] Frame 800 MIB Information => FDD, NORMAL, NidCell 0, N_RB_DL 25, PHICH DURATION 0, PHICH RESOURCE 1/6, TX_ANT 1
+[PHY][I][initial_sync] [UE 0] Frame 800 Measured Carrier Frequency 2659999711 Hz (offset 89 Hz)
+[HW][I][UE_thread_synch] Got synch: hw_slot_offset 8, carrier off -200 Hz, rxgain 110 (DL 2659999800, UL 2539999800), UE_scan_carrier 1
+Setting USRP TX Freq 2539999711.000000, RX Freq 2659999711.000000
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][initial_sync] [UE0] In synch, rx_offset 31368 samples
+[PHY][I][initial_sync] [UE 0] Frame 904 RRC Measurements => rssi -44.4 dBm (dig 65.6 dB, gain 110), N0 -101 dBm,  rsrp -69.2 dBm/RE, rsrq 9.0 dB
+[PHY][I][initial_sync] [UE 0] Frame 904 MIB Information => FDD, NORMAL, NidCell 0, N_RB_DL 25, PHICH DURATION 0, PHICH RESOURCE 1/6, TX_ANT 1
+[PHY][I][initial_sync] [UE 0] Frame 904 Measured Carrier Frequency 2659999715 Hz (offset -4 Hz)
+[HW][I][UE_thread_synch] Got synch: hw_slot_offset 8, carrier off 0 Hz, rxgain 110 (DL 2659999711, UL 2539999711), UE_scan_carrier 0
+Setting USRP TX Freq 2539999711.000000, RX Freq 2659999711.000000
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][UE_thread] Resynchronizing RX by 31368 samples (mode = 0)
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[UE 0] frame 1010, subframe 0: Adjusting frame counter (PBCH ant_tx=1, frame_tx=1010, phase 2, rx_offset 0) => new frame 1010
+[UE 0] frame 1010, subframe 0: Adjusting frame counter (PBCH ant_tx=1, frame_tx=1010, phase 2, rx_offset 0) => new frame 1010
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1010, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1012, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1014, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1016, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1017, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1018, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1020, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[PHY][I][lte_adjust_synch] [UE0] Sending synch status to higher layers
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] frame 1021, subframe 3: received DCI 0 with RNTI=1234 (C-RNTI:1234, CBA_RNTI 0) and format 4!
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1022, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1024, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1025, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SI] [UE 0] Frame 1025 Found SIB2 from eNB 0
+[RRC][I][dump_sib2] ac_BarringInfo : not defined
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.preambleInfo.numberOfRA_Preambles  : raw:15 decoded:n64
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.preambleInfo.preamblesGroupAConfig : not defined
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.powerRampingParameters.powerRampingStep                   : raw:2 decoded:dB4
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.powerRampingParameters.preambleInitialReceivedTargetPower : raw:8 decoded:dBm-104
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.preambleTransMax              : raw:6 decoded:n10
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.ra_ResponseWindowSize         : raw:7 decoded:sf10
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.mac_ContentionResolutionTimer : raw:5 decoded:sf48
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.maxHARQ_Msg3Tx : 4
+[RRC][I][dump_sib2] radioResourceConfigCommon.bcch_Config.modificationPeriodCoeff : raw:0 decoded:n2
+[RRC][I][dump_sib2] radioResourceConfigCommon.pcch_Config.defaultPagingCycle : raw:2 decoded:rf64
+[RRC][I][dump_sib2] radioResourceConfigCommon.pcch_Config.nB                 : raw:2 decoded:oneT
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.rootSequenceIndex                          : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.prach_ConfigIndex         : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.highSpeedFlag             : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.zeroCorrelationZoneConfig : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.prach_FreqOffset          : 2
+[RRC][I][dump_sib2] radioResourceConfigCommon.pdsch_ConfigCommon.referenceSignalPower : -24
+[RRC][I][dump_sib2] radioResourceConfigCommon.pdsch_ConfigCommon.p_b                  : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.n_SB                : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.hoppingMode         : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.pusch_HoppingOffset : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.enable64QAM         : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.groupHoppingEnabled    : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.groupAssignmentPUSCH   : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.sequenceHoppingEnabled : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.cyclicShift            : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.deltaPUCCH_Shift : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.nRB_CQI          : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.nCS_AN           : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.n1PUCCH_AN       : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.soundingRS_UL_ConfigCommon.present : raw:1 decoded:release
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.p0_NominalPUSCH   : -90
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.alpha             : 7
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.p0_NominalPUCCH   : -96
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format1  : 2
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format1b : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2  : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2a : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2b : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaPreambleMsg3 : 6
+[RRC][I][dump_sib2] radioResourceConfigCommon.ul_CyclicPrefixLength : 0
+[RRC][I][dump_sib2] ue_TimersAndConstants.t300 : 5
+[RRC][I][dump_sib2] ue_TimersAndConstants.t301 : 5
+[RRC][I][dump_sib2] ue_TimersAndConstants.t310 : 5
+[RRC][I][dump_sib2] ue_TimersAndConstants.n310 : 7
+[RRC][I][dump_sib2] ue_TimersAndConstants.t311 : 3
+[RRC][I][dump_sib2] ue_TimersAndConstants.n311 : 0
+[RRC][I][dump_sib2] freqInfo.ul_CarrierFreq             : not defined
+[RRC][I][dump_sib2] freqInfo.ul_Bandwidth               : not defined
+[RRC][I][dump_sib2] freqInfo.additionalSpectrumEmission : 1
+[RRC][I][dump_sib2] mbsfn_SubframeConfigList : not defined
+[RRC][I][dump_sib2] timeAlignmentTimerCommon : 7
+[RRC][I][dump_sib2] lateNonCriticalExtension : not defined
+[RRC][I][dump_sib2] ssac_BarringForMMTEL_Voice_r9 : not defined
+[RRC][I][dump_sib2] ssac_BarringForMMTEL_Video_r9 : not defined
+[RRC][I][dump_sib2] ac_BarringForCSFB_r10 : not defined
+[RRC][I][decode_SI] [FRAME 01025][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB2 params  eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[PHY][I][phy_config_sib2_ue] [UE0] Applying radioResourceConfigCommon from eNB0
+[RRC][I][rrc_ue_generate_RRCConnectionRequest] [UE 0] : Frame 1025, Logical Channel UL-CCCH (SRB0), Generating RRCConnectionRequest (bytes 6, eNB 0)
+[RRC][I][decode_SI] [UE 0] Received SIB1/SIB2/SIB3 Switching to RRC_SI_RECEIVED
+[RRC][I][decode_SI] [UE 0] Frame 1025 Found SIB3 from eNB 0
+[RRC][I][dump_sib3] Dumping SIB3 (see TS36.331 V8.21.0)
+[RRC][I][dump_sib3] cellReselectionInfoCommon.q_Hyst : raw:4  decoded:4 dB
+[RRC][I][dump_sib3] cellReselectionInfoCommon.speedStateReselectionPars : not defined
+[RRC][I][dump_sib3] cellReselectionServingFreqInfo.s_NonIntraSearch : not defined
+[RRC][I][dump_sib3] cellReselectionServingFreqInfo.threshServingLow : 31
+[RRC][I][dump_sib3] cellReselectionServingFreqInfo.cellReselectionPriority : 7
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.q_RxLevMin : -70
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.p_Max : not defined
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.s_IntraSearch : 31
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.allowedMeasBandwidth : 0
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.presenceAntennaPort1 : 0
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.neighCellConfig : 0
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.t_ReselectionEUTRA : 1
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.t_ReselectionEUTRA_SF : not defined
+[RRC][I][decode_SI] SIStatus 7, SIcnt 1/1
+[PHY][I][ue_prach_procedures] mode 0
+[PHY][I][ue_prach_procedures] [UE  0][RAPROC] Frame 1026, Subframe 1 : Generating PRACH, preamble 41,PL 45,  P0_PRACH -59, TARGET_RECEIVED_POWER -104 dBm, PRACH TDD Resource index 0, RA-RNTI 2
+[PHY][I][ue_prach_procedures] [UE  0][RAPROC] Frame 1026, subframe 1: Generating PRACH (eNB 0) preamble index 41 for UL, TX power -59 dBm (PL 45 dB), l3msg 
+[MAC][I][ue_scheduler] Received RRC_MAC_CCCH_DATA_REQ from TASK_RRC_UE: instance 0, frameP 1026, eNB_index 0
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1026, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[MAC][I][ue_process_rar] [eNB 0][RAPROC] Frame 1027 Received RAR (69|00.10.35.4c.3a.9a) for preamble 41/41
+[PHY][I][process_timing_advance_rar] [UE 0] AbsoluteSubFrame 1027.0, received (rar) timing_advance 4
+[PHY][I][ue_ulsch_uespec_procedures] [UE  0][RAPROC] Frame 1027, Subframe 6 Generating (RRCConnectionRequest) Msg3 (nb_rb 2, first_rb 1, round 0, rvidx 0) Msg3: 20.6.1f|55.9.24.a8.b2.46
+[PHY][I][pusch_power_cntl] [UE  0][RAPROC] AbsSubframe 1027.6: Msg3 (2 PRBs) Po_PUSCH -54 dBm (-10400,301,100*PL=4500,0,200)
+[MAC][I][ue_scheduler] Frame 1027: Contention resolution timer 0/48
+[MAC][I][ue_scheduler] Frame 1027: Contention resolution timer 1/48
+[MAC][I][ue_scheduler] Frame 1027: Contention resolution timer 2/48
+[MAC][I][ue_scheduler] Frame 1028: Contention resolution timer 3/48
+[MAC][I][ue_scheduler] Frame 1028: Contention resolution timer 4/48
+[MAC][I][ue_scheduler] Frame 1028: Contention resolution timer 5/48
+[MAC][I][ue_scheduler] Frame 1028: Contention resolution timer 6/48
+[PHY][I][rx_phich] [UE  0][PUSCH 4][RAPROC] Frame 1028 subframe 0 Msg3 PHICH, received NAK (1018) nseq 1, ngroup 0
+[PHY][I][rx_phich] [PUSCH 4] AbsSubframe 1028.0: f_pusch (ACC) 5, adjusting by 3 (TPC 3)
+[MAC][I][ue_scheduler] Frame 1028: Contention resolution timer 7/48
+[PHY][I][pusch_power_cntl] [UE  0][RAPROC] AbsSubframe 1028.4: Msg3 (2 PRBs) Po_PUSCH -51 dBm (-10400,301,100*PL=4500,0,500)
+[MAC][I][ue_scheduler] Frame 1028: Contention resolution timer 8/48
+[MAC][I][ue_scheduler] Frame 1028: Contention resolution timer 9/48
+[MAC][I][ue_scheduler] Frame 1028: Contention resolution timer 10/48
+[MAC][I][ue_scheduler] Frame 1028: Contention resolution timer 11/48
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1028, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[MAC][I][ue_scheduler] Frame 1028: Contention resolution timer 12/48
+[MAC][I][ue_scheduler] Frame 1029: Contention resolution timer 13/48
+[MAC][I][ue_scheduler] Frame 1029: Contention resolution timer 14/48
+[PHY][I][rx_phich] [UE  0][PUSCH 4][RAPROC] Frame 1028 subframe 8 Msg3 PHICH, received ACK (-1276) nseq 1, ngroup 0
+
+[MAC][I][ue_scheduler] Frame 1029: Contention resolution timer 15/48
+[MAC][I][ue_scheduler] Frame 1029: Contention resolution timer 16/48
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1029, subframe 0: Received DCI with CRNTI 3a9a => Mode PUSCH
+[MAC][I][ue_send_sdu] [UE 0][RAPROC] Frame 1029 : received contention resolution msg: 55.9.24.a8.b2.46, Terminating RA procedure
+[MAC][I][ue_send_sdu] [UE 0][RAPROC] Frame 1029 : Clearing RA_active flag
+[MAC][I][ue_send_sdu] [UE 0][RAPROC] Frame 1029 : Clearing contention resolution timer
+[PHY][I][ra_succeeded] [UE 0][RAPROC] Random-access procedure succeeded. Set C-RNTI = Temporary C-RNTI
+[RRC][I][rrc_ue_decode_ccch] [UE0][RAPROC] Frame 1029 : Logical Channel DL-CCCH (SRB0), Received RRCConnectionSetup RNTI 3a9a
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Save physicalConfigDedicated if present 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Init physicalConfigDedicated UE_rrc_inst to radioResourceConfigDedicated->physicalConfigDedicated
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 01029][ UE][MOD 00][RNTI 3a9a][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 01029][ UE][MOD 00][RNTI 3a9a] [SRB 1] rrc_rlc_add_rlc  SRB
+[RLC][I][ITTI 13][rlc_am_configure] [FRAME 01029][ UE][MOD 00][RNTI 3a9a][SRB AM 01][CONFIGURE] max_retx_threshold 4 poll_pdu 4 poll_byte 65535 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[RRC][I][rrc_ue_establish_srb1] [UE 0], CONFIG_SRB1 1 corresponding to eNB_index 0
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 01029][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ  (SRB1 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] C-RNTI 3a9a 3a9a 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][rrc_ue_generate_RRCConnectionSetupComplete] [UE 0][RAPROC] Frame 1029 : Logical Channel UL-DCCH (SRB1), Generating RRCConnectionSetupComplete (bytes59, eNB 0)
+[PDCP][I][pdcp_run] [FRAME 01029][ UE][MOD 00][RNTI 3a9a]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 0, confirmP 0, mode 1
+[RLC][I][UE_0_proc_1][rlc_am_data_req] [FRAME 01029][ UE][MOD 00][RNTI 3a9a][SRB AM 01] RLC_AM_DATA_REQ size 64 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 0 vtA 0 vtS 0
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1030, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 1030: received a DCCH 1 message on SRB 1 with Size 3 from eNB 0
+[0m[RRC][I][rrc_ue_decode_dcch] [UE 0] Received securityModeCommand (eNB 0)
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Frame 1030: Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Security algorithm is set to eea0
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Integrity protection algorithm is set to none
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Frame 1030: Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 01030][ UE][MOD 00][RNTI 3a9a]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 1, confirmP 0, mode 1
+[RLC][I][UE_0_proc_1][rlc_am_data_req] [FRAME 01030][ UE][MOD 00][RNTI 3a9a][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 2 current_sdu_index=1 next_sdu_index=2 conf 0 mui 1 vtA 1 vtS 1
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1032, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 1033: received a DCCH 1 message on SRB 1 with Size 3 from eNB 0
+[0m[RRC][I][rrc_ue_decode_dcch] [UE 0] Received Capability Enquiry (eNB 0)
+[RRC][I][rrc_ue_process_ueCapabilityEnquiry] [UE 0] Frame 1033: Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 01033][ UE][MOD 00][RNTI 3a9a]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 2, confirmP 0, mode 1
+[RLC][I][UE_0_proc_0][rlc_am_data_req] [FRAME 01033][ UE][MOD 00][RNTI 3a9a][SRB AM 01] RLC_AM_DATA_REQ size 24 Bytes,  NB SDU 3 current_sdu_index=2 next_sdu_index=3 conf 0 mui 2 vtA 2 vtS 2
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1033, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 1034, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 1035: received a DCCH 1 message on SRB 1 with Size 40 from eNB 0
+[0m[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] [UE 0] Frame 1035: Receiving from SRB1 (DL-DCCH), Processing RRCConnectionReconfiguration (eNB 0)
+[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] Radio Resource Configuration is present
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Save physicalConfigDedicated if present 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update pdsch_ConfigDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update pusch_ConfigDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update pucch_ConfigDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update cqi_ReportConfig config (size=48,48)
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update cqi_ReportPeriodic config (size=152,152)
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update schedulingRequestConfig config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Keep old config for soundingRS_UL_ConfigDedicated
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update antennaInfo config 
+[PHY][I][rrc_ue_update_radioResourceConfigDedicated] New Transmission Mode 0 
+[PHY][I][rrc_ue_update_radioResourceConfigDedicated] Configured Transmission Mode 0 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update uplinkPowerControlDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update tpc_PDCCH_ConfigPUCCH config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update tpc_PDCCH_ConfigPUSCH config 
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 01035][ UE][MOD 00][RNTI 3a9a][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 01035][ UE][MOD 00][RNTI 3a9a] [SRB 2] rrc_rlc_add_rlc  SRB
+[RLC][I][ITTI 13][rlc_am_configure] [FRAME 01035][ UE][MOD 00][RNTI 3a9a][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[RRC][I][rrc_ue_establish_srb2] [UE 0], CONFIG_SRB2 2 corresponding to eNB_index 0
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Applying Explicit SRB2 logicalChannelConfig
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 01035][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ  (SRB2 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI 3a9a 3a9a 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] default DRB = 1
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 01035][ UE][MOD 00][RNTI 3a9a][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 01035][ UE][MOD 00][RNTI 3a9a] [DRB 1] rrc_rlc_add_rlc  DRB
+[RRC][I][rrc_ue_establish_drb] [UE 0] Frame 1035: processing RRCConnectionReconfiguration: reconfiguring DRB 1/LCID 3
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 01035][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (DRB 1 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI 3a9a 3a9a 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][rrc_ue_generate_RRCConnectionReconfigurationComplete] [FRAME 01035][ UE][MOD 00][RNTI 3a9a] Logical Channel UL-DCCH (SRB1), Generating RRCConnectionReconfigurationComplete (bytes 2, eNB_index 0)
+[RRC][I][rrc_ue_decode_dcch] [UE 0] State = RRC_RECONFIGURED (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 01035][ UE][MOD 00][RNTI 3a9a]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 3, confirmP 0, mode 1
+[RLC][I][UE_0_proc_0][rlc_am_data_req] [FRAME 01035][ UE][MOD 00][RNTI 3a9a][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 4 current_sdu_index=3 next_sdu_index=4 conf 0 mui 3 vtA 3 vtS 3
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 1037: received a DCCH 1 message on SRB 1 with Size 17 from eNB 0
+[0m[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] [UE 0] Frame 1037: Receiving from SRB1 (DL-DCCH), Processing RRCConnectionReconfiguration (eNB 0)
+[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] Radio Resource Configuration is present
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 01037][ UE][MOD 00][RNTI 3a9a][DRB 02]  Action ADD  LCID 4 (DRB id 2) configured with SN size 12 bits and RLC UM
+[0m[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 01037][ UE][MOD 00][RNTI 3a9a][DRB 03]  Action ADD  LCID 5 (DRB id 3) configured with SN size 12 bits and RLC UM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 01037][ UE][MOD 00][RNTI 3a9a] [DRB 2] rrc_rlc_add_rlc  DRB
+[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 01037][ UE][MOD 00][RNTI 3a9a] [DRB 3] rrc_rlc_add_rlc  DRB
+[RRC][I][rrc_ue_establish_drb] [UE 0] Frame 1037: processing RRCConnectionReconfiguration: reconfiguring DRB 2/LCID 4
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 01037][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (DRB 2 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI 3a9a 3a9a 
+[RRC][I][rrc_ue_establish_drb] [UE 0] Frame 1037: processing RRCConnectionReconfiguration: reconfiguring DRB 3/LCID 5
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 01037][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (DRB 3 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI 3a9a 3a9a 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][rrc_ue_generate_RRCConnectionReconfigurationComplete] [FRAME 01037][ UE][MOD 00][RNTI 3a9a] Logical Channel UL-DCCH (SRB1), Generating RRCConnectionReconfigurationComplete (bytes 2, eNB_index 0)
+[RRC][I][rrc_ue_decode_dcch] [UE 0] State = RRC_RECONFIGURED (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 01037][ UE][MOD 00][RNTI 3a9a]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 4, confirmP 0, mode 1
+[RLC][I][UE_0_proc_0][rlc_am_data_req] [FRAME 01037][ UE][MOD 00][RNTI 3a9a][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 5 current_sdu_index=4 next_sdu_index=5 conf 0 mui 4 vtA 4 vtS 4
+last submitted sequence number = 0 
+	Out of Order
+1522486862  871547 received sequence number = 0 out of order flag=1	 added to queue 0
+PDPC timeout occurred
+Number of elements in queue: 1
+	 poped from queue-> 0
+1522486863  871590 received sequence number = 1 out of order flag=0	 inorder 1
+1522486864  871633 received sequence number = 2 out of order flag=0	 inorder 2
+1522486865  871692 received sequence number = 3 out of order flag=0	 inorder 3
+1522486866  871721 received sequence number = 4 out of order flag=0	 inorder 4
+1522486867  873775 received sequence number = 5 out of order flag=0	 inorder 5
+1522486870  505881 received sequence number = 6 out of order flag=0	 inorder 6
+1522486870  539869 received sequence number = 7 out of order flag=0	 inorder 7
+1522486870  557410 received sequence number = 8 out of order flag=0	 inorder 8
+1522486870  557415 received sequence number = 9 out of order flag=0	 inorder 9
+1522486870  557419 received sequence number = 10 out of order flag=0	 inorder 10
+1522486870  557422 received sequence number = 11 out of order flag=0	 inorder 11
+1522486870  557425 received sequence number = 12 out of order flag=0	 inorder 12
+1522486870  557428 received sequence number = 13 out of order flag=0	 inorder 13
+1522486870  562424 received sequence number = 14 out of order flag=0	 inorder 14
+1522486870  562429 received sequence number = 15 out of order flag=0	 inorder 15
+1522486870  562432 received sequence number = 16 out of order flag=0	 inorder 16
+1522486870  562435 received sequence number = 17 out of order flag=0	 inorder 17
+1522486870  583435 received sequence number = 18 out of order flag=0	 inorder 18
+1522486870  592432 received sequence number = 19 out of order flag=0	 inorder 19
+1522486870  592436 received sequence number = 20 out of order flag=0	 inorder 20
+1522486870  592440 received sequence number = 21 out of order flag=0	 inorder 21
+1522486870  592443 received sequence number = 22 out of order flag=0	 inorder 22
+1522486870  602402 received sequence number = 23 out of order flag=0	 inorder 23
+1522486870  602408 received sequence number = 24 out of order flag=0	 inorder 24
+1522486870  602411 received sequence number = 25 out of order flag=0	 inorder 25
+1522486870  602414 received sequence number = 26 out of order flag=0	 inorder 26
+1522486870  602418 received sequence number = 27 out of order flag=0	 inorder 27
+1522486870  602421 received sequence number = 28 out of order flag=0	 inorder 28
+1522486870  602424 received sequence number = 29 out of order flag=0	 inorder 29
+1522486870  611397 received sequence number = 30 out of order flag=0	 inorder 30
+1522486870  612079 received sequence number = 31 out of order flag=0	 inorder 31
+1522486870  618379 received sequence number = 32 out of order flag=0	 inorder 32
+1522486870  621375 received sequence number = 33 out of order flag=0	 inorder 33
+1522486870  621381 received sequence number = 34 out of order flag=0	 inorder 34
+1522486870  623378 received sequence number = 35 out of order flag=0	 inorder 35
+1522486870  632373 received sequence number = 36 out of order flag=0	 inorder 36
+1522486870  632378 received sequence number = 37 out of order flag=0	 inorder 37
+1522486870  632381 received sequence number = 38 out of order flag=0	 inorder 38
+1522486870  632385 received sequence number = 39 out of order flag=0	 inorder 39
+1522486870  632388 received sequence number = 40 out of order flag=0	 inorder 40
+1522486870  632391 received sequence number = 41 out of order flag=0	 inorder 41
+1522486870  642356 received sequence number = 42 out of order flag=0	 inorder 42
+1522486870  642361 received sequence number = 43 out of order flag=0	 inorder 43
+1522486870  642364 received sequence number = 44 out of order flag=0	 inorder 44
+1522486870  651298 received sequence number = 45 out of order flag=0	 inorder 45
+1522486870  651303 received sequence number = 46 out of order flag=0	 inorder 46
+1522486870  658293 received sequence number = 47 out of order flag=0	 inorder 47
+1522486870  660325 received sequence number = 48 out of order flag=0	 inorder 48
+1522486870  661317 received sequence number = 49 out of order flag=0	 inorder 49
+1522486870  661349 received sequence number = 50 out of order flag=0	 inorder 50
+	Out of Order
+1522486870  689824 received sequence number = 53 out of order flag=1	 added to queue 53
+	Out of Order
+1522486870  689830 received sequence number = 54 out of order flag=1	 added to queue 54
+	Out of Order
+1522486870  689834 received sequence number = 55 out of order flag=1	 added to queue 55
+	Out of Order
+1522486870  689838 received sequence number = 56 out of order flag=1	 added to queue 56
+	Out of Order
+1522486870  689842 received sequence number = 57 out of order flag=1	 added to queue 57
+	Out of Order
+1522486870  700382 received sequence number = 60 out of order flag=1	 added to queue 60
+	Out of Order
+1522486870  700388 received sequence number = 61 out of order flag=1	 inorder 61
+1522486870  705381 received sequence number = 62 out of order flag=0	 inorder 62
+1522486870  706382 received sequence number = 63 out of order flag=0	 inorder 63
+1522486870  706387 received sequence number = 64 out of order flag=0	 inorder 64
+PDPC timeout occurred
+Number of elements in queue: 6
+	 poped from queue-> 53
+	 poped from queue-> 54
+	 poped from queue-> 55
+	 poped from queue-> 56
+	 poped from queue-> 57
+	 poped from queue-> 60
+last submitted sequence number = 60 
+	Out of Order
+1522486870  747282 received sequence number = 65 out of order flag=1	 added to queue 65
+	Out of Order
+1522486870  747287 received sequence number = 66 out of order flag=1	 added to queue 66
+	Out of Order
+1522486870  747291 received sequence number = 67 out of order flag=1	 added to queue 67
+	Out of Order
+1522486870  757422 received sequence number = 68 out of order flag=1	 added to queue 68
+	Out of Order
+1522486870  757427 received sequence number = 69 out of order flag=1	 added to queue 69
+	Out of Order
+1522486870  757431 received sequence number = 70 out of order flag=1	 inorder 70
+1522486870  757434 received sequence number = 71 out of order flag=0	 inorder 71
+1522486870  757438 received sequence number = 72 out of order flag=0	 inorder 72
+1522486870  757441 received sequence number = 73 out of order flag=0	 inorder 73
+1522486870  757444 received sequence number = 74 out of order flag=0	 inorder 74
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 65
+	 poped from queue-> 66
+	 poped from queue-> 67
+	 poped from queue-> 68
+	 poped from queue-> 69
+last submitted sequence number = 69 
+	Out of Order
+1522486870  790408 received sequence number = 75 out of order flag=1	 added to queue 75
+	Out of Order
+1522486870  791405 received sequence number = 76 out of order flag=1	 added to queue 76
+	Out of Order
+1522486870  791410 received sequence number = 77 out of order flag=1	 added to queue 77
+	Out of Order
+1522486870  796423 received sequence number = 78 out of order flag=1	 added to queue 78
+	Out of Order
+1522486870  797250 received sequence number = 79 out of order flag=1	 added to queue 79
+	Out of Order
+1522486870  800424 received sequence number = 80 out of order flag=1	 inorder 80
+1522486870  800429 received sequence number = 81 out of order flag=0	 inorder 81
+1522486870  801422 received sequence number = 82 out of order flag=0	 inorder 82
+1522486870  802251 received sequence number = 83 out of order flag=0	 inorder 83
+1522486870  803421 received sequence number = 84 out of order flag=0	 inorder 84
+1522486870  803425 received sequence number = 85 out of order flag=0	 inorder 85
+1522486870  806188 received sequence number = 86 out of order flag=0	 inorder 86
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 75
+	 poped from queue-> 76
+	 poped from queue-> 77
+	 poped from queue-> 78
+	 poped from queue-> 79
+last submitted sequence number = 79 
+	Out of Order
+1522486870  830269 received sequence number = 87 out of order flag=1	 added to queue 87
+	Out of Order
+1522486870  847424 received sequence number = 88 out of order flag=1	 added to queue 88
+	Out of Order
+1522486870  847429 received sequence number = 89 out of order flag=1	 inorder 89
+1522486870  847432 received sequence number = 90 out of order flag=0	 inorder 90
+1522486870  847460 received sequence number = 91 out of order flag=0	 inorder 91
+1522486870  847463 received sequence number = 92 out of order flag=0	 inorder 92
+1522486870  847466 received sequence number = 93 out of order flag=0	 inorder 93
+1522486870  847469 received sequence number = 94 out of order flag=0	 inorder 94
+1522486870  852425 received sequence number = 95 out of order flag=0	 inorder 95
+1522486870  852430 received sequence number = 96 out of order flag=0	 inorder 96
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 87
+	 poped from queue-> 88
+last submitted sequence number = 88 
+	Out of Order
+1522486870  867821 received sequence number = 99 out of order flag=1	 added to queue 99
+	Out of Order
+1522486870  871956 received sequence number = 100 out of order flag=1	 added to queue 100
+	Out of Order
+1522486870  871962 received sequence number = 101 out of order flag=1	 added to queue 101
+	Out of Order
+1522486870  871967 received sequence number = 102 out of order flag=1	 added to queue 102
+	Out of Order
+1522486870  871972 received sequence number = 103 out of order flag=1	 inorder 103
+1522486870  871977 received sequence number = 104 out of order flag=0	 inorder 104
+1522486870  872032 received sequence number = 105 out of order flag=0	 inorder 105
+	Out of Order
+1522486870  876299 received sequence number = 97 out of order flag=1	 added to queue 97
+	Out of Order
+1522486870  880304 received sequence number = 98 out of order flag=1	 added to queue 98
+1522486870  885295 received sequence number = 106 out of order flag=0	 inorder 106
+PDPC timeout occurred
+Number of elements in queue: 6
+	 poped from queue-> 97
+	 poped from queue-> 98
+	 poped from queue-> 99
+	 poped from queue-> 100
+	 poped from queue-> 101
+	 poped from queue-> 102
+last submitted sequence number = 102 
+	Out of Order
+1522486870  907780 received sequence number = 108 out of order flag=1	 added to queue 108
+	Out of Order
+1522486870  907786 received sequence number = 109 out of order flag=1	 added to queue 109
+	Out of Order
+1522486870  927304 received sequence number = 107 out of order flag=1	 added to queue 107
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 107
+	 poped from queue-> 108
+	 poped from queue-> 109
+last submitted sequence number = 109 
+1522486870  957805 received sequence number = 110 out of order flag=0	 inorder 110
+1522486870  957812 received sequence number = 111 out of order flag=0	 inorder 111
+1522486871  150828 received sequence number = 112 out of order flag=0	 inorder 112
+1522486871  641840 received sequence number = 113 out of order flag=0	 inorder 113
+1522486872  623890 received sequence number = 114 out of order flag=0	 inorder 114
+1522486874  589991 received sequence number = 115 out of order flag=0	 inorder 115
+bad DCI 1A !!! 
+[PHY][I][ue_pdcch_procedures] [UE  0] frame 2747, subframe 3: received DCI 0 with RNTI=0 (C-RNTI:3a9a, CBA_RNTI 0) and format 2!
+1522486878  530645 received sequence number = 116 out of order flag=0	 inorder 116
+	Out of Order
+1522486878  548197 received sequence number = 118 out of order flag=1	 added to queue 118
+1522486878  560639 received sequence number = 117 out of order flag=0Removed from queue	@ 117	@ 1181522486878  576155 received sequence number = 119 out of order flag=0	 inorder 119
+PDPC timeout occurred
+Number of elements in queue: 0
+[PHY][I][check_dci_format1_1a_coherency] bad NPRB = 0 
+bad DCI 1A !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 2831, subframe 4: Problem in DCI!
+[0m1522486878  817147 received sequence number = 120 out of order flag=0	 inorder 120
+[PHY][I][check_dci_format1_1a_coherency] bad NPRB = 0 
+bad DCI 1A !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 2868, subframe 7: Problem in DCI!
+[0m1522486879  300214 received sequence number = 121 out of order flag=0	 inorder 121
+1522486880  266240 received sequence number = 122 out of order flag=0	 inorder 122
+[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=559624157465598 iterations=10000 max=27:28:28:28:28:30:30:30:37:38
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=139 iterations=10000 max=770:788:790:799:805:823:834:835:854:863
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=552838936147609 iterations=10000 max=34:34:34:35:36:37:37:41:42:46
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=133 iterations=10000 max=766:772:781:788:799:800:809:827:833:873
+[0m[93m[PHY][W][printMeas] Delay between two IQ acquisitions (case 1) avg=999 iterations=20000 max=1046:1046:1046:1046:1047:1048:1051:1069:1085:2334
+[0m1522486882  198326 received sequence number = 123 out of order flag=0	 inorder 123
+1522486886  62497 received sequence number = 124 out of order flag=0	 inorder 124
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 2: Found rnti fffe, format 1A, dci_cnt 0
+bad DCI 1A !!! 
+[PHY][I][check_dci_format1_1a_coherency] bad NPRB = 0 
+bad DCI 1A !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 3892, subframe 3: Problem in DCI!
+[0m1522486893  798873 received sequence number = 125 out of order flag=0	 inorder 125
+[PHY][I][ue_pdcch_procedures] [UE  0] frame 4465, subframe 2: received DCI 0 with RNTI=0 (C-RNTI:3a9a, CBA_RNTI 0) and format 2!
+[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=315947988655204 iterations=20000 max=35:35:35:36:37:37:38:39:41:73
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=137 iterations=20000 max=770:788:790:799:805:823:834:835:854:863
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=278940578068397 iterations=20000 max=37:37:39:40:41:42:43:46:46:68
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=131 iterations=20000 max=766:772:781:788:799:800:809:827:833:873
+[0m[93m[PHY][W][printMeas] Delay between two IQ acquisitions (case 1) avg=999 iterations=40000 max=1047:1047:1048:1048:1051:1056:1062:1069:1085:2334
+[0mbad DCI 1A !!! 
+[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0m1522486909  268061 received sequence number = 126 out of order flag=0	 inorder 126
+	Out of Order
+1522486909  289595 received sequence number = 128 out of order flag=1	 added to queue 128
+1522486909  302063 received sequence number = 127 out of order flag=0Removed from queue	@ 127	@ 1281522486909  317557 received sequence number = 129 out of order flag=0	 inorder 129
+PDPC timeout occurred
+Number of elements in queue: 0
+1522486909  556785 received sequence number = 130 out of order flag=0	 inorder 130
+1522486910  35588 received sequence number = 131 out of order flag=0	 inorder 131
+1522486910  993650 received sequence number = 132 out of order flag=0	 inorder 132
+[1;31m[PHY][E][generate_ue_ulsch_params_from_dci] frame 6153, subframe 4, rnti 3a9a, format 0: FATAL ERROR: generate_ue_ulsch_params_from_dci, rb_alloc[471] > RIV_max[324]
+[0m[1;31m[PHY][E][generate_ue_ulsch_params_from_dci] Wrong DCI0 detection, do not transmit PUSCH for HARQID: 2
+[0m1522486912  911990 received sequence number = 133 out of order flag=0	 inorder 133
+1522486916  743931 received sequence number = 134 out of order flag=0	 inorder 134
+[1;31m[PHY][E][generate_ue_ulsch_params_from_dci] frame 6660, subframe 8, rnti 3a9a, format 0: FATAL ERROR: generate_ue_ulsch_params_from_dci, rb_alloc[326] > RIV_max[324]
+[0m[1;31m[PHY][E][generate_ue_ulsch_params_from_dci] Wrong DCI0 detection, do not transmit PUSCH for HARQID: 4
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=269416384755517 iterations=30000 max=35:35:35:36:37:37:38:39:41:73
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=136 iterations=30000 max=770:788:790:799:805:823:834:835:854:863
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=149243475013602 iterations=30000 max=39:40:41:42:43:43:46:46:46:68
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=130 iterations=30000 max=766:772:781:788:799:800:809:827:833:873
+[0m[93m[PHY][W][printMeas] Delay between two IQ acquisitions (case 1) avg=999 iterations=60000 max=1053:1054:1055:1056:1057:1062:1067:1069:1085:2334
+[0m1522486921  200072 received sequence number = 135 out of order flag=0	 inorder 135
+1522486924  420758 received sequence number = 136 out of order flag=0	 inorder 136
+[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 4921  RIV_max 324 
+bad DCI 1 !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 7908, subframe 6: Problem in DCI!
+[0mbad DCI 1A !!! 
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 2: Found rnti fffe, format 1A, dci_cnt 0
+[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 410  RIV_max 324 
+bad DCI 1A !!! 
+[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=54141603551172 iterations=40000 max=35:35:35:36:37:37:38:39:41:73
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=136 iterations=40000 max=770:788:790:799:805:823:834:835:854:863
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=287554370549899 iterations=40000 max=39:40:41:42:43:43:46:46:46:68
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=130 iterations=40000 max=766:772:781:788:799:800:809:827:833:873
+[0m[93m[PHY][W][printMeas] Delay between two IQ acquisitions (case 1) avg=999 iterations=80000 max=1053:1054:1055:1056:1057:1062:1067:1069:1085:2334
+[0m[PHY][I][generate_drs_pusch] generate_drs_pusch: index for Msc_RS=252 not found
+[PHY][I][generate_drs_pusch] generate_drs_pusch: index for Msc_RS=252 not found
+[PHY][I][ue_pdcch_procedures] [UE  0] frame 9815, subframe 9: received DCI 0 with RNTI=0 (C-RNTI:3a9a, CBA_RNTI 0) and format 2!
+[PHY][I][check_dci_format1_1a_coherency] bad NPRB = 0 
+bad DCI 1A !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 9856, subframe 0: Problem in DCI!
+[0m[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 5103  RIV_max 324 
+bad DCI 1 !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 9979, subframe 2: Problem in DCI!
+[0m[1;31m[PHY][E][generate_ue_ulsch_params_from_dci] frame 10239, subframe 7, rnti 3a9a, format 0: FATAL ERROR: generate_ue_ulsch_params_from_dci, rb_alloc[491] > RIV_max[324]
+[0m[1;31m[PHY][E][generate_ue_ulsch_params_from_dci] Wrong DCI0 detection, do not transmit PUSCH for HARQID: 1
+[0m[PHY][I][ue_pdcch_procedures] [UE  0] subframe 2: Found rnti fffe, format 1A, dci_cnt 0
+bad DCI 1A !!! 
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 3: Found rnti fffe, format 1A, dci_cnt 0
+bad DCI 1A !!! 
+[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=248313753334627 iterations=50000 max=35:35:35:36:37:37:38:39:41:73
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=136 iterations=50000 max=770:788:790:799:805:823:834:835:854:863
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=136737522107277 iterations=50000 max=39:40:41:42:43:43:46:46:46:68
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=130 iterations=50000 max=766:772:781:788:799:800:809:827:833:873
+[0m[93m[PHY][W][printMeas] Delay between two IQ acquisitions (case 1) avg=999 iterations=100000 max=1053:1054:1055:1056:1057:1062:1067:1069:1085:2334
+[0m[PHY][I][ue_pdcch_procedures] [UE  0] frame 11662, subframe 6: received DCI 0 with RNTI=0 (C-RNTI:3a9a, CBA_RNTI 0) and format 2!
+[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=70316118628439 iterations=60000 max=35:35:35:36:37:37:38:39:41:73
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=136 iterations=60000 max=770:788:790:799:805:823:834:835:854:863
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=135636739598630 iterations=60000 max=40:41:42:43:43:46:46:46:57:68
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=131 iterations=60000 max=766:772:781:788:799:800:809:827:833:873
+[0m[93m[PHY][W][printMeas] Delay between two IQ acquisitions (case 1) avg=999 iterations=120000 max=1053:1054:1055:1056:1057:1062:1067:1069:1085:2334
+[0m[PHY][I][ue_pdcch_procedures] [UE  0] subframe 8: Found rnti fffe, format 1A, dci_cnt 0
+bad DCI 1A !!! 
+[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 4969  RIV_max 324 
+bad DCI 1 !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 14034, subframe 7: Problem in DCI!
+[0m1522486994  27570 received sequence number = 137 out of order flag=0	 inorder 137
+1522486994  51775 received sequence number = 138 out of order flag=0	 inorder 138
+1522486994  52554 received sequence number = 139 out of order flag=0	 inorder 139
+1522486994  52560 received sequence number = 140 out of order flag=0	 inorder 140
+1522486994  52596 received sequence number = 141 out of order flag=0	 inorder 141
+1522486994  52600 received sequence number = 142 out of order flag=0	 inorder 142
+1522486994  52648 received sequence number = 143 out of order flag=0	 inorder 143
+1522486994  52653 received sequence number = 144 out of order flag=0	 inorder 144
+1522486994  52658 received sequence number = 145 out of order flag=0	 inorder 145
+	Out of Order
+1522486994  52663 received sequence number = 148 out of order flag=1	 added to queue 148
+[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0m1522486994  73127 received sequence number = 146 out of order flag=0	 inorder 146
+1522486994  73131 received sequence number = 147 out of order flag=0Removed from queue	@ 147	@ 148PDPC timeout occurred
+Number of elements in queue: 0
+1522486994  86481 received sequence number = 149 out of order flag=0	 inorder 149
+1522486994  93509 received sequence number = 150 out of order flag=0	 inorder 150
+1522486994  324499 received sequence number = 151 out of order flag=0	 inorder 151
+[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 4320  RIV_max 324 
+bad DCI 1 !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 14385, subframe 6: Problem in DCI!
+[0m1522486994  787645 received sequence number = 152 out of order flag=0	 inorder 152
+1522486995  713551 received sequence number = 153 out of order flag=0	 inorder 153
+[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 6010  RIV_max 324 
+bad DCI 1 !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 14597, subframe 8: Problem in DCI!
+[0m1522486997  563639 received sequence number = 154 out of order flag=0	 inorder 154
+[PHY][I][ue_pdcch_procedures] [UE  0] frame 14786, subframe 2: received DCI 0 with RNTI=0 (C-RNTI:3a9a, CBA_RNTI 0) and format 2!
+[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=205139179180363 iterations=70000 max=35:35:35:36:37:37:38:39:41:73
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=136 iterations=70000 max=788:790:799:805:823:832:834:835:854:863
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=258745014683523 iterations=70000 max=40:41:42:43:43:46:46:46:57:68
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=131 iterations=70000 max=766:772:781:788:799:800:809:827:833:873
+[0m[93m[PHY][W][printMeas] Delay between two IQ acquisitions (case 1) avg=999 iterations=140000 max=1064:1067:1069:1073:1074:1074:1076:1085:2246:2334
+[0m1522487001  163776 received sequence number = 155 out of order flag=0	 inorder 155
+1522487001  288305 received sequence number = 156 out of order flag=0	 inorder 156
+[1;31m[PHY][E][generate_ue_ulsch_params_from_dci] frame 15203, subframe 4, rnti 3a9a, format 0: FATAL ERROR: generate_ue_ulsch_params_from_dci, rb_alloc[402] > RIV_max[324]
+[0m[1;31m[PHY][E][generate_ue_ulsch_params_from_dci] Wrong DCI0 detection, do not transmit PUSCH for HARQID: 6
+[0m[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 5877  RIV_max 324 
+bad DCI 1 !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 15497, subframe 6: Problem in DCI!
+[0m[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0m[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 6398  RIV_max 324 
+bad DCI 1 !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 16769, subframe 0: Problem in DCI!
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=76827682420456 iterations=80000 max=35:35:35:36:37:37:38:39:41:73
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=135 iterations=80000 max=788:790:799:805:823:832:834:835:854:863
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=123312603486623 iterations=80000 max=40:41:42:43:43:46:46:46:57:68
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=130 iterations=80000 max=766:772:781:788:799:800:809:827:833:873
+[0m[93m[PHY][W][printMeas] Delay between two IQ acquisitions (case 1) avg=999 iterations=160000 max=1064:1067:1069:1073:1074:1074:1076:1085:2246:2334
+[0m[PHY][I][ue_pdcch_procedures] [UE  0] frame 17156, subframe 3: received DCI 0 with RNTI=0 (C-RNTI:3a9a, CBA_RNTI 0) and format 2!
+[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0m[PHY][I][ue_pdcch_procedures] [UE  0] subframe 7: Found rnti fffe, format 1A, dci_cnt 0
+bad DCI 1A !!! 
+[PHY][I][ue_pdcch_procedures] [UE  0] frame 18807, subframe 2: received DCI 0 with RNTI=0 (C-RNTI:3a9a, CBA_RNTI 0) and format 2!
+[1;31m[PHY][E][generate_ue_ulsch_params_from_dci] frame 18962, subframe 4, rnti 3a9a, format 0: FATAL ERROR: generate_ue_ulsch_params_from_dci, rb_alloc[474] > RIV_max[324]
+[0m[1;31m[PHY][E][generate_ue_ulsch_params_from_dci] Wrong DCI0 detection, do not transmit PUSCH for HARQID: 4
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=181993674648412 iterations=90000 max=35:35:35:36:37:37:38:39:41:73
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=135 iterations=90000 max=788:790:799:805:823:832:834:835:854:863
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=17602785889837 iterations=90000 max=40:41:42:43:43:46:46:46:57:68
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=130 iterations=90000 max=766:772:781:788:799:800:809:827:833:873
+[0m[93m[PHY][W][printMeas] Delay between two IQ acquisitions (case 1) avg=999 iterations=180000 max=1064:1067:1069:1073:1074:1074:1076:1085:2246:2334
+[0m[PHY][I][ue_pdcch_procedures] [UE  0] frame 19348, subframe 2: received DCI 0 with RNTI=0 (C-RNTI:3a9a, CBA_RNTI 0) and format 2!
+[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 7919  RIV_max 324 
+bad DCI 1 !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 19688, subframe 0: Problem in DCI!
+[0m[PHY][I][ue_pdcch_procedures] [UE  0] subframe 3: Found rnti fffe, format 1A, dci_cnt 0
+[PHY][I][check_dci_format1_1a_coherency] bad dci rballoc rballoc 8115  RIV_max 324 
+bad DCI 1 !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 20889, subframe 9: Problem in DCI!
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=81827101693320 iterations=100000 max=35:35:35:36:37:37:38:39:41:73
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=135 iterations=100000 max=788:790:799:805:823:832:834:835:854:863
+[0m[93m[PHY][W][printMeas] Delay to wake up UE_Thread_Rx (case 2) avg=118342742547698 iterations=100000 max=40:41:42:43:43:46:46:46:57:68
+[0m[93m[PHY][W][printMeas] Delay to process sub-frame (case 3) avg=129 iterations=100000 max=766:772:781:788:799:800:809:827:833:873
+[0m[93m[PHY][W][printMeas] Delay between two IQ acquisitions (case 1) avg=999 iterations=200000 max=1064:1067:1069:1073:1074:1074:1076:1085:2246:2334
+[0mReceived SIGINT
+closing all tasks
+ready_tasks 0
+waiting for XFORMS thread
+stopping MODEM threads

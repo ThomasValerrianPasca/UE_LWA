@@ -1,0 +1,4 @@
+Scanning dependencies of target rb_tool
+Building C object CMakeFiles/rb_tool.dir/home/thomas/lwa_ue_working/openair2/NETWORK_DRIVER/MESH/RB_TOOL/rb_tool.c.o
+Linking C executable rb_tool
+Built target rb_tool

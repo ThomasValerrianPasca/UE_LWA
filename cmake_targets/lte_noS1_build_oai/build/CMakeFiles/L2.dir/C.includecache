@@ -593,6 +593,10 @@ UTIL/LOG/vcd_signal_dumper.h
 /home/thomas/lwa_ue_working/openair2/LAYER2/PDCP_v10.1.0/UTIL/LOG/vcd_signal_dumper.h
 msc.h
 /home/thomas/lwa_ue_working/openair2/LAYER2/PDCP_v10.1.0/msc.h
+sys/time.h
+-
+pthread.h
+-
 UTIL/OSA/osa_defs.h
 /home/thomas/lwa_ue_working/openair2/LAYER2/PDCP_v10.1.0/UTIL/OSA/osa_defs.h
 intertask_interface.h
@@ -609,6 +613,8 @@ UTIL/LISTS/list.h
 /home/thomas/lwa_ue_working/openair2/LAYER2/PDCP_v10.1.0/UTIL/LISTS/list.h
 COMMON/mac_rrc_primitives.h
 /home/thomas/lwa_ue_working/openair2/LAYER2/PDCP_v10.1.0/COMMON/mac_rrc_primitives.h
+pthread.h
+-
 COMMON/platform_constants.h
 /home/thomas/lwa_ue_working/openair2/LAYER2/PDCP_v10.1.0/COMMON/platform_constants.h
 COMMON/platform_types.h

@@ -1,0 +1,2001 @@
+# /dev/cpu_dma_latency set to 0us
+log init done
+Downlink for CC_id 0 frequency set to 2660000000
+configuring for UE
+CPU Freq is 2.195078 
+[NETLINK]Opened socket with fd 39
+reported resolution = 1 ns
+[HW][I][main] Version: Branch: HEAD Abrev. Hash: c49edd0 Date: Fri Mar 9 22:43:14 2018 +0530
+[PHY][I][main] Set nb_rx_antenna 1 , nb_tx_antenna 1 
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+Initializing UE vars (abstraction 0) for eNB TXant 1, UE RXant 1
+PHY_vars_UE_g[0][0] = 0x7f5e48cb3010
+UE[0]->mode = 0
+CPU Freq is 2.195094 
+frame_parms->N_RB_DL=25
+frame_parms->N_RB_UL=25
+frame_parms->Nid_cell=0
+frame_parms->Ncp=0
+frame_parms->Ncp_UL=0
+frame_parms->nushift=0
+frame_parms->frame_type=0
+frame_parms->tdd_config=3
+frame_parms->tdd_config_S=0
+frame_parms->mode1_flag=0
+frame_parms->nb_antenna_ports_eNB=1
+frame_parms->nb_antennas_tx=1
+frame_parms->nb_antennas_rx=1
+frame_parms->ofdm_symbol_size=512
+frame_parms->nb_prefix_samples=36
+frame_parms->nb_prefix_samples0=40
+frame_parms->first_carrier_offset=362
+frame_parms->samples_per_tti=7680
+frame_parms->symbols_per_tti=14
+HW: Configuring card 0, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 0, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 0, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 0, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 0, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 1, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 1, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 1, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 1, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 1, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 2, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 2, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 2, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 2, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 2, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 3, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 3, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 3, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 3, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 3, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 4, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 4, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 4, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 4, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 4, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 5, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 5, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 5, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 5, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 5, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 6, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 6, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 6, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 6, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 6, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+HW: Configuring card 7, nb_antennas_tx/rx 1/1
+ETHERNET: Configuring UE ETH for 127.0.0.1:51000
+Card 7, channel 0, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 2660000000.000000, rx_freq 2660000000.000000
+Card 7, channel 1, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 7, channel 2, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+Card 7, channel 3, Setting tx_gain 100.000000, rx_gain 110.000000, tx_freq 0.000000, rx_freq 0.000000
+[HW][I][main] CPU Affinity of main() function is...  CPU_0  CPU_1  CPU_2  CPU_3  CPU_4  CPU_5  CPU_6  CPU_7  CPU_8  CPU_9  CPU_10  CPU_11  CPU_12  CPU_13  CPU_14  CPU_15  CPU_16  CPU_17  CPU_18  CPU_19 
+[PHY][I][main] Intializing L2
+[MAC][I][l2_init] [MAIN] MAC_INIT_GLOBAL_PARAM IN...
+[MAC][I][mac_init_global_param] [MAIN] CALLING RLC_MODULE_INIT...
+Init PDCP listenerbind = 0Creating pool of resource
+[MAC][I][mac_init_global_param] [MAIN] RLC_MODULE_INIT OK, malloc16 for mac_rlc_xface...
+[MAC][I][mac_init_global_param] [MAIN] malloc16 OK, mac_rlc_xface @ 0x1a1e68e0
+[MAC][I][mac_init_global_param] [MAIN] RLC interface setup and init
+[PDCP][I][pdcp_layer_init] PDCP layer has been initialized
+Init Reordering timer[MAC][I][mac_init_global_param] [MAIN] Init Global Param Done
+[MAC][I][l2_init] [MAIN] init eNB MAC functions  
+[MAC][I][l2_init] [MAIN] init UE MAC functions 
+[MAC][I][l2_init] [MAIN] PHY Frame configuration 
+[MAC][I][mac_top_init] [MAIN] Init function start:Nb_UE_INST=1
+[MAC][I][ue_init_mac] [UE0] Applying default macMainConfig
+[MAC][I][mac_top_init] [MAIN] Init function start:Nb_eNB_INST=0
+[MAC][I][mac_top_init] [MAIN] calling RRC
+[RRC][I][fill_ue_capability] Allocating 408 bytes for UE_EUTRA_Capability
+[PHY][I][fill_ue_capability] [RRC]UE Capability encoded, 15 bytes (120 bits)
+[RRC][I][openair_rrc_top_init] [UE] eMBMS active state is 0 
+[MAC][I][mac_top_init] [MAIN][INIT] Init function finished
+ITTI tasks created
+Filling UE band info
+Band 3 (3) : DL 1805000000..1880000000 Hz, UL 1710000000..1785000000 Hz, Duplex FDD 
+Band 20 (20) : DL 791000000..821000000 Hz, UL 832000000..862000000 Hz, Duplex FDD 
+Band 7 (7) : DL 2620000000..2690000000 Hz, UL 2500000000..2570000000 Hz, Duplex FDD 
+Band 38 (38) : DL 2570000000..2630000000 Hz, UL 2570000000..2620000000 Hz, Duplex TDD 
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+UE threads created by 29929
+[PHY][I][setup_ue_buffers] Mapping UE CC_id 0, rx_ant 0, freq 2660000000 on card 0, chain 0
+[PHY][I][setup_ue_buffers] Mapping UE CC_id 0, tx_ant 0, freq 2660000000 on card 0, chain 0
+CPU Affinity of thread UHD Threads is  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 
+waiting for sync (UHD Threads)
+Locked sync_mutex, waiting (UHD Threads)
+Sending sync to all threads
+TYPE <CTRL-C> TO TERMINATE
+Entering ITTI signals handler
+started UHD Threads as PID: 29949
+[PHY][I][device_init] Checking for USRPs : UHD 3.11.0.0-release (3.11.0)
+[PHY][I][device_init] Found USRP B200
+[PHY][I][set_rx_gain_offset] cal 0: freq 3500000000.000000, offset 44.000000, diff 840000000.000000
+[PHY][I][set_rx_gain_offset] cal 1: freq 2660000000.000000, offset 49.800000, diff 0.000000
+[PHY][I][set_rx_gain_offset] cal 2: freq 2300000000.000000, offset 51.000000, diff 360000000.000000
+[PHY][I][set_rx_gain_offset] cal 3: freq 1880000000.000000, offset 53.000000, diff 780000000.000000
+[PHY][I][set_rx_gain_offset] cal 4: freq 816000000.000000, offset 57.000000, diff 1844000000.000000
+[PHY][I][device_init] RX Gain 0 110.000000 (55.800000) => 54.200000 (max 76.000000)
+[PHY][I][device_init] Actual master clock: 30.720000MHz...
+[PHY][I][device_init] RF board max packet size 3836, size for 100µs jitter 768 
+[PHY][I][device_init] rx_max_num_samps 768
+[PHY][I][device_init] RX Channel 0
+[PHY][I][device_init]   Actual RX sample rate: 7.680000MSps...
+[PHY][I][device_init]   Actual RX frequency: 2.660000GHz...
+[PHY][I][device_init]   Actual RX gain: 54.000000...
+[PHY][I][device_init]   Actual RX bandwidth: 20.000000M...
+[PHY][I][device_init]   Actual RX antenna: RX2...
+[PHY][I][device_init] TX Channel 0
+[PHY][I][device_init]   Actual TX sample rate: 7.680000MSps...
+[PHY][I][device_init]   Actual TX frequency: 2.660000GHz...
+[PHY][I][device_init]   Actual TX gain: 89.750000...
+[PHY][I][device_init]   Actual TX bandwidth: 20.000000M...
+[PHY][I][device_init]   Actual TX antenna: TX/RX...
+[PHY][I][device_init] Device timestamp: 0.000442...
+[RRH] has loaded USRP B200 device.
+Init_UE_threads rtd 0 proc 0 nb_threads 2 i 0
+Init_UE_threads rtd 1 proc 1 nb_threads 2 i 1
+CPU Affinity of thread UE_0_proc_0 is  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 
+CPU Affinity of thread UE_0_proc_1 is  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 
+CPU Affinity of thread sync UE 0
+ is  0  1  2  3  4  5  6  7  8  9  10  11  12  13  14  15  16  17  18  19 
+waiting for sync (UE_0_proc_0)
+Locked sync_mutex, waiting (UE_0_proc_0)
+started UE_0_proc_0 as PID: 29975
+waiting for sync (UE_0_proc_1)
+waiting for sync (sync UE 0
+)
+Locked sync_mutex, waiting (UE_0_proc_1)
+started UE_0_proc_1 as PID: 29976
+Locked sync_mutex, waiting (sync UE 0
+)
+started sync UE 0
+ as PID: 29977
+[PHY][I][UE_thread_synch] [SCHED][UE] Check absolute frequency DL 2660000000, UL 2540000000 (oai_exit 0, rx_num_channels 1)
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][trx_usrp_read] [recv] received 0 samples out of 7680
+[0m[1;31m[PHY][E][trx_usrp_read] ERROR_CODE_OVERFLOW (Out of sequence error)
+
+[0m[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 1, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[1;31m[PHY][E][ue_rrc_measurements] Not yet implemented: noise power calculation when prefix length = EXTENDED
+[0m[PHY][I][UE_thread_synch] [initial_sync] trying carrier off -100 Hz, rxgain 110 (DL 2659999900, UL 2539999900)
+Setting USRP TX Freq 2539999900.000000, RX Freq 2659999900.000000
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][initial_sync] [UE0] In synch, rx_offset 31768 samples
+[PHY][I][initial_sync] [UE 0] Frame 512 RRC Measurements => rssi -44.4 dBm (dig 65.6 dB, gain 110), N0 -107 dBm,  rsrp -69.2 dBm/RE, rsrq 9.0 dB
+[PHY][I][initial_sync] [UE 0] Frame 512 MIB Information => FDD, NORMAL, NidCell 0, N_RB_DL 25, PHICH DURATION 0, PHICH RESOURCE 1/6, TX_ANT 1
+[PHY][I][initial_sync] [UE 0] Frame 512 Measured Carrier Frequency 2659999759 Hz (offset 141 Hz)
+[HW][I][UE_thread_synch] Got synch: hw_slot_offset 8, carrier off -100 Hz, rxgain 110 (DL 2659999900, UL 2539999900), UE_scan_carrier 1
+Setting USRP TX Freq 2539999759.000000, RX Freq 2659999759.000000
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][UE_thread_synch] [UE thread Synch] Running Initial Synch (mode 0)
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][initial_sync] [UE0] In synch, rx_offset 31768 samples
+[PHY][I][initial_sync] [UE 0] Frame 616 RRC Measurements => rssi -44.1 dBm (dig 65.9 dB, gain 110), N0 -116 dBm,  rsrp -68.9 dBm/RE, rsrq 9.0 dB
+[PHY][I][initial_sync] [UE 0] Frame 616 MIB Information => FDD, NORMAL, NidCell 0, N_RB_DL 25, PHICH DURATION 0, PHICH RESOURCE 1/6, TX_ANT 1
+[PHY][I][initial_sync] [UE 0] Frame 616 Measured Carrier Frequency 2659999770 Hz (offset -11 Hz)
+[HW][I][UE_thread_synch] Got synch: hw_slot_offset 8, carrier off 0 Hz, rxgain 110 (DL 2659999759, UL 2539999759), UE_scan_carrier 0
+Setting USRP TX Freq 2539999759.000000, RX Freq 2659999759.000000
+[PHY][I][init_frame_parms] Initializing frame parms for N_RB_DL 25, Ncp 0, osf 1
+lte_parms.c: Setting N_RB_DL to 25, ofdm_symbol_size 512
+[PHY][I][UE_thread] Resynchronizing RX by 31768 samples (mode = 0)
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[UE 0] frame 722, subframe 0: Adjusting frame counter (PBCH ant_tx=1, frame_tx=722, phase 2, rx_offset 0) => new frame 722
+[UE 0] frame 722, subframe 0: Adjusting frame counter (PBCH ant_tx=1, frame_tx=722, phase 2, rx_offset 0) => new frame 722
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 722, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 724, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 726, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 728, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 729, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 730, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 732, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[PHY][I][lte_adjust_synch] [UE0] Sending synch status to higher layers
+[RRC][I][openair_rrc_ue_init] [FRAME 00000][ UE][MOD 00][RNTI 0] Init...
+[RRC][I][openair_rrc_on] [FRAME 00000][ UE][MOD 00][RNTI 0] OPENAIR RRC IN....
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 734, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SIB1] [UE 0] : Dumping SIB 1
+[RRC][I][decode_SIB1] PLMN MCC 208, MNC 92, TAC 0x0001
+[RRC][I][decode_SIB1] cellReservedForOperatorUse                 : raw:1 decoded:notReserved
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellIdentity         : raw:3584 decoded:00.00.e0.00
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.cellBarred           : raw:1 decoded:notBarred
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.intraFreqReselection : raw:1 decoded:notAllowed
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Indication       : 0
+[RRC][I][decode_SIB1] cellAccessRelatedInfo.csg_Identity         : not defined
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMin               : -65
+[RRC][I][decode_SIB1] cellSelectionInfo.q_RxLevMinOffset         : not defined
+[RRC][I][decode_SIB1] p_Max                                      : not defined
+[RRC][I][decode_SIB1] freqBandIndicator                          : 7
+[RRC][I][decode_SIB1] si_Periodicity[0]                          : rf8
+[RRC][I][decode_SIB1] siSchedulingInfoSIBType[0]                 :  SIB3 
+[RRC][I][decode_SIB1] siWindowLength                             : 20ms
+[RRC][I][decode_SIB1] systemInfoValueTag                         : 0
+[RRC][I][decode_SIB1] [FRAME unknown][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB1 params eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 736, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 737, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[RRC][I][decode_SI] [UE 0] Frame 737 Found SIB2 from eNB 0
+[RRC][I][dump_sib2] ac_BarringInfo : not defined
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.preambleInfo.numberOfRA_Preambles  : raw:15 decoded:n64
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.preambleInfo.preamblesGroupAConfig : not defined
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.powerRampingParameters.powerRampingStep                   : raw:2 decoded:dB4
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.powerRampingParameters.preambleInitialReceivedTargetPower : raw:8 decoded:dBm-104
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.preambleTransMax              : raw:6 decoded:n10
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.ra_ResponseWindowSize         : raw:7 decoded:sf10
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.ra_SupervisionInfo.mac_ContentionResolutionTimer : raw:5 decoded:sf48
+[RRC][I][dump_sib2] radioResourceConfigCommon.rach_ConfigCommon.maxHARQ_Msg3Tx : 4
+[RRC][I][dump_sib2] radioResourceConfigCommon.bcch_Config.modificationPeriodCoeff : raw:0 decoded:n2
+[RRC][I][dump_sib2] radioResourceConfigCommon.pcch_Config.defaultPagingCycle : raw:2 decoded:rf64
+[RRC][I][dump_sib2] radioResourceConfigCommon.pcch_Config.nB                 : raw:2 decoded:oneT
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.rootSequenceIndex                          : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.prach_ConfigIndex         : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.highSpeedFlag             : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.zeroCorrelationZoneConfig : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.prach_Config.prach_ConfigInfo.prach_FreqOffset          : 2
+[RRC][I][dump_sib2] radioResourceConfigCommon.pdsch_ConfigCommon.referenceSignalPower : -24
+[RRC][I][dump_sib2] radioResourceConfigCommon.pdsch_ConfigCommon.p_b                  : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.n_SB                : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.hoppingMode         : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.pusch_HoppingOffset : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.pusch_ConfigBasic.enable64QAM         : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.groupHoppingEnabled    : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.groupAssignmentPUSCH   : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.sequenceHoppingEnabled : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pusch_ConfigCommon.ul_ReferenceSignalsPUSCH.cyclicShift            : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.deltaPUCCH_Shift : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.nRB_CQI          : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.nCS_AN           : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.pucch_ConfigCommon.n1PUCCH_AN       : 0
+[RRC][I][dump_sib2] radioResourceConfigCommon.soundingRS_UL_ConfigCommon.present : raw:1 decoded:release
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.p0_NominalPUSCH   : -90
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.alpha             : 7
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.p0_NominalPUCCH   : -96
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format1  : 2
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format1b : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2  : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2a : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaFList_PUCCH.deltaF_PUCCH_Format2b : 1
+[RRC][I][dump_sib2] radioResourceConfigCommon.uplinkPowerControlCommon.deltaPreambleMsg3 : 6
+[RRC][I][dump_sib2] radioResourceConfigCommon.ul_CyclicPrefixLength : 0
+[RRC][I][dump_sib2] ue_TimersAndConstants.t300 : 5
+[RRC][I][dump_sib2] ue_TimersAndConstants.t301 : 5
+[RRC][I][dump_sib2] ue_TimersAndConstants.t310 : 5
+[RRC][I][dump_sib2] ue_TimersAndConstants.n310 : 7
+[RRC][I][dump_sib2] ue_TimersAndConstants.t311 : 3
+[RRC][I][dump_sib2] ue_TimersAndConstants.n311 : 0
+[RRC][I][dump_sib2] freqInfo.ul_CarrierFreq             : not defined
+[RRC][I][dump_sib2] freqInfo.ul_Bandwidth               : not defined
+[RRC][I][dump_sib2] freqInfo.additionalSpectrumEmission : 1
+[RRC][I][dump_sib2] mbsfn_SubframeConfigList : not defined
+[RRC][I][dump_sib2] timeAlignmentTimerCommon : 7
+[RRC][I][dump_sib2] lateNonCriticalExtension : not defined
+[RRC][I][dump_sib2] ssac_BarringForMMTEL_Voice_r9 : not defined
+[RRC][I][dump_sib2] ssac_BarringForMMTEL_Video_r9 : not defined
+[RRC][I][dump_sib2] ac_BarringForCSFB_r10 : not defined
+[RRC][I][decode_SI] [FRAME 00737][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (SIB2 params  eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[PHY][I][phy_config_sib2_ue] [UE0] Applying radioResourceConfigCommon from eNB0
+[RRC][I][rrc_ue_generate_RRCConnectionRequest] [UE 0] : Frame 737, Logical Channel UL-CCCH (SRB0), Generating RRCConnectionRequest (bytes 6, eNB 0)
+[RRC][I][decode_SI] [UE 0] Received SIB1/SIB2/SIB3 Switching to RRC_SI_RECEIVED
+[RRC][I][decode_SI] [UE 0] Frame 737 Found SIB3 from eNB 0
+[RRC][I][dump_sib3] Dumping SIB3 (see TS36.331 V8.21.0)
+[RRC][I][dump_sib3] cellReselectionInfoCommon.q_Hyst : raw:4  decoded:4 dB
+[RRC][I][dump_sib3] cellReselectionInfoCommon.speedStateReselectionPars : not defined
+[RRC][I][dump_sib3] cellReselectionServingFreqInfo.s_NonIntraSearch : not defined
+[RRC][I][dump_sib3] cellReselectionServingFreqInfo.threshServingLow : 31
+[RRC][I][dump_sib3] cellReselectionServingFreqInfo.cellReselectionPriority : 7
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.q_RxLevMin : -70
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.p_Max : not defined
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.s_IntraSearch : 31
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.allowedMeasBandwidth : 0
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.presenceAntennaPort1 : 0
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.neighCellConfig : 0
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.t_ReselectionEUTRA : 1
+[RRC][I][dump_sib3] intraFreqCellReselectionInfo.t_ReselectionEUTRA_SF : not defined
+[RRC][I][decode_SI] SIStatus 7, SIcnt 1/1
+[PHY][I][ue_prach_procedures] mode 0
+[PHY][I][ue_prach_procedures] [UE  0][RAPROC] Frame 738, Subframe 1 : Generating PRACH, preamble 9,PL 45,  P0_PRACH -59, TARGET_RECEIVED_POWER -104 dBm, PRACH TDD Resource index 0, RA-RNTI 2
+[PHY][I][ue_prach_procedures] [UE  0][RAPROC] Frame 738, subframe 1: Generating PRACH (eNB 0) preamble index 9 for UL, TX power -59 dBm (PL 45 dB), l3msg 
+[MAC][I][ue_scheduler] Received RRC_MAC_CCCH_DATA_REQ from TASK_RRC_UE: instance 0, frameP 738, eNB_index 0
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 738, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[MAC][I][ue_process_rar] [eNB 0][RAPROC] Frame 739 Received RAR (49|00.10.35.4c.7d.95) for preamble 9/9
+[PHY][I][process_timing_advance_rar] [UE 0] AbsoluteSubFrame 739.0, received (rar) timing_advance 4
+[PHY][I][ue_ulsch_uespec_procedures] [UE  0][RAPROC] Frame 739, Subframe 6 Generating (RRCConnectionRequest) Msg3 (nb_rb 2, first_rb 1, round 0, rvidx 0) Msg3: 20.6.1f|54.c1.f3.89.d0.66
+[PHY][I][pusch_power_cntl] [UE  0][RAPROC] AbsSubframe 739.6: Msg3 (2 PRBs) Po_PUSCH -54 dBm (-10400,301,100*PL=4500,0,200)
+[MAC][I][ue_scheduler] Frame 739: Contention resolution timer 0/48
+[MAC][I][ue_scheduler] Frame 739: Contention resolution timer 1/48
+[MAC][I][ue_scheduler] Frame 739: Contention resolution timer 2/48
+[MAC][I][ue_scheduler] Frame 740: Contention resolution timer 3/48
+[MAC][I][ue_scheduler] Frame 740: Contention resolution timer 4/48
+[MAC][I][ue_scheduler] Frame 740: Contention resolution timer 5/48
+[MAC][I][ue_scheduler] Frame 740: Contention resolution timer 6/48
+[PHY][I][rx_phich] [UE  0][PUSCH 4][RAPROC] Frame 740 subframe 0 Msg3 PHICH, received NAK (1149) nseq 1, ngroup 0
+[PHY][I][rx_phich] [PUSCH 4] AbsSubframe 740.0: f_pusch (ACC) 5, adjusting by 3 (TPC 3)
+[MAC][I][ue_scheduler] Frame 740: Contention resolution timer 7/48
+[PHY][I][pusch_power_cntl] [UE  0][RAPROC] AbsSubframe 740.4: Msg3 (2 PRBs) Po_PUSCH -51 dBm (-10400,301,100*PL=4500,0,500)
+[MAC][I][ue_scheduler] Frame 740: Contention resolution timer 8/48
+[MAC][I][ue_scheduler] Frame 740: Contention resolution timer 9/48
+[MAC][I][ue_scheduler] Frame 740: Contention resolution timer 10/48
+[MAC][I][ue_scheduler] Frame 740: Contention resolution timer 11/48
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 740, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[MAC][I][ue_scheduler] Frame 740: Contention resolution timer 12/48
+[MAC][I][ue_scheduler] Frame 741: Contention resolution timer 13/48
+[MAC][I][ue_scheduler] Frame 741: Contention resolution timer 14/48
+[PHY][I][rx_phich] [UE  0][PUSCH 4][RAPROC] Frame 740 subframe 8 Msg3 PHICH, received ACK (-1240) nseq 1, ngroup 0
+
+[MAC][I][ue_scheduler] Frame 741: Contention resolution timer 15/48
+[MAC][I][ue_scheduler] Frame 741: Contention resolution timer 16/48
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 741, subframe 0: Received DCI with CRNTI 7d95 => Mode PUSCH
+[MAC][I][ue_send_sdu] [UE 0][RAPROC] Frame 741 : received contention resolution msg: 54.c1.f3.89.d0.66, Terminating RA procedure
+[MAC][I][ue_send_sdu] [UE 0][RAPROC] Frame 741 : Clearing RA_active flag
+[MAC][I][ue_send_sdu] [UE 0][RAPROC] Frame 741 : Clearing contention resolution timer
+[PHY][I][ra_succeeded] [UE 0][RAPROC] Random-access procedure succeeded. Set C-RNTI = Temporary C-RNTI
+[RRC][I][rrc_ue_decode_ccch] [UE0][RAPROC] Frame 741 : Logical Channel DL-CCCH (SRB0), Received RRCConnectionSetup RNTI 7d95
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Save physicalConfigDedicated if present 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Init physicalConfigDedicated UE_rrc_inst to radioResourceConfigDedicated->physicalConfigDedicated
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 00741][ UE][MOD 00][RNTI 7d95][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 00741][ UE][MOD 00][RNTI 7d95] [SRB 1] rrc_rlc_add_rlc  SRB
+[RLC][I][ITTI 13][rlc_am_configure] [FRAME 00741][ UE][MOD 00][RNTI 7d95][SRB AM 01][CONFIGURE] max_retx_threshold 4 poll_pdu 4 poll_byte 65535 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[RRC][I][rrc_ue_establish_srb1] [UE 0], CONFIG_SRB1 1 corresponding to eNB_index 0
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 00741][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ  (SRB1 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] C-RNTI 7d95 7d95 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][rrc_ue_generate_RRCConnectionSetupComplete] [UE 0][RAPROC] Frame 741 : Logical Channel UL-DCCH (SRB1), Generating RRCConnectionSetupComplete (bytes59, eNB 0)
+[PDCP][I][pdcp_run] [FRAME 00741][ UE][MOD 00][RNTI 7d95]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 0, confirmP 0, mode 1
+[RLC][I][UE_0_proc_1][rlc_am_data_req] [FRAME 00741][ UE][MOD 00][RNTI 7d95][SRB AM 01] RLC_AM_DATA_REQ size 64 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 0 vtA 0 vtS 0
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 742, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 742: received a DCCH 1 message on SRB 1 with Size 3 from eNB 0
+[0m[RRC][I][rrc_ue_decode_dcch] [UE 0] Received securityModeCommand (eNB 0)
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Frame 742: Receiving from SRB1 (DL-DCCH), Processing securityModeCommand (eNB 0)
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Security algorithm is set to eea0
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Integrity protection algorithm is set to none
+[RRC][I][rrc_ue_process_securityModeCommand] [UE 0] Frame 742: Receiving from SRB1 (DL-DCCH), encoding securityModeComplete (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 00742][ UE][MOD 00][RNTI 7d95]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 1, confirmP 0, mode 1
+[RLC][I][UE_0_proc_1][rlc_am_data_req] [FRAME 00742][ UE][MOD 00][RNTI 7d95][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 2 current_sdu_index=1 next_sdu_index=2 conf 0 mui 1 vtA 1 vtS 1
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 744, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 745: received a DCCH 1 message on SRB 1 with Size 3 from eNB 0
+[0m[RRC][I][rrc_ue_decode_dcch] [UE 0] Received Capability Enquiry (eNB 0)
+[RRC][I][rrc_ue_process_ueCapabilityEnquiry] [UE 0] Frame 745: Receiving from SRB1 (DL-DCCH), Processing UECapabilityEnquiry (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 00745][ UE][MOD 00][RNTI 7d95]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 2, confirmP 0, mode 1
+[RLC][I][UE_0_proc_0][rlc_am_data_req] [FRAME 00745][ UE][MOD 00][RNTI 7d95][SRB AM 01] RLC_AM_DATA_REQ size 24 Bytes,  NB SDU 3 current_sdu_index=2 next_sdu_index=3 conf 0 mui 2 vtA 2 vtS 2
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 745, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 5: Found rnti ffff, format 1A, dci_cnt 0
+[PHY][I][ue_pdcch_procedures] [UE  0] Frame 746, subframe 5 : Generate UE DLSCH SI_RNTI format 1A
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 747: received a DCCH 1 message on SRB 1 with Size 40 from eNB 0
+[0m[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] [UE 0] Frame 747: Receiving from SRB1 (DL-DCCH), Processing RRCConnectionReconfiguration (eNB 0)
+[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] Radio Resource Configuration is present
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Save physicalConfigDedicated if present 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update pdsch_ConfigDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update pusch_ConfigDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update pucch_ConfigDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update cqi_ReportConfig config (size=48,48)
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update cqi_ReportPeriodic config (size=152,152)
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update schedulingRequestConfig config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Keep old config for soundingRS_UL_ConfigDedicated
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update antennaInfo config 
+[PHY][I][rrc_ue_update_radioResourceConfigDedicated] New Transmission Mode 0 
+[PHY][I][rrc_ue_update_radioResourceConfigDedicated] Configured Transmission Mode 0 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update uplinkPowerControlDedicated config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update tpc_PDCCH_ConfigPUCCH config 
+[RRC][I][rrc_ue_update_radioResourceConfigDedicated] Update tpc_PDCCH_ConfigPUSCH config 
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 00747][ UE][MOD 00][RNTI 7d95][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 00747][ UE][MOD 00][RNTI 7d95] [SRB 2] rrc_rlc_add_rlc  SRB
+[RLC][I][ITTI 13][rlc_am_configure] [FRAME 00747][ UE][MOD 00][RNTI 7d95][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[RRC][I][rrc_ue_establish_srb2] [UE 0], CONFIG_SRB2 2 corresponding to eNB_index 0
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] Applying Explicit SRB2 logicalChannelConfig
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 00747][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ  (SRB2 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI 7d95 7d95 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] default DRB = 1
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 00747][ UE][MOD 00][RNTI 7d95][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 00747][ UE][MOD 00][RNTI 7d95] [DRB 1] rrc_rlc_add_rlc  DRB
+[RRC][I][rrc_ue_establish_drb] [UE 0] Frame 747: processing RRCConnectionReconfiguration: reconfiguring DRB 1/LCID 3
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 00747][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (DRB 1 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI 7d95 7d95 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][rrc_ue_generate_RRCConnectionReconfigurationComplete] [FRAME 00747][ UE][MOD 00][RNTI 7d95] Logical Channel UL-DCCH (SRB1), Generating RRCConnectionReconfigurationComplete (bytes 2, eNB_index 0)
+[RRC][I][rrc_ue_decode_dcch] [UE 0] State = RRC_RECONFIGURED (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 00747][ UE][MOD 00][RNTI 7d95]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 3, confirmP 0, mode 1
+[RLC][I][UE_0_proc_0][rlc_am_data_req] [FRAME 00747][ UE][MOD 00][RNTI 7d95][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 4 current_sdu_index=3 next_sdu_index=4 conf 0 mui 3 vtA 3 vtS 3
+[34m[RRC][N][rrc_data_ind] [UE 0] Frame 749: received a DCCH 1 message on SRB 1 with Size 17 from eNB 0
+[0m[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] [UE 0] Frame 749: Receiving from SRB1 (DL-DCCH), Processing RRCConnectionReconfiguration (eNB 0)
+[RRC][I][rrc_ue_process_rrcConnectionReconfiguration] Radio Resource Configuration is present
+[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 00749][ UE][MOD 00][RNTI 7d95][DRB 02]  Action ADD  LCID 4 (DRB id 2) configured with SN size 12 bits and RLC UM
+[0m[34m[PDCP][N][pdcp_config_req_asn1] [FRAME 00749][ UE][MOD 00][RNTI 7d95][DRB 03]  Action ADD  LCID 5 (DRB id 3) configured with SN size 12 bits and RLC UM
+[0m[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 00749][ UE][MOD 00][RNTI 7d95] [DRB 2] rrc_rlc_add_rlc  DRB
+[RLC][I][ITTI 13][rrc_rlc_add_rlc] [FRAME 00749][ UE][MOD 00][RNTI 7d95] [DRB 3] rrc_rlc_add_rlc  DRB
+[RRC][I][rrc_ue_establish_drb] [UE 0] Frame 749: processing RRCConnectionReconfiguration: reconfiguring DRB 2/LCID 4
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 00749][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (DRB 2 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI 7d95 7d95 
+[RRC][I][rrc_ue_establish_drb] [UE 0] Frame 749: processing RRCConnectionReconfiguration: reconfiguring DRB 3/LCID 5
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [FRAME 00749][RRC_UE][MOD 00][][--- MAC_CONFIG_REQ (DRB 3 eNB 0) --->][MAC_UE][MOD 00][]
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Configuring MAC/PHY from eNB 0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE 0] Applying RRC logicalChannelConfig from eNB0
+[MAC][I][rrc_mac_config_req] [CONFIG][UE0] Applying RRC macMainConfig from eNB0
+[PHY][I][phy_config_dedicated_ue] Transmission Mode 1
+[PHY][I][phy_config_dedicated_ue] Disable SIB MIB decoding 
+[PHY][I][phy_config_dedicated_ue] C-RNTI 7d95 7d95 
+[RRC][I][rrc_ue_process_radioResourceConfigDedicated] [UE 0] State = RRC_CONNECTED (eNB 0)
+[RRC][I][rrc_ue_generate_RRCConnectionReconfigurationComplete] [FRAME 00749][ UE][MOD 00][RNTI 7d95] Logical Channel UL-DCCH (SRB1), Generating RRCConnectionReconfigurationComplete (bytes 2, eNB_index 0)
+[RRC][I][rrc_ue_decode_dcch] [UE 0] State = RRC_RECONFIGURED (eNB 0)
+[PDCP][I][pdcp_run] [FRAME 00749][ UE][MOD 00][RNTI 7d95]Received RRC_DCCH_DATA_REQ from TASK_RRC_UE: instance 0, rb_id 1, muiP 4, confirmP 0, mode 1
+[RLC][I][UE_0_proc_0][rlc_am_data_req] [FRAME 00749][ UE][MOD 00][RNTI 7d95][SRB AM 01] RLC_AM_DATA_REQ size 7 Bytes,  NB SDU 5 current_sdu_index=4 next_sdu_index=5 conf 0 mui 4 vtA 4 vtS 4
+[PHY][I][ue_pdcch_procedures] [UE  0] frame 984, subframe 6: received DCI 0 with RNTI=0 (C-RNTI:7d95, CBA_RNTI 0) and format 2!
+last submitted sequence number = 0 
+	Out of Order
+1522485455  548312 received sequence number = 0 out of order flag=1	 added to queue 0
+PDPC timeout occurred
+Number of elements in queue: 1
+	 poped from queue-> 0
+1522485455  614774 received sequence number = 1 out of order flag=0	 inorder 1
+1522485455  614779 received sequence number = 2 out of order flag=0	 inorder 2
+1522485455  615777 received sequence number = 3 out of order flag=0	 inorder 3
+1522485455  615781 received sequence number = 4 out of order flag=0	 inorder 4
+1522485455  617778 received sequence number = 5 out of order flag=0	 inorder 5
+1522485455  617782 received sequence number = 6 out of order flag=0	 inorder 6
+1522485455  626770 received sequence number = 7 out of order flag=0	 inorder 7
+1522485455  626774 received sequence number = 8 out of order flag=0	 inorder 8
+1522485455  626778 received sequence number = 9 out of order flag=0	 inorder 9
+1522485455  626781 received sequence number = 10 out of order flag=0	 inorder 10
+1522485455  626784 received sequence number = 11 out of order flag=0	 inorder 11
+1522485455  649773 received sequence number = 12 out of order flag=0	 inorder 12
+1522485455  650773 received sequence number = 13 out of order flag=0	 inorder 13
+1522485455  650777 received sequence number = 14 out of order flag=0	 inorder 14
+1522485455  654769 received sequence number = 15 out of order flag=0	 inorder 15
+1522485455  654799 received sequence number = 16 out of order flag=0	 inorder 16
+1522485455  659771 received sequence number = 17 out of order flag=0	 inorder 17
+1522485455  660774 received sequence number = 18 out of order flag=0	 inorder 18
+1522485455  660778 received sequence number = 19 out of order flag=0	 inorder 19
+1522485455  661597 received sequence number = 20 out of order flag=0	 inorder 20
+1522485455  671771 received sequence number = 21 out of order flag=0	 inorder 21
+1522485455  671776 received sequence number = 22 out of order flag=0	 inorder 22
+1522485455  692778 received sequence number = 23 out of order flag=0	 inorder 23
+1522485455  692783 received sequence number = 24 out of order flag=0	 inorder 24
+1522485455  694779 received sequence number = 25 out of order flag=0	 inorder 25
+1522485455  694784 received sequence number = 26 out of order flag=0	 inorder 26
+1522485455  701600 received sequence number = 27 out of order flag=0	 inorder 27
+1522485455  711774 received sequence number = 28 out of order flag=0	 inorder 28
+1522485455  711780 received sequence number = 29 out of order flag=0	 inorder 29
+1522485455  711784 received sequence number = 30 out of order flag=0	 inorder 30
+1522485455  711788 received sequence number = 31 out of order flag=0	 inorder 31
+1522485455  711791 received sequence number = 32 out of order flag=0	 inorder 32
+[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0m	Out of Order
+1522485455  754220 received sequence number = 35 out of order flag=1	 added to queue 35
+	Out of Order
+1522485455  754225 received sequence number = 36 out of order flag=1	 added to queue 36
+	Out of Order
+1522485455  754229 received sequence number = 37 out of order flag=1	 added to queue 37
+	Out of Order
+1522485455  754233 received sequence number = 38 out of order flag=1	 added to queue 38
+	Out of Order
+1522485455  754237 received sequence number = 39 out of order flag=1	 added to queue 39
+	Out of Order
+1522485455  754241 received sequence number = 40 out of order flag=1	 added to queue 40
+	Out of Order
+1522485455  754245 received sequence number = 41 out of order flag=1	 added to queue 41
+	Out of Order
+1522485455  754249 received sequence number = 42 out of order flag=1	 added to queue 42
+	Out of Order
+1522485455  756634 received sequence number = 43 out of order flag=1	 added to queue 43
+	Out of Order
+1522485455  756639 received sequence number = 44 out of order flag=1	 added to queue 44
+PDPC timeout occurred
+Number of elements in queue: 10
+	 poped from queue-> 35
+	 poped from queue-> 36
+	 poped from queue-> 37
+	 poped from queue-> 38
+	 poped from queue-> 39
+	 poped from queue-> 40
+	 poped from queue-> 41
+	 poped from queue-> 42
+	 poped from queue-> 43
+	 poped from queue-> 44
+last submitted sequence number = 44 
+1522485455  805641 received sequence number = 45 out of order flag=0	 inorder 45
+1522485455  814779 received sequence number = 46 out of order flag=0	 inorder 46
+1522485455  815785 received sequence number = 47 out of order flag=0	 inorder 47
+1522485455  815789 received sequence number = 48 out of order flag=0	 inorder 48
+	Out of Order
+1522485455  834224 received sequence number = 51 out of order flag=1	 added to queue 51
+	Out of Order
+1522485455  834229 received sequence number = 52 out of order flag=1	 added to queue 52
+	Out of Order
+1522485455  844646 received sequence number = 53 out of order flag=1	 added to queue 53
+	Out of Order
+1522485455  861781 received sequence number = 54 out of order flag=1	 added to queue 54
+	Out of Order
+1522485455  861786 received sequence number = 55 out of order flag=1	 inorder 55
+1522485455  861789 received sequence number = 56 out of order flag=0	 inorder 56
+1522485455  861793 received sequence number = 57 out of order flag=0	 inorder 57
+PDPC timeout occurred
+Number of elements in queue: 4
+	 poped from queue-> 51
+	 poped from queue-> 52
+	 poped from queue-> 53
+	 poped from queue-> 54
+last submitted sequence number = 54 
+	Out of Order
+1522485455  887642 received sequence number = 58 out of order flag=1	 added to queue 58
+	Out of Order
+1522485455  894781 received sequence number = 59 out of order flag=1	 added to queue 59
+	Out of Order
+1522485455  897780 received sequence number = 60 out of order flag=1	 added to queue 60
+	Out of Order
+1522485455  897784 received sequence number = 61 out of order flag=1	 inorder 61
+1522485455  906782 received sequence number = 62 out of order flag=0	 inorder 62
+1522485455  906787 received sequence number = 63 out of order flag=0	 inorder 63
+1522485455  906790 received sequence number = 64 out of order flag=0	 inorder 64
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 58
+	 poped from queue-> 59
+	 poped from queue-> 60
+last submitted sequence number = 60 
+	Out of Order
+1522485455  939787 received sequence number = 65 out of order flag=1	 added to queue 65
+	Out of Order
+1522485455  940783 received sequence number = 66 out of order flag=1	 added to queue 66
+	Out of Order
+1522485455  940788 received sequence number = 67 out of order flag=1	 added to queue 67
+	Out of Order
+1522485455  941610 received sequence number = 68 out of order flag=1	 added to queue 68
+	Out of Order
+1522485455  942769 received sequence number = 69 out of order flag=1	 added to queue 69
+	Out of Order
+1522485455  951784 received sequence number = 70 out of order flag=1	 added to queue 70
+	Out of Order
+1522485455  951788 received sequence number = 71 out of order flag=1	 inorder 71
+1522485455  951792 received sequence number = 72 out of order flag=0	 inorder 72
+PDPC timeout occurred
+Number of elements in queue: 6
+	 poped from queue-> 65
+	 poped from queue-> 66
+	 poped from queue-> 67
+	 poped from queue-> 68
+	 poped from queue-> 69
+	 poped from queue-> 70
+last submitted sequence number = 70 
+	Out of Order
+1522485455  974650 received sequence number = 73 out of order flag=1	 added to queue 73
+	Out of Order
+1522485455  991647 received sequence number = 74 out of order flag=1	 added to queue 74
+	Out of Order
+1522485455  997790 received sequence number = 75 out of order flag=1	 inorder 75
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 73
+	 poped from queue-> 74
+last submitted sequence number = 74 
+	Out of Order
+1522485456  6791 received sequence number = 76 out of order flag=1	 added to queue 76
+	Out of Order
+1522485456  6796 received sequence number = 77 out of order flag=1	 added to queue 77
+	Out of Order
+1522485456  6800 received sequence number = 78 out of order flag=1	 added to queue 78
+	Out of Order
+1522485456  6804 received sequence number = 79 out of order flag=1	 added to queue 79
+	Out of Order
+1522485456  24653 received sequence number = 80 out of order flag=1	 added to queue 80
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 76
+	 poped from queue-> 77
+	 poped from queue-> 78
+	 poped from queue-> 79
+	 poped from queue-> 80
+last submitted sequence number = 80 
+1522485456  41791 received sequence number = 81 out of order flag=0	 inorder 81
+1522485456  41795 received sequence number = 82 out of order flag=0	 inorder 82
+1522485456  64794 received sequence number = 83 out of order flag=0	 inorder 83
+1522485456  64799 received sequence number = 84 out of order flag=0	 inorder 84
+1522485456  81798 received sequence number = 85 out of order flag=0	 inorder 85
+1522485456  81802 received sequence number = 86 out of order flag=0	 inorder 86
+1522485456  81805 received sequence number = 87 out of order flag=0	 inorder 87
+1522485456  81809 received sequence number = 88 out of order flag=0	 inorder 88
+1522485456  81812 received sequence number = 89 out of order flag=0	 inorder 89
+1522485456  104794 received sequence number = 90 out of order flag=0	 inorder 90
+1522485456  105795 received sequence number = 91 out of order flag=0	 inorder 91
+1522485456  105799 received sequence number = 92 out of order flag=0	 inorder 92
+1522485456  114796 received sequence number = 93 out of order flag=0	 inorder 93
+1522485456  115793 received sequence number = 94 out of order flag=0	 inorder 94
+1522485456  115797 received sequence number = 95 out of order flag=0	 inorder 95
+1522485456  116365 received sequence number = 96 out of order flag=0	 inorder 96
+1522485456  144798 received sequence number = 97 out of order flag=0	 inorder 97
+1522485456  145796 received sequence number = 98 out of order flag=0	 inorder 98
+1522485456  145800 received sequence number = 99 out of order flag=0	 inorder 99
+1522485456  146559 received sequence number = 100 out of order flag=0	 inorder 100
+1522485456  155797 received sequence number = 101 out of order flag=0	 inorder 101
+	Out of Order
+1522485456  184800 received sequence number = 105 out of order flag=1	 added to queue 105
+	Out of Order
+1522485456  185797 received sequence number = 106 out of order flag=1	 added to queue 106
+	Out of Order
+1522485456  185802 received sequence number = 107 out of order flag=1	 added to queue 107
+	Out of Order
+1522485456  185806 received sequence number = 108 out of order flag=1	 added to queue 108
+	Out of Order
+1522485456  185809 received sequence number = 109 out of order flag=1	 added to queue 109
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 105
+	 poped from queue-> 106
+	 poped from queue-> 107
+	 poped from queue-> 108
+	 poped from queue-> 109
+last submitted sequence number = 109 
+1522485456  224663 received sequence number = 110 out of order flag=0	 inorder 110
+1522485456  244654 received sequence number = 111 out of order flag=0	 inorder 111
+1522485456  261799 received sequence number = 112 out of order flag=0	 inorder 112
+1522485456  261803 received sequence number = 113 out of order flag=0	 inorder 113
+1522485456  261806 received sequence number = 114 out of order flag=0	 inorder 114
+1522485456  261810 received sequence number = 115 out of order flag=0	 inorder 115
+1522485456  261813 received sequence number = 116 out of order flag=0	 inorder 116
+1522485456  284661 received sequence number = 117 out of order flag=0	 inorder 117
+1522485456  301808 received sequence number = 118 out of order flag=0	 inorder 118
+1522485456  301813 received sequence number = 119 out of order flag=0	 inorder 119
+1522485456  301816 received sequence number = 120 out of order flag=0	 inorder 120
+1522485456  301819 received sequence number = 121 out of order flag=0	 inorder 121
+1522485456  301823 received sequence number = 122 out of order flag=0	 inorder 122
+1522485456  324663 received sequence number = 123 out of order flag=0	 inorder 123
+1522485456  341806 received sequence number = 124 out of order flag=0	 inorder 124
+1522485456  341811 received sequence number = 125 out of order flag=0	 inorder 125
+1522485456  341814 received sequence number = 126 out of order flag=0	 inorder 126
+1522485456  341817 received sequence number = 127 out of order flag=0	 inorder 127
+	Out of Order
+1522485456  364806 received sequence number = 131 out of order flag=1	 added to queue 131
+	Out of Order
+1522485456  364812 received sequence number = 132 out of order flag=1	 added to queue 132
+	Out of Order
+1522485456  381803 received sequence number = 133 out of order flag=1	 added to queue 133
+	Out of Order
+1522485456  381809 received sequence number = 134 out of order flag=1	 inorder 134
+1522485456  381812 received sequence number = 135 out of order flag=0	 inorder 135
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 131
+	 poped from queue-> 132
+	 poped from queue-> 133
+last submitted sequence number = 133 
+	Out of Order
+1522485456  407666 received sequence number = 136 out of order flag=1	 added to queue 136
+	Out of Order
+1522485456  414804 received sequence number = 137 out of order flag=1	 added to queue 137
+	Out of Order
+1522485456  417803 received sequence number = 138 out of order flag=1	 added to queue 138
+	Out of Order
+1522485456  417808 received sequence number = 139 out of order flag=1	 inorder 139
+1522485456  417812 received sequence number = 140 out of order flag=0	 inorder 140
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 136
+	 poped from queue-> 137
+	 poped from queue-> 138
+last submitted sequence number = 138 
+	Out of Order
+1522485456  444684 received sequence number = 141 out of order flag=1	 added to queue 141
+	Out of Order
+1522485456  461667 received sequence number = 142 out of order flag=1	 added to queue 142
+	Out of Order
+1522485456  461673 received sequence number = 143 out of order flag=1	 inorder 143
+1522485456  466669 received sequence number = 144 out of order flag=0	 inorder 144
+1522485456  466674 received sequence number = 145 out of order flag=0	 inorder 145
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 141
+	 poped from queue-> 142
+last submitted sequence number = 142 
+	Out of Order
+1522485456  492677 received sequence number = 146 out of order flag=1	 added to queue 146
+	Out of Order
+1522485456  501640 received sequence number = 147 out of order flag=1	 added to queue 147
+	Out of Order
+1522485456  502795 received sequence number = 148 out of order flag=1	 added to queue 148
+	Out of Order
+1522485456  511812 received sequence number = 149 out of order flag=1	 inorder 149
+1522485456  511816 received sequence number = 150 out of order flag=0	 inorder 150
+1522485456  511820 received sequence number = 151 out of order flag=0	 inorder 151
+1522485456  511823 received sequence number = 152 out of order flag=0	 inorder 152
+1522485456  511826 received sequence number = 153 out of order flag=0	 inorder 153
+1522485456  511829 received sequence number = 154 out of order flag=0	 inorder 154
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 146
+	 poped from queue-> 147
+	 poped from queue-> 148
+last submitted sequence number = 148 
+	Out of Order
+1522485456  535650 received sequence number = 155 out of order flag=1	 added to queue 155
+	Out of Order
+1522485456  544814 received sequence number = 156 out of order flag=1	 added to queue 156
+	Out of Order
+1522485456  545810 received sequence number = 157 out of order flag=1	 added to queue 157
+	Out of Order
+1522485456  545815 received sequence number = 158 out of order flag=1	 inorder 158
+1522485456  547815 received sequence number = 159 out of order flag=0	 inorder 159
+1522485456  547819 received sequence number = 160 out of order flag=0	 inorder 160
+1522485456  556815 received sequence number = 161 out of order flag=0	 inorder 161
+1522485456  556820 received sequence number = 162 out of order flag=0	 inorder 162
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 155
+	 poped from queue-> 156
+	 poped from queue-> 157
+last submitted sequence number = 157 
+	Out of Order
+1522485456  574676 received sequence number = 163 out of order flag=1	 added to queue 163
+	Out of Order
+1522485456  591817 received sequence number = 164 out of order flag=1	 added to queue 164
+	Out of Order
+1522485456  591822 received sequence number = 165 out of order flag=1	 inorder 165
+1522485456  591825 received sequence number = 166 out of order flag=0	 inorder 166
+1522485456  591829 received sequence number = 167 out of order flag=0	 inorder 167
+1522485456  591832 received sequence number = 168 out of order flag=0	 inorder 168
+1522485456  591835 received sequence number = 169 out of order flag=0	 inorder 169
+1522485456  591838 received sequence number = 170 out of order flag=0	 inorder 170
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 163
+	 poped from queue-> 164
+last submitted sequence number = 164 
+	Out of Order
+1522485456  620676 received sequence number = 171 out of order flag=1	 added to queue 171
+	Out of Order
+1522485456  624816 received sequence number = 172 out of order flag=1	 added to queue 172
+	Out of Order
+1522485456  624821 received sequence number = 173 out of order flag=1	 added to queue 173
+	Out of Order
+1522485456  629816 received sequence number = 174 out of order flag=1	 added to queue 174
+	Out of Order
+1522485456  630815 received sequence number = 175 out of order flag=1	 inorder 175
+1522485456  630819 received sequence number = 176 out of order flag=0	 inorder 176
+1522485456  631646 received sequence number = 177 out of order flag=0	 inorder 177
+1522485456  631650 received sequence number = 178 out of order flag=0	 inorder 178
+PDPC timeout occurred
+Number of elements in queue: 4
+	 poped from queue-> 171
+	 poped from queue-> 172
+	 poped from queue-> 173
+	 poped from queue-> 174
+last submitted sequence number = 174 
+	Out of Order
+1522485456  671681 received sequence number = 179 out of order flag=1	 added to queue 179
+	Out of Order
+1522485456  671686 received sequence number = 180 out of order flag=1	 added to queue 180
+	Out of Order
+1522485456  671691 received sequence number = 181 out of order flag=1	 added to queue 181
+	Out of Order
+1522485456  681825 received sequence number = 182 out of order flag=1	 added to queue 182
+	Out of Order
+1522485456  681830 received sequence number = 183 out of order flag=1	 added to queue 183
+	Out of Order
+1522485456  681834 received sequence number = 184 out of order flag=1	 inorder 184
+1522485456  681838 received sequence number = 185 out of order flag=0	 inorder 185
+1522485456  681841 received sequence number = 186 out of order flag=0	 inorder 186
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 179
+	 poped from queue-> 180
+	 poped from queue-> 181
+	 poped from queue-> 182
+	 poped from queue-> 183
+last submitted sequence number = 183 
+	Out of Order
+1522485456  707682 received sequence number = 187 out of order flag=1	 added to queue 187
+	Out of Order
+1522485456  714803 received sequence number = 188 out of order flag=1	 added to queue 188
+	Out of Order
+1522485456  716371 received sequence number = 189 out of order flag=1	 added to queue 189
+	Out of Order
+1522485456  720677 received sequence number = 190 out of order flag=1	 inorder 190
+1522485456  721649 received sequence number = 191 out of order flag=0	 inorder 191
+1522485456  723626 received sequence number = 192 out of order flag=0	 inorder 192
+1522485456  730819 received sequence number = 193 out of order flag=0	 inorder 193
+1522485456  730823 received sequence number = 194 out of order flag=0	 inorder 194
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 187
+	 poped from queue-> 188
+	 poped from queue-> 189
+last submitted sequence number = 189 
+	Out of Order
+1522485456  754806 received sequence number = 195 out of order flag=1	 added to queue 195
+	Out of Order
+1522485456  754813 received sequence number = 196 out of order flag=1	 added to queue 196
+	Out of Order
+1522485456  771823 received sequence number = 197 out of order flag=1	 added to queue 197
+	Out of Order
+1522485456  771828 received sequence number = 198 out of order flag=1	 inorder 198
+1522485456  771831 received sequence number = 199 out of order flag=0	 inorder 199
+1522485456  771835 received sequence number = 200 out of order flag=0	 inorder 200
+1522485456  771838 received sequence number = 201 out of order flag=0	 inorder 201
+1522485456  771841 received sequence number = 202 out of order flag=0	 inorder 202
+1522485456  771844 received sequence number = 203 out of order flag=0	 inorder 203
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 195
+	 poped from queue-> 196
+	 poped from queue-> 197
+last submitted sequence number = 197 
+	Out of Order
+1522485456  799684 received sequence number = 204 out of order flag=1	 added to queue 204
+	Out of Order
+1522485456  804825 received sequence number = 205 out of order flag=1	 added to queue 205
+	Out of Order
+1522485456  804830 received sequence number = 206 out of order flag=1	 added to queue 206
+	Out of Order
+1522485456  816825 received sequence number = 207 out of order flag=1	 added to queue 207
+	Out of Order
+1522485456  816830 received sequence number = 208 out of order flag=1	 inorder 208
+1522485456  816834 received sequence number = 209 out of order flag=0	 inorder 209
+1522485456  816837 received sequence number = 210 out of order flag=0	 inorder 210
+1522485456  816840 received sequence number = 211 out of order flag=0	 inorder 211
+1522485456  816844 received sequence number = 212 out of order flag=0	 inorder 212
+PDPC timeout occurred
+Number of elements in queue: 4
+	 poped from queue-> 204
+	 poped from queue-> 205
+	 poped from queue-> 206
+	 poped from queue-> 207
+last submitted sequence number = 207 
+	Out of Order
+1522485456  851826 received sequence number = 213 out of order flag=1	 added to queue 213
+	Out of Order
+1522485456  851832 received sequence number = 214 out of order flag=1	 added to queue 214
+	Out of Order
+1522485456  851835 received sequence number = 215 out of order flag=1	 added to queue 215
+	Out of Order
+1522485456  851839 received sequence number = 216 out of order flag=1	 added to queue 216
+	Out of Order
+1522485456  854826 received sequence number = 217 out of order flag=1	 added to queue 217
+	Out of Order
+1522485456  855825 received sequence number = 218 out of order flag=1	 added to queue 218
+	Out of Order
+1522485456  855830 received sequence number = 219 out of order flag=1	 added to queue 219
+	Out of Order
+1522485456  857821 received sequence number = 220 out of order flag=1	 inorder 220
+1522485456  866686 received sequence number = 221 out of order flag=0	 inorder 221
+1522485456  866690 received sequence number = 222 out of order flag=0	 inorder 222
+PDPC timeout occurred
+Number of elements in queue: 7
+	 poped from queue-> 213
+	 poped from queue-> 214
+	 poped from queue-> 215
+	 poped from queue-> 216
+	 poped from queue-> 217
+	 poped from queue-> 218
+	 poped from queue-> 219
+last submitted sequence number = 219 
+	Out of Order
+1522485456  884686 received sequence number = 223 out of order flag=1	 added to queue 223
+	Out of Order
+1522485456  901829 received sequence number = 224 out of order flag=1	 added to queue 224
+	Out of Order
+1522485456  901834 received sequence number = 225 out of order flag=1	 inorder 225
+1522485456  914678 received sequence number = 226 out of order flag=0	 inorder 226
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 223
+	 poped from queue-> 224
+last submitted sequence number = 224 
+	Out of Order
+1522485456  931856 received sequence number = 227 out of order flag=1	 added to queue 227
+	Out of Order
+1522485456  931869 received sequence number = 228 out of order flag=1	 added to queue 228
+	Out of Order
+1522485456  931873 received sequence number = 229 out of order flag=1	 added to queue 229
+	Out of Order
+1522485456  931877 received sequence number = 230 out of order flag=1	 added to queue 230
+	Out of Order
+1522485456  931880 received sequence number = 231 out of order flag=1	 added to queue 231
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 227
+	 poped from queue-> 228
+	 poped from queue-> 229
+	 poped from queue-> 230
+	 poped from queue-> 231
+last submitted sequence number = 231 
+	Out of Order
+1522485456  974294 received sequence number = 234 out of order flag=1	 added to queue 234
+	Out of Order
+1522485456  974300 received sequence number = 235 out of order flag=1	 inorder 235
+1522485456  974305 received sequence number = 236 out of order flag=0	 inorder 236
+1522485456  974309 received sequence number = 237 out of order flag=0	 inorder 237
+1522485456  994868 received sequence number = 238 out of order flag=0	 inorder 238
+1522485456  994881 received sequence number = 239 out of order flag=0	 inorder 239
+[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0m1522485457  11862 received sequence number = 240 out of order flag=0	 inorder 240
+1522485457  11877 received sequence number = 241 out of order flag=0	 inorder 241
+1522485457  11881 received sequence number = 242 out of order flag=0	 inorder 242
+1522485457  11884 received sequence number = 243 out of order flag=0	 inorder 243
+1522485457  11887 received sequence number = 244 out of order flag=0	 inorder 244
+1522485457  11891 received sequence number = 245 out of order flag=0	 inorder 245
+1522485457  34696 received sequence number = 246 out of order flag=0	 inorder 246
+1522485457  51854 received sequence number = 247 out of order flag=0	 inorder 247
+1522485457  51860 received sequence number = 248 out of order flag=0	 inorder 248
+1522485457  51863 received sequence number = 249 out of order flag=0	 inorder 249
+1522485457  51866 received sequence number = 250 out of order flag=0	 inorder 250
+1522485457  51901 received sequence number = 251 out of order flag=0	 inorder 251
+1522485457  51905 received sequence number = 252 out of order flag=0	 inorder 252
+1522485457  74699 received sequence number = 253 out of order flag=0	 inorder 253
+1522485457  91701 received sequence number = 254 out of order flag=0	 inorder 254
+1522485457  124842 received sequence number = 255 out of order flag=0	 inorder 255
+1522485457  125844 received sequence number = 256 out of order flag=0	 inorder 256
+1522485457  125848 received sequence number = 257 out of order flag=0	 inorder 257
+1522485457  126676 received sequence number = 258 out of order flag=0	 inorder 258
+1522485457  127855 received sequence number = 259 out of order flag=0	 inorder 259
+1522485457  136872 received sequence number = 260 out of order flag=0	 inorder 260
+1522485457  136876 received sequence number = 261 out of order flag=0	 inorder 261
+1522485457  136880 received sequence number = 262 out of order flag=0	 inorder 262
+1522485457  136883 received sequence number = 263 out of order flag=0	 inorder 263
+1522485457  152860 received sequence number = 264 out of order flag=0	 inorder 264
+1522485457  152865 received sequence number = 265 out of order flag=0	 inorder 265
+1522485457  161666 received sequence number = 266 out of order flag=0	 inorder 266
+1522485457  162917 received sequence number = 267 out of order flag=0	 inorder 267
+1522485457  171842 received sequence number = 268 out of order flag=0	 inorder 268
+1522485457  171846 received sequence number = 269 out of order flag=0	 inorder 269
+1522485457  171850 received sequence number = 270 out of order flag=0	 inorder 270
+1522485457  171853 received sequence number = 271 out of order flag=0	 inorder 271
+1522485457  171856 received sequence number = 272 out of order flag=0	 inorder 272
+1522485457  184862 received sequence number = 273 out of order flag=0	 inorder 273
+1522485457  184867 received sequence number = 274 out of order flag=0	 inorder 274
+1522485457  201845 received sequence number = 275 out of order flag=0	 inorder 275
+1522485457  201849 received sequence number = 276 out of order flag=0	 inorder 276
+1522485457  201853 received sequence number = 277 out of order flag=0	 inorder 277
+1522485457  201856 received sequence number = 278 out of order flag=0	 inorder 278
+	Out of Order
+1522485457  224876 received sequence number = 282 out of order flag=1	 added to queue 282
+	Out of Order
+1522485457  225844 received sequence number = 283 out of order flag=1	 added to queue 283
+	Out of Order
+1522485457  225848 received sequence number = 284 out of order flag=1	 added to queue 284
+PDPC timeout occurred
+Number of elements in queue: 4
+	 poped from queue-> 234
+	 poped from queue-> 282
+	 poped from queue-> 283
+	 poped from queue-> 284
+[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0mlast submitted sequence number = 284 
+	Out of Order
+1522485457  284877 received sequence number = 288 out of order flag=1	 added to queue 288
+	Out of Order
+1522485457  284882 received sequence number = 289 out of order flag=1	 inorder 289
+1522485457  296712 received sequence number = 290 out of order flag=0	 inorder 290
+1522485457  314713 received sequence number = 291 out of order flag=0	 inorder 291
+1522485457  331706 received sequence number = 292 out of order flag=0	 inorder 292
+1522485457  344714 received sequence number = 293 out of order flag=0	 inorder 293
+1522485457  364715 received sequence number = 294 out of order flag=0	 inorder 294
+1522485457  429711 received sequence number = 295 out of order flag=0	 inorder 295
+1522485457  450719 received sequence number = 296 out of order flag=0	 inorder 296
+1522485457  486849 received sequence number = 297 out of order flag=0	 inorder 297
+1522485457  486853 received sequence number = 298 out of order flag=0	 inorder 298
+1522485457  486857 received sequence number = 299 out of order flag=0	 inorder 299
+1522485457  512850 received sequence number = 300 out of order flag=0	 inorder 300
+1522485457  521849 received sequence number = 301 out of order flag=0	 inorder 301
+1522485457  521853 received sequence number = 302 out of order flag=0	 inorder 302
+1522485457  521857 received sequence number = 303 out of order flag=0	 inorder 303
+1522485457  521861 received sequence number = 304 out of order flag=0	 inorder 304
+1522485457  521864 received sequence number = 305 out of order flag=0	 inorder 305
+1522485457  544712 received sequence number = 306 out of order flag=0	 inorder 306
+1522485457  561850 received sequence number = 307 out of order flag=0	 inorder 307
+1522485457  561855 received sequence number = 308 out of order flag=0	 inorder 308
+1522485457  561858 received sequence number = 309 out of order flag=0	 inorder 309
+1522485457  561862 received sequence number = 310 out of order flag=0	 inorder 310
+1522485457  561865 received sequence number = 311 out of order flag=0	 inorder 311
+1522485457  584853 received sequence number = 312 out of order flag=0	 inorder 312
+1522485457  585853 received sequence number = 313 out of order flag=0	 inorder 313
+1522485457  585857 received sequence number = 314 out of order flag=0	 inorder 314
+1522485457  594852 received sequence number = 315 out of order flag=0	 inorder 315
+1522485457  595853 received sequence number = 316 out of order flag=0	 inorder 316
+1522485457  595857 received sequence number = 317 out of order flag=0	 inorder 317
+1522485457  595861 received sequence number = 318 out of order flag=0	 inorder 318
+1522485457  624854 received sequence number = 319 out of order flag=0	 inorder 319
+1522485457  624858 received sequence number = 320 out of order flag=0	 inorder 320
+1522485457  641857 received sequence number = 321 out of order flag=0	 inorder 321
+1522485457  641862 received sequence number = 322 out of order flag=0	 inorder 322
+1522485457  641865 received sequence number = 323 out of order flag=0	 inorder 323
+1522485457  641868 received sequence number = 324 out of order flag=0	 inorder 324
+1522485457  641872 received sequence number = 325 out of order flag=0	 inorder 325
+1522485457  664854 received sequence number = 326 out of order flag=0	 inorder 326
+1522485457  665860 received sequence number = 327 out of order flag=0	 inorder 327
+1522485457  665864 received sequence number = 328 out of order flag=0	 inorder 328
+1522485457  667728 received sequence number = 329 out of order flag=0	 inorder 329
+1522485457  667733 received sequence number = 330 out of order flag=0	 inorder 330
+	Out of Order
+1522485457  704856 received sequence number = 333 out of order flag=1	 added to queue 333
+	Out of Order
+1522485457  705858 received sequence number = 334 out of order flag=1	 added to queue 334
+	Out of Order
+1522485457  705863 received sequence number = 335 out of order flag=1	 added to queue 335
+	Out of Order
+1522485457  706664 received sequence number = 336 out of order flag=1	 added to queue 336
+[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0m	Out of Order
+1522485457  715855 received sequence number = 337 out of order flag=1	 added to queue 337
+	Out of Order
+1522485457  716432 received sequence number = 338 out of order flag=1	 inorder 338
+PDPC timeout occurred
+Number of elements in queue: 6
+	 poped from queue-> 288
+	 poped from queue-> 333
+	 poped from queue-> 334
+	 poped from queue-> 335
+	 poped from queue-> 336
+	 poped from queue-> 337
+last submitted sequence number = 337 
+	Out of Order
+1522485457  744717 received sequence number = 339 out of order flag=1	 added to queue 339
+	Out of Order
+1522485457  772861 received sequence number = 340 out of order flag=1	 added to queue 340
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 339
+	 poped from queue-> 340
+last submitted sequence number = 340 
+1522485457  781861 received sequence number = 341 out of order flag=0	 inorder 341
+1522485457  781865 received sequence number = 342 out of order flag=0	 inorder 342
+1522485457  781869 received sequence number = 343 out of order flag=0	 inorder 343
+1522485457  781896 received sequence number = 344 out of order flag=0	 inorder 344
+1522485457  781899 received sequence number = 345 out of order flag=0	 inorder 345
+1522485457  812861 received sequence number = 346 out of order flag=0	 inorder 346
+1522485457  821861 received sequence number = 347 out of order flag=0	 inorder 347
+1522485457  821866 received sequence number = 348 out of order flag=0	 inorder 348
+1522485457  821869 received sequence number = 349 out of order flag=0	 inorder 349
+1522485457  821872 received sequence number = 350 out of order flag=0	 inorder 350
+1522485457  821875 received sequence number = 351 out of order flag=0	 inorder 351
+1522485457  844868 received sequence number = 352 out of order flag=0	 inorder 352
+1522485457  845877 received sequence number = 353 out of order flag=0	 inorder 353
+1522485457  845882 received sequence number = 354 out of order flag=0	 inorder 354
+1522485457  846678 received sequence number = 355 out of order flag=0	 inorder 355
+1522485457  855882 received sequence number = 356 out of order flag=0	 inorder 356
+1522485457  857881 received sequence number = 357 out of order flag=0	 inorder 357
+1522485457  857885 received sequence number = 358 out of order flag=0	 inorder 358
+1522485457  857889 received sequence number = 359 out of order flag=0	 inorder 359
+1522485457  884866 received sequence number = 360 out of order flag=0	 inorder 360
+1522485457  884870 received sequence number = 361 out of order flag=0	 inorder 361
+1522485457  901863 received sequence number = 362 out of order flag=0	 inorder 362
+1522485457  901868 received sequence number = 363 out of order flag=0	 inorder 363
+1522485457  901871 received sequence number = 364 out of order flag=0	 inorder 364
+1522485457  901874 received sequence number = 365 out of order flag=0	 inorder 365
+1522485457  901878 received sequence number = 366 out of order flag=0	 inorder 366
+1522485457  901880 received sequence number = 367 out of order flag=0	 inorder 367
+1522485457  924877 received sequence number = 368 out of order flag=0	 inorder 368
+1522485457  925868 received sequence number = 369 out of order flag=0	 inorder 369
+1522485457  925872 received sequence number = 370 out of order flag=0	 inorder 370
+1522485457  925875 received sequence number = 371 out of order flag=0	 inorder 371
+1522485457  934865 received sequence number = 372 out of order flag=0	 inorder 372
+1522485457  935868 received sequence number = 373 out of order flag=0	 inorder 373
+1522485457  935872 received sequence number = 374 out of order flag=0	 inorder 374
+1522485457  936441 received sequence number = 375 out of order flag=0	 inorder 375
+1522485457  964870 received sequence number = 376 out of order flag=0	 inorder 376
+1522485457  965871 received sequence number = 377 out of order flag=0	 inorder 377
+1522485457  965876 received sequence number = 378 out of order flag=0	 inorder 378
+1522485457  966677 received sequence number = 379 out of order flag=0	 inorder 379
+1522485457  975875 received sequence number = 380 out of order flag=0	 inorder 380
+1522485457  977875 received sequence number = 381 out of order flag=0	 inorder 381
+1522485457  977880 received sequence number = 382 out of order flag=0	 inorder 382
+1522485457  977883 received sequence number = 383 out of order flag=0	 inorder 383
+1522485458  4887 received sequence number = 384 out of order flag=0	 inorder 384
+1522485458  5876 received sequence number = 385 out of order flag=0	 inorder 385
+1522485458  5881 received sequence number = 386 out of order flag=0	 inorder 386
+1522485458  6717 received sequence number = 387 out of order flag=0	 inorder 387
+1522485458  6722 received sequence number = 388 out of order flag=0	 inorder 388
+1522485458  15878 received sequence number = 389 out of order flag=0	 inorder 389
+1522485458  17876 received sequence number = 390 out of order flag=0	 inorder 390
+1522485458  17880 received sequence number = 391 out of order flag=0	 inorder 391
+1522485458  17884 received sequence number = 392 out of order flag=0	 inorder 392
+1522485458  44887 received sequence number = 393 out of order flag=0	 inorder 393
+1522485458  45875 received sequence number = 394 out of order flag=0	 inorder 394
+1522485458  45879 received sequence number = 395 out of order flag=0	 inorder 395
+1522485458  46703 received sequence number = 396 out of order flag=0	 inorder 396
+1522485458  55876 received sequence number = 397 out of order flag=0	 inorder 397
+1522485458  57878 received sequence number = 398 out of order flag=0	 inorder 398
+1522485458  57882 received sequence number = 399 out of order flag=0	 inorder 399
+1522485458  66891 received sequence number = 400 out of order flag=0	 inorder 400
+1522485458  66896 received sequence number = 401 out of order flag=0	 inorder 401
+1522485458  84889 received sequence number = 402 out of order flag=0	 inorder 402
+1522485458  85890 received sequence number = 403 out of order flag=0	 inorder 403
+1522485458  85894 received sequence number = 404 out of order flag=0	 inorder 404
+1522485458  86716 received sequence number = 405 out of order flag=0	 inorder 405
+1522485458  87689 received sequence number = 406 out of order flag=0	 inorder 406
+	Out of Order
+1522485458  114333 received sequence number = 409 out of order flag=1	 added to queue 409
+	Out of Order
+1522485458  114338 received sequence number = 410 out of order flag=1	 added to queue 410
+	Out of Order
+1522485458  124951 received sequence number = 411 out of order flag=1	 added to queue 411
+	Out of Order
+1522485458  125876 received sequence number = 412 out of order flag=1	 added to queue 412
+	Out of Order
+1522485458  125881 received sequence number = 413 out of order flag=1	 inorder 413
+1522485458  126685 received sequence number = 414 out of order flag=0	 inorder 414
+[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0m1522485458  135877 received sequence number = 415 out of order flag=0	 inorder 415
+1522485458  135882 received sequence number = 416 out of order flag=0	 inorder 416
+PDPC timeout occurred
+Number of elements in queue: 4
+	 poped from queue-> 409
+	 poped from queue-> 410
+	 poped from queue-> 411
+	 poped from queue-> 412
+last submitted sequence number = 412 
+	Out of Order
+1522485458  164740 received sequence number = 417 out of order flag=1	 added to queue 417
+	Out of Order
+1522485458  181878 received sequence number = 418 out of order flag=1	 added to queue 418
+	Out of Order
+1522485458  181884 received sequence number = 419 out of order flag=1	 inorder 419
+1522485458  181887 received sequence number = 420 out of order flag=0	 inorder 420
+1522485458  181891 received sequence number = 421 out of order flag=0	 inorder 421
+1522485458  181894 received sequence number = 422 out of order flag=0	 inorder 422
+1522485458  181897 received sequence number = 423 out of order flag=0	 inorder 423
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 417
+	 poped from queue-> 418
+last submitted sequence number = 418 
+	Out of Order
+1522485458  207741 received sequence number = 424 out of order flag=1	 added to queue 424
+	Out of Order
+1522485458  214879 received sequence number = 425 out of order flag=1	 added to queue 425
+	Out of Order
+1522485458  216455 received sequence number = 426 out of order flag=1	 added to queue 426
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 424
+	 poped from queue-> 425
+	 poped from queue-> 426
+last submitted sequence number = 426 
+1522485458  264882 received sequence number = 427 out of order flag=0	 inorder 427
+1522485458  265883 received sequence number = 428 out of order flag=0	 inorder 428
+1522485458  265887 received sequence number = 429 out of order flag=0	 inorder 429
+1522485458  266710 received sequence number = 430 out of order flag=0	 inorder 430
+1522485458  267883 received sequence number = 431 out of order flag=0	 inorder 431
+1522485458  276863 received sequence number = 432 out of order flag=0	 inorder 432
+1522485458  276868 received sequence number = 433 out of order flag=0	 inorder 433
+1522485458  294883 received sequence number = 434 out of order flag=0	 inorder 434
+1522485458  295884 received sequence number = 435 out of order flag=0	 inorder 435
+1522485458  295888 received sequence number = 436 out of order flag=0	 inorder 436
+1522485458  304882 received sequence number = 437 out of order flag=0	 inorder 437
+1522485458  305884 received sequence number = 438 out of order flag=0	 inorder 438
+1522485458  305888 received sequence number = 439 out of order flag=0	 inorder 439
+	Out of Order
+1522485458  354340 received sequence number = 442 out of order flag=1	 added to queue 442
+	Out of Order
+1522485458  354346 received sequence number = 443 out of order flag=1	 added to queue 443
+	Out of Order
+1522485458  354350 received sequence number = 444 out of order flag=1	 added to queue 444
+	Out of Order
+1522485458  354353 received sequence number = 445 out of order flag=1	 added to queue 445
+	Out of Order
+1522485458  354357 received sequence number = 446 out of order flag=1	 added to queue 446
+	Out of Order
+1522485458  354361 received sequence number = 447 out of order flag=1	 added to queue 447
+PDPC timeout occurred
+Number of elements in queue: 6
+	 poped from queue-> 442
+	 poped from queue-> 443
+	 poped from queue-> 444
+	 poped from queue-> 445
+	 poped from queue-> 446
+	 poped from queue-> 447
+last submitted sequence number = 447 
+1522485458  405753 received sequence number = 448 out of order flag=0	 inorder 448
+1522485458  414889 received sequence number = 449 out of order flag=0	 inorder 449
+1522485458  415889 received sequence number = 450 out of order flag=0	 inorder 450
+1522485458  415893 received sequence number = 451 out of order flag=0	 inorder 451
+1522485458  417888 received sequence number = 452 out of order flag=0	 inorder 452
+1522485458  417893 received sequence number = 453 out of order flag=0	 inorder 453
+1522485458  444751 received sequence number = 454 out of order flag=0	 inorder 454
+1522485458  461892 received sequence number = 455 out of order flag=0	 inorder 455
+1522485458  461897 received sequence number = 456 out of order flag=0	 inorder 456
+1522485458  461900 received sequence number = 457 out of order flag=0	 inorder 457
+1522485458  461903 received sequence number = 458 out of order flag=0	 inorder 458
+1522485458  474749 received sequence number = 459 out of order flag=0	 inorder 459
+1522485458  494893 received sequence number = 460 out of order flag=0	 inorder 460
+1522485458  495895 received sequence number = 461 out of order flag=0	 inorder 461
+1522485458  495900 received sequence number = 462 out of order flag=0	 inorder 462
+1522485458  496660 received sequence number = 463 out of order flag=0	 inorder 463
+[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0m1522485458  505894 received sequence number = 464 out of order flag=0	 inorder 464
+1522485458  506723 received sequence number = 465 out of order flag=0	 inorder 465
+1522485458  506728 received sequence number = 466 out of order flag=0	 inorder 466
+1522485458  534961 received sequence number = 467 out of order flag=0	 inorder 467
+1522485458  534966 received sequence number = 468 out of order flag=0	 inorder 468
+1522485458  551897 received sequence number = 469 out of order flag=0	 inorder 469
+1522485458  551901 received sequence number = 470 out of order flag=0	 inorder 470
+1522485458  551905 received sequence number = 471 out of order flag=0	 inorder 471
+1522485458  551917 received sequence number = 472 out of order flag=0	 inorder 472
+1522485458  551920 received sequence number = 473 out of order flag=0	 inorder 473
+1522485458  564898 received sequence number = 474 out of order flag=0	 inorder 474
+1522485458  564903 received sequence number = 475 out of order flag=0	 inorder 475
+1522485458  584899 received sequence number = 476 out of order flag=0	 inorder 476
+1522485458  585898 received sequence number = 477 out of order flag=0	 inorder 477
+1522485458  585902 received sequence number = 478 out of order flag=0	 inorder 478
+1522485458  586729 received sequence number = 479 out of order flag=0	 inorder 479
+1522485458  586757 received sequence number = 480 out of order flag=0	 inorder 480
+1522485458  595900 received sequence number = 481 out of order flag=0	 inorder 481
+1522485458  595905 received sequence number = 482 out of order flag=0	 inorder 482
+1522485458  624895 received sequence number = 483 out of order flag=0	 inorder 483
+1522485458  625901 received sequence number = 484 out of order flag=0	 inorder 484
+1522485458  625905 received sequence number = 485 out of order flag=0	 inorder 485
+1522485458  626665 received sequence number = 486 out of order flag=0	 inorder 486
+1522485458  635899 received sequence number = 487 out of order flag=0	 inorder 487
+1522485458  636474 received sequence number = 488 out of order flag=0	 inorder 488
+1522485458  664901 received sequence number = 489 out of order flag=0	 inorder 489
+1522485458  665901 received sequence number = 490 out of order flag=0	 inorder 490
+1522485458  665905 received sequence number = 491 out of order flag=0	 inorder 491
+1522485458  666732 received sequence number = 492 out of order flag=0	 inorder 492
+1522485458  667707 received sequence number = 493 out of order flag=0	 inorder 493
+	Out of Order
+1522485458  704901 received sequence number = 496 out of order flag=1	 added to queue 496
+	Out of Order
+1522485458  705904 received sequence number = 497 out of order flag=1	 added to queue 497
+	Out of Order
+1522485458  705916 received sequence number = 498 out of order flag=1	 added to queue 498
+	Out of Order
+1522485458  706667 received sequence number = 499 out of order flag=1	 added to queue 499
+[1;31m[PHY][E][check_dci_format1_1a_coherency] Format1A Retransmission but TBS are different: consider it as new transmission !!! 
+[0m	Out of Order
+1522485458  715901 received sequence number = 500 out of order flag=1	 added to queue 500
+	Out of Order
+1522485458  716478 received sequence number = 501 out of order flag=1	 inorder 501
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 496
+	 poped from queue-> 497
+	 poped from queue-> 498
+	 poped from queue-> 499
+	 poped from queue-> 500
+last submitted sequence number = 500 
+	Out of Order
+1522485458  744916 received sequence number = 502 out of order flag=1	 added to queue 502
+	Out of Order
+1522485458  744922 received sequence number = 503 out of order flag=1	 added to queue 503
+	Out of Order
+1522485458  764766 received sequence number = 504 out of order flag=1	 added to queue 504
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 502
+	 poped from queue-> 503
+	 poped from queue-> 504
+last submitted sequence number = 504 
+1522485458  781915 received sequence number = 505 out of order flag=0	 inorder 505
+1522485458  781920 received sequence number = 506 out of order flag=0	 inorder 506
+1522485458  781923 received sequence number = 507 out of order flag=0	 inorder 507
+1522485458  781926 received sequence number = 508 out of order flag=0	 inorder 508
+1522485458  804764 received sequence number = 509 out of order flag=0	 inorder 509
+1522485458  821919 received sequence number = 510 out of order flag=0	 inorder 510
+1522485458  821924 received sequence number = 511 out of order flag=0	 inorder 511
+1522485458  821927 received sequence number = 512 out of order flag=0	 inorder 512
+1522485458  821930 received sequence number = 513 out of order flag=0	 inorder 513
+1522485458  821934 received sequence number = 514 out of order flag=0	 inorder 514
+1522485458  844782 received sequence number = 515 out of order flag=0	 inorder 515
+1522485458  861926 received sequence number = 516 out of order flag=0	 inorder 516
+1522485458  861931 received sequence number = 517 out of order flag=0	 inorder 517
+1522485458  861934 received sequence number = 518 out of order flag=0	 inorder 518
+1522485458  861938 received sequence number = 519 out of order flag=0	 inorder 519
+	Out of Order
+1522485458  874369 received sequence number = 523 out of order flag=1	 added to queue 523
+	Out of Order
+1522485458  884944 received sequence number = 524 out of order flag=1	 added to queue 524
+	Out of Order
+1522485458  884950 received sequence number = 525 out of order flag=1	 added to queue 525
+	Out of Order
+1522485458  901925 received sequence number = 526 out of order flag=1	 inorder 526
+1522485458  901930 received sequence number = 527 out of order flag=0	 inorder 527
+1522485458  901933 received sequence number = 528 out of order flag=0	 inorder 528
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 523
+	 poped from queue-> 524
+	 poped from queue-> 525
+last submitted sequence number = 525 
+	Out of Order
+1522485458  927786 received sequence number = 529 out of order flag=1	 added to queue 529
+	Out of Order
+1522485458  934954 received sequence number = 530 out of order flag=1	 added to queue 530
+	Out of Order
+1522485458  937929 received sequence number = 531 out of order flag=1	 added to queue 531
+	Out of Order
+1522485458  937934 received sequence number = 532 out of order flag=1	 inorder 532
+1522485458  946949 received sequence number = 533 out of order flag=0	 inorder 533
+1522485458  946954 received sequence number = 534 out of order flag=0	 inorder 534
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 529
+	 poped from queue-> 530
+	 poped from queue-> 531
+last submitted sequence number = 531 
+	Out of Order
+1522485458  964791 received sequence number = 535 out of order flag=1	 added to queue 535
+	Out of Order
+1522485458  981931 received sequence number = 536 out of order flag=1	 added to queue 536
+	Out of Order
+1522485458  981936 received sequence number = 537 out of order flag=1	 inorder 537
+1522485458  981940 received sequence number = 538 out of order flag=0	 inorder 538
+1522485458  981943 received sequence number = 539 out of order flag=0	 inorder 539
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 535
+	 poped from queue-> 536
+last submitted sequence number = 536 
+	Out of Order
+1522485459  12793 received sequence number = 540 out of order flag=1	 added to queue 540
+	Out of Order
+1522485459  21750 received sequence number = 541 out of order flag=1	 added to queue 541
+	Out of Order
+1522485459  22956 received sequence number = 542 out of order flag=1	 added to queue 542
+	Out of Order
+1522485459  31928 received sequence number = 543 out of order flag=1	 inorder 543
+1522485459  31932 received sequence number = 544 out of order flag=0	 inorder 544
+1522485459  31936 received sequence number = 545 out of order flag=0	 inorder 545
+1522485459  31939 received sequence number = 546 out of order flag=0	 inorder 546
+1522485459  31942 received sequence number = 547 out of order flag=0	 inorder 547
+1522485459  31945 received sequence number = 548 out of order flag=0	 inorder 548
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 540
+	 poped from queue-> 541
+	 poped from queue-> 542
+last submitted sequence number = 542 
+	Out of Order
+1522485459  55761 received sequence number = 549 out of order flag=1	 added to queue 549
+	Out of Order
+1522485459  64928 received sequence number = 550 out of order flag=1	 added to queue 550
+	Out of Order
+1522485459  65930 received sequence number = 551 out of order flag=1	 added to queue 551
+	Out of Order
+1522485459  65935 received sequence number = 552 out of order flag=1	 inorder 552
+1522485459  66749 received sequence number = 553 out of order flag=0	 inorder 553
+1522485459  67930 received sequence number = 554 out of order flag=0	 inorder 554
+1522485459  76899 received sequence number = 555 out of order flag=0	 inorder 555
+1522485459  76904 received sequence number = 556 out of order flag=0	 inorder 556
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 549
+	 poped from queue-> 550
+	 poped from queue-> 551
+last submitted sequence number = 551 
+	Out of Order
+1522485459  94786 received sequence number = 557 out of order flag=1	 added to queue 557
+	Out of Order
+1522485459  111936 received sequence number = 558 out of order flag=1	 added to queue 558
+	Out of Order
+1522485459  111941 received sequence number = 559 out of order flag=1	 inorder 559
+1522485459  111945 received sequence number = 560 out of order flag=0	 inorder 560
+1522485459  111948 received sequence number = 561 out of order flag=0	 inorder 561
+1522485459  111951 received sequence number = 562 out of order flag=0	 inorder 562
+1522485459  111954 received sequence number = 563 out of order flag=0	 inorder 563
+1522485459  111957 received sequence number = 564 out of order flag=0	 inorder 564
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 557
+	 poped from queue-> 558
+last submitted sequence number = 558 
+	Out of Order
+1522485459  140805 received sequence number = 565 out of order flag=1	 added to queue 565
+	Out of Order
+1522485459  144957 received sequence number = 566 out of order flag=1	 added to queue 566
+	Out of Order
+1522485459  144962 received sequence number = 567 out of order flag=1	 added to queue 567
+	Out of Order
+1522485459  149939 received sequence number = 568 out of order flag=1	 added to queue 568
+	Out of Order
+1522485459  150943 received sequence number = 569 out of order flag=1	 inorder 569
+1522485459  150948 received sequence number = 570 out of order flag=0	 inorder 570
+1522485459  151755 received sequence number = 571 out of order flag=0	 inorder 571
+1522485459  151759 received sequence number = 572 out of order flag=0	 inorder 572
+PDPC timeout occurred
+Number of elements in queue: 4
+	 poped from queue-> 565
+	 poped from queue-> 566
+	 poped from queue-> 567
+	 poped from queue-> 568
+last submitted sequence number = 568 
+	Out of Order
+1522485459  191781 received sequence number = 573 out of order flag=1	 added to queue 573
+	Out of Order
+1522485459  191786 received sequence number = 574 out of order flag=1	 added to queue 574
+	Out of Order
+1522485459  191790 received sequence number = 575 out of order flag=1	 added to queue 575
+	Out of Order
+1522485459  201934 received sequence number = 576 out of order flag=1	 added to queue 576
+	Out of Order
+1522485459  201939 received sequence number = 577 out of order flag=1	 added to queue 577
+	Out of Order
+1522485459  201943 received sequence number = 578 out of order flag=1	 inorder 578
+1522485459  201947 received sequence number = 579 out of order flag=0	 inorder 579
+1522485459  201950 received sequence number = 580 out of order flag=0	 inorder 580
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 573
+	 poped from queue-> 574
+	 poped from queue-> 575
+	 poped from queue-> 576
+	 poped from queue-> 577
+last submitted sequence number = 577 
+	Out of Order
+1522485459  227942 received sequence number = 581 out of order flag=1	 added to queue 581
+	Out of Order
+1522485459  227948 received sequence number = 582 out of order flag=1	 added to queue 582
+	Out of Order
+1522485459  234915 received sequence number = 583 out of order flag=1	 added to queue 583
+	Out of Order
+1522485459  236481 received sequence number = 584 out of order flag=1	 added to queue 584
+	Out of Order
+1522485459  241753 received sequence number = 585 out of order flag=1	 inorder 585
+1522485459  250936 received sequence number = 586 out of order flag=0	 inorder 586
+1522485459  251758 received sequence number = 587 out of order flag=0	 inorder 587
+1522485459  252917 received sequence number = 588 out of order flag=0	 inorder 588
+1522485459  252922 received sequence number = 589 out of order flag=0	 inorder 589
+PDPC timeout occurred
+Number of elements in queue: 4
+	 poped from queue-> 581
+	 poped from queue-> 582
+	 poped from queue-> 583
+	 poped from queue-> 584
+last submitted sequence number = 584 
+	Out of Order
+1522485459  274770 received sequence number = 590 out of order flag=1	 added to queue 590
+	Out of Order
+1522485459  291951 received sequence number = 591 out of order flag=1	 added to queue 591
+	Out of Order
+1522485459  291956 received sequence number = 592 out of order flag=1	 inorder 592
+1522485459  291960 received sequence number = 593 out of order flag=0	 inorder 593
+1522485459  291963 received sequence number = 594 out of order flag=0	 inorder 594
+1522485459  291966 received sequence number = 595 out of order flag=0	 inorder 595
+1522485459  291969 received sequence number = 596 out of order flag=0	 inorder 596
+1522485459  291973 received sequence number = 597 out of order flag=0	 inorder 597
+1522485459  291976 received sequence number = 598 out of order flag=0	 inorder 598
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 590
+	 poped from queue-> 591
+last submitted sequence number = 591 
+	Out of Order
+1522485459  319940 received sequence number = 599 out of order flag=1	 added to queue 599
+	Out of Order
+1522485459  319945 received sequence number = 600 out of order flag=1	 added to queue 600
+	Out of Order
+1522485459  324938 received sequence number = 601 out of order flag=1	 added to queue 601
+	Out of Order
+1522485459  324942 received sequence number = 602 out of order flag=1	 added to queue 602
+	Out of Order
+1522485459  336964 received sequence number = 603 out of order flag=1	 added to queue 603
+	Out of Order
+1522485459  336976 received sequence number = 604 out of order flag=1	 inorder 604
+1522485459  336987 received sequence number = 605 out of order flag=0	 inorder 605
+1522485459  336996 received sequence number = 606 out of order flag=0	 inorder 606
+1522485459  336999 received sequence number = 607 out of order flag=0	 inorder 607
+1522485459  337008 received sequence number = 608 out of order flag=0	 inorder 608
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 599
+	 poped from queue-> 600
+	 poped from queue-> 601
+	 poped from queue-> 602
+	 poped from queue-> 603
+last submitted sequence number = 603 
+	Out of Order
+1522485459  362775 received sequence number = 609 out of order flag=1	 added to queue 609
+	Out of Order
+1522485459  364942 received sequence number = 610 out of order flag=1	 added to queue 610
+	Out of Order
+1522485459  364947 received sequence number = 611 out of order flag=1	 added to queue 611
+	Out of Order
+1522485459  371759 received sequence number = 612 out of order flag=1	 added to queue 612
+	Out of Order
+1522485459  381940 received sequence number = 613 out of order flag=1	 inorder 613
+1522485459  381945 received sequence number = 614 out of order flag=0	 inorder 614
+1522485459  381948 received sequence number = 615 out of order flag=0	 inorder 615
+1522485459  381951 received sequence number = 616 out of order flag=0	 inorder 616
+1522485459  381954 received sequence number = 617 out of order flag=0	 inorder 617
+1522485459  381957 received sequence number = 618 out of order flag=0	 inorder 618
+PDPC timeout occurred
+Number of elements in queue: 4
+	 poped from queue-> 609
+	 poped from queue-> 610
+	 poped from queue-> 611
+	 poped from queue-> 612
+last submitted sequence number = 612 
+	Out of Order
+1522485459  407941 received sequence number = 619 out of order flag=1	 added to queue 619
+	Out of Order
+1522485459  407946 received sequence number = 620 out of order flag=1	 added to queue 620
+	Out of Order
+1522485459  414943 received sequence number = 621 out of order flag=1	 added to queue 621
+	Out of Order
+1522485459  417943 received sequence number = 622 out of order flag=1	 added to queue 622
+	Out of Order
+1522485459  417948 received sequence number = 623 out of order flag=1	 inorder 623
+1522485459  426943 received sequence number = 624 out of order flag=0	 inorder 624
+1522485459  426948 received sequence number = 625 out of order flag=0	 inorder 625
+1522485459  426951 received sequence number = 626 out of order flag=0	 inorder 626
+1522485459  426954 received sequence number = 627 out of order flag=0	 inorder 627
+1522485459  426957 received sequence number = 628 out of order flag=0	 inorder 628
+1522485459  426960 received sequence number = 629 out of order flag=0	 inorder 629
+PDPC timeout occurred
+Number of elements in queue: 4
+	 poped from queue-> 619
+	 poped from queue-> 620
+	 poped from queue-> 621
+	 poped from queue-> 622
+last submitted sequence number = 622 
+	Out of Order
+1522485459  451764 received sequence number = 630 out of order flag=1	 added to queue 630
+	Out of Order
+1522485459  454947 received sequence number = 631 out of order flag=1	 added to queue 631
+	Out of Order
+1522485459  454952 received sequence number = 632 out of order flag=1	 added to queue 632
+	Out of Order
+1522485459  460947 received sequence number = 633 out of order flag=1	 added to queue 633
+	Out of Order
+1522485459  461765 received sequence number = 634 out of order flag=1	 inorder 634
+1522485459  471947 received sequence number = 635 out of order flag=0	 inorder 635
+1522485459  471951 received sequence number = 636 out of order flag=0	 inorder 636
+1522485459  471955 received sequence number = 637 out of order flag=0	 inorder 637
+1522485459  471981 received sequence number = 638 out of order flag=0	 inorder 638
+1522485459  471984 received sequence number = 639 out of order flag=0	 inorder 639
+1522485459  471987 received sequence number = 640 out of order flag=0	 inorder 640
+PDPC timeout occurred
+Number of elements in queue: 4
+	 poped from queue-> 630
+	 poped from queue-> 631
+	 poped from queue-> 632
+	 poped from queue-> 633
+last submitted sequence number = 633 
+	Out of Order
+1522485459  494820 received sequence number = 641 out of order flag=1	 added to queue 641
+	Out of Order
+1522485459  494825 received sequence number = 642 out of order flag=1	 added to queue 642
+	Out of Order
+1522485459  496050 received sequence number = 643 out of order flag=1	 added to queue 643
+	Out of Order
+1522485459  497013 received sequence number = 644 out of order flag=1	 added to queue 644
+	Out of Order
+1522485459  505837 received sequence number = 645 out of order flag=1	 added to queue 645
+	Out of Order
+1522485459  505843 received sequence number = 646 out of order flag=1	 inorder 646
+1522485459  505847 received sequence number = 647 out of order flag=0	 inorder 647
+1522485459  516847 received sequence number = 648 out of order flag=0	 inorder 648
+1522485459  516852 received sequence number = 649 out of order flag=0	 inorder 649
+1522485459  516855 received sequence number = 650 out of order flag=0	 inorder 650
+1522485459  516858 received sequence number = 651 out of order flag=0	 inorder 651
+1522485459  516861 received sequence number = 652 out of order flag=0	 inorder 652
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 641
+	 poped from queue-> 642
+	 poped from queue-> 643
+	 poped from queue-> 644
+	 poped from queue-> 645
+last submitted sequence number = 645 
+	Out of Order
+1522485459  526868 received sequence number = 653 out of order flag=1	 added to queue 653
+	Out of Order
+1522485459  542880 received sequence number = 654 out of order flag=1	 added to queue 654
+	Out of Order
+1522485459  551902 received sequence number = 655 out of order flag=1	 inorder 655
+1522485459  551915 received sequence number = 656 out of order flag=0	 inorder 656
+1522485459  551919 received sequence number = 657 out of order flag=0	 inorder 657
+1522485459  551922 received sequence number = 658 out of order flag=0	 inorder 658
+1522485459  551927 received sequence number = 659 out of order flag=0	 inorder 659
+1522485459  551931 received sequence number = 660 out of order flag=0	 inorder 660
+1522485459  556903 received sequence number = 661 out of order flag=0	 inorder 661
+1522485459  556918 received sequence number = 662 out of order flag=0	 inorder 662
+1522485459  556923 received sequence number = 663 out of order flag=0	 inorder 663
+1522485459  556927 received sequence number = 664 out of order flag=0	 inorder 664
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 653
+	 poped from queue-> 654
+last submitted sequence number = 654 
+	Out of Order
+1522485459  580974 received sequence number = 665 out of order flag=1	 added to queue 665
+	Out of Order
+1522485459  580979 received sequence number = 666 out of order flag=1	 added to queue 666
+	Out of Order
+1522485459  584978 received sequence number = 667 out of order flag=1	 added to queue 667
+	Out of Order
+1522485459  584983 received sequence number = 668 out of order flag=1	 added to queue 668
+	Out of Order
+1522485459  589973 received sequence number = 669 out of order flag=1	 added to queue 669
+	Out of Order
+1522485459  590970 received sequence number = 670 out of order flag=1	 inorder 670
+1522485459  590974 received sequence number = 671 out of order flag=0	 inorder 671
+1522485459  591768 received sequence number = 672 out of order flag=0	 inorder 672
+1522485459  601964 received sequence number = 673 out of order flag=0	 inorder 673
+1522485459  601969 received sequence number = 674 out of order flag=0	 inorder 674
+1522485459  601973 received sequence number = 675 out of order flag=0	 inorder 675
+1522485459  601977 received sequence number = 676 out of order flag=0	 inorder 676
+1522485459  602001 received sequence number = 677 out of order flag=0	 inorder 677
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 665
+	 poped from queue-> 666
+	 poped from queue-> 667
+	 poped from queue-> 668
+	 poped from queue-> 669
+last submitted sequence number = 669 
+	Out of Order
+1522485459  631807 received sequence number = 678 out of order flag=1	 added to queue 678
+	Out of Order
+1522485459  631812 received sequence number = 679 out of order flag=1	 added to queue 679
+	Out of Order
+1522485459  631816 received sequence number = 680 out of order flag=1	 added to queue 680
+	Out of Order
+1522485459  641960 received sequence number = 681 out of order flag=1	 added to queue 681
+	Out of Order
+1522485459  641965 received sequence number = 682 out of order flag=1	 added to queue 682
+	Out of Order
+1522485459  641969 received sequence number = 683 out of order flag=1	 inorder 683
+1522485459  641972 received sequence number = 684 out of order flag=0	 inorder 684
+1522485459  641976 received sequence number = 685 out of order flag=0	 inorder 685
+1522485459  641979 received sequence number = 686 out of order flag=0	 inorder 686
+1522485459  646992 received sequence number = 687 out of order flag=0	 inorder 687
+1522485459  646996 received sequence number = 688 out of order flag=0	 inorder 688
+1522485459  646999 received sequence number = 689 out of order flag=0	 inorder 689
+1522485459  647002 received sequence number = 690 out of order flag=0	 inorder 690
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 678
+	 poped from queue-> 679
+	 poped from queue-> 680
+	 poped from queue-> 681
+	 poped from queue-> 682
+last submitted sequence number = 682 
+	Out of Order
+1522485459  676976 received sequence number = 691 out of order flag=1	 added to queue 691
+	Out of Order
+1522485459  676981 received sequence number = 692 out of order flag=1	 added to queue 692
+	Out of Order
+1522485459  676985 received sequence number = 693 out of order flag=1	 added to queue 693
+	Out of Order
+1522485459  676989 received sequence number = 694 out of order flag=1	 added to queue 694
+	Out of Order
+1522485459  677973 received sequence number = 695 out of order flag=1	 added to queue 695
+	Out of Order
+1522485459  686966 received sequence number = 696 out of order flag=1	 added to queue 696
+	Out of Order
+1522485459  686971 received sequence number = 697 out of order flag=1	 inorder 697
+1522485459  686975 received sequence number = 698 out of order flag=0	 inorder 698
+1522485459  686978 received sequence number = 699 out of order flag=0	 inorder 699
+1522485459  686981 received sequence number = 700 out of order flag=0	 inorder 700
+1522485459  686985 received sequence number = 701 out of order flag=0	 inorder 701
+1522485459  691970 received sequence number = 702 out of order flag=0	 inorder 702
+1522485459  691974 received sequence number = 703 out of order flag=0	 inorder 703
+1522485459  691977 received sequence number = 704 out of order flag=0	 inorder 704
+PDPC timeout occurred
+Number of elements in queue: 6
+	 poped from queue-> 691
+	 poped from queue-> 692
+	 poped from queue-> 693
+	 poped from queue-> 694
+	 poped from queue-> 695
+	 poped from queue-> 696
+last submitted sequence number = 696 
+	Out of Order
+1522485459  714810 received sequence number = 705 out of order flag=1	 added to queue 705
+	Out of Order
+1522485459  731972 received sequence number = 706 out of order flag=1	 added to queue 706
+	Out of Order
+1522485459  731977 received sequence number = 707 out of order flag=1	 inorder 707
+1522485459  731981 received sequence number = 708 out of order flag=0	 inorder 708
+1522485459  731984 received sequence number = 709 out of order flag=0	 inorder 709
+1522485459  731987 received sequence number = 710 out of order flag=0	 inorder 710
+1522485459  731990 received sequence number = 711 out of order flag=0	 inorder 711
+1522485459  731993 received sequence number = 712 out of order flag=0	 inorder 712
+1522485459  736985 received sequence number = 713 out of order flag=0	 inorder 713
+1522485459  736990 received sequence number = 714 out of order flag=0	 inorder 714
+1522485459  737020 received sequence number = 715 out of order flag=0	 inorder 715
+1522485459  737024 received sequence number = 716 out of order flag=0	 inorder 716
+1522485459  740896 received sequence number = 717 out of order flag=0	 inorder 717
+1522485459  740900 received sequence number = 718 out of order flag=0	 inorder 718
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 705
+	 poped from queue-> 706
+last submitted sequence number = 706 
+	Out of Order
+1522485459  764972 received sequence number = 719 out of order flag=1	 added to queue 719
+	Out of Order
+1522485459  764977 received sequence number = 720 out of order flag=1	 added to queue 720
+	Out of Order
+1522485459  781975 received sequence number = 721 out of order flag=1	 added to queue 721
+	Out of Order
+1522485459  781980 received sequence number = 722 out of order flag=1	 inorder 722
+1522485459  781984 received sequence number = 723 out of order flag=0	 inorder 723
+1522485459  781987 received sequence number = 724 out of order flag=0	 inorder 724
+1522485459  781990 received sequence number = 725 out of order flag=0	 inorder 725
+1522485459  781993 received sequence number = 726 out of order flag=0	 inorder 726
+1522485459  786976 received sequence number = 727 out of order flag=0	 inorder 727
+1522485459  786980 received sequence number = 728 out of order flag=0	 inorder 728
+1522485459  786984 received sequence number = 729 out of order flag=0	 inorder 729
+1522485459  786987 received sequence number = 730 out of order flag=0	 inorder 730
+1522485459  786990 received sequence number = 731 out of order flag=0	 inorder 731
+1522485459  790951 received sequence number = 732 out of order flag=0	 inorder 732
+1522485459  790956 received sequence number = 733 out of order flag=0	 inorder 733
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 719
+	 poped from queue-> 720
+	 poped from queue-> 721
+last submitted sequence number = 721 
+	Out of Order
+1522485459  807813 received sequence number = 734 out of order flag=1	 added to queue 734
+	Out of Order
+1522485459  814975 received sequence number = 735 out of order flag=1	 added to queue 735
+	Out of Order
+1522485459  817975 received sequence number = 736 out of order flag=1	 added to queue 736
+	Out of Order
+1522485459  817980 received sequence number = 737 out of order flag=1	 inorder 737
+1522485459  826977 received sequence number = 738 out of order flag=0	 inorder 738
+1522485459  826981 received sequence number = 739 out of order flag=0	 inorder 739
+1522485459  826984 received sequence number = 740 out of order flag=0	 inorder 740
+1522485459  826988 received sequence number = 741 out of order flag=0	 inorder 741
+1522485459  826991 received sequence number = 742 out of order flag=0	 inorder 742
+1522485459  826994 received sequence number = 743 out of order flag=0	 inorder 743
+1522485459  831976 received sequence number = 744 out of order flag=0	 inorder 744
+1522485459  831980 received sequence number = 745 out of order flag=0	 inorder 745
+1522485459  831983 received sequence number = 746 out of order flag=0	 inorder 746
+1522485459  832976 received sequence number = 747 out of order flag=0	 inorder 747
+1522485459  832981 received sequence number = 748 out of order flag=0	 inorder 748
+PDPC timeout occurred
+Number of elements in queue: 3
+	 poped from queue-> 734
+	 poped from queue-> 735
+	 poped from queue-> 736
+last submitted sequence number = 736 
+	Out of Order
+1522485459  851796 received sequence number = 749 out of order flag=1	 added to queue 749
+	Out of Order
+1522485459  851802 received sequence number = 750 out of order flag=1	 added to queue 750
+	Out of Order
+1522485459  854985 received sequence number = 751 out of order flag=1	 added to queue 751
+	Out of Order
+1522485459  854990 received sequence number = 752 out of order flag=1	 added to queue 752
+	Out of Order
+1522485459  860978 received sequence number = 753 out of order flag=1	 added to queue 753
+	Out of Order
+1522485459  861785 received sequence number = 754 out of order flag=1	 inorder 754
+1522485459  871980 received sequence number = 755 out of order flag=0	 inorder 755
+1522485459  871984 received sequence number = 756 out of order flag=0	 inorder 756
+1522485459  871988 received sequence number = 757 out of order flag=0	 inorder 757
+1522485459  871991 received sequence number = 758 out of order flag=0	 inorder 758
+1522485459  871994 received sequence number = 759 out of order flag=0	 inorder 759
+1522485459  871997 received sequence number = 760 out of order flag=0	 inorder 760
+1522485459  872000 received sequence number = 761 out of order flag=0	 inorder 761
+1522485459  872003 received sequence number = 762 out of order flag=0	 inorder 762
+1522485459  872006 received sequence number = 763 out of order flag=0	 inorder 763
+1522485459  876719 received sequence number = 764 out of order flag=0	 inorder 764
+PDPC timeout occurred
+Number of elements in queue: 5
+	 poped from queue-> 749
+	 poped from queue-> 750
+	 poped from queue-> 751
+	 poped from queue-> 752
+	 poped from queue-> 753
+last submitted sequence number = 753 
+	Out of Order
+1522485459  894768 received sequence number = 765 out of order flag=1	 added to queue 765
+	Out of Order
+1522485459  911927 received sequence number = 766 out of order flag=1	 added to queue 766
+	Out of Order
+1522485459  911932 received sequence number = 767 out of order flag=1	 inorder 767
+1522485459  911938 received sequence number = 768 out of order flag=0	 inorder 768
+PDPC timeout occurred
+Number of elements in queue: 2
+	 poped from queue-> 765
+	 poped from queue-> 766
+last submitted sequence number = 766 
+	Out of Order
+1522485459  940431 received sequence number = 769 out of order flag=1	 added to queue 769
+PDPC timeout occurred
+Number of elements in queue: 1
+	 poped from queue-> 769
+[PHY][I][ue_pdcch_procedures] [UE  0] subframe 7: Found rnti fffe, format 1A, dci_cnt 0
+bad DCI 1A !!! 
+[PHY][I][check_dci_format1_1a_coherency] bad dci mcs + round 
+bad DCI 1A !!! 
+[1;31m[PHY][E][ue_pdcch_procedures] [UE  0] Frame 1837, subframe 8: Problem in DCI!
+[0m[PHY][I][ue_pdcch_procedures] [UE  0] subframe 2: Found rnti fffe, format 1A, dci_cnt 0
+bad DCI 1A !!! 
+Received SIGINT
+closing all tasks
+ready_tasks 0
+waiting for XFORMS thread
+stopping MODEM threads
