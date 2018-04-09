@@ -22,7 +22,7 @@
 /*******************************************************************************
  * This file had been created by asn1tostruct.py script v1.0.2
  * Please do not modify this file but regenerate it via script.
- * Created on: 2018-03-15 14:23:20.731230 by thomas
+ * Created on: 2018-04-03 12:33:16.242139 by thomas
  * from ['/home/thomas/lwa_ue_working/openair2/X2AP/MESSAGES/ASN1/R11.2/X2AP-PDU-Contents.asn']
  ******************************************************************************/
 #include <stdlib.h>

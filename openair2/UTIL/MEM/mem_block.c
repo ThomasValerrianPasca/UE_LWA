@@ -221,10 +221,10 @@ get_free_mem_block (uint32_t sizeP, const char* caller)
   mem_block_t      *le = NULL;
   int             pool_selected;
   int             size;
-
+//printf("Size =%d",sizeP);
   if (sizeP > MEM_MNGT_MB12_BLOCK_SIZE) {
     msg ("[MEM_MNGT][ERROR][FATAL] size requested %d out of bounds\n", sizeP);
-    display_mem_load ();
+    //display_mem_load ();
     mac_xface->macphy_exit("[MEM_MNGT][ERROR][FATAL] get_free_mem_block size requested out of bounds");
     return NULL;
   }
@@ -276,7 +276,8 @@ get_free_mem_block (uint32_t sizeP, const char* caller)
 #endif
   } while (pool_selected++ < 12);
 
-  LOG_E(PHY, "[MEM_MNGT][ERROR][FATAL] failed allocating MEM_BLOCK size %d byes (pool_selected=%d size=%d)\n", sizeP, pool_selected, size);
+  LOG_E(PHY, "[MEM_MNGT][ERROR][FATAL] failed allocating MEM_BLOCK size %d bytes (pool_selected=%d size=%d)\n", sizeP, pool_selected, size);
+  printf("[MEM_MNGT][ERROR][FATAL] failed allocating MEM_BLOCK size %d byes (pool_selected=%d size=%d)\n", sizeP, pool_selected, size);
   display_mem_load();
   mac_xface->macphy_exit("[MEM_MNGT][ERROR][FATAL] get_free_mem_block failed");
 
@@ -352,33 +353,33 @@ display_mem_load (void)
 
   mem_pool       *memory = (mem_pool *) &mem_block_var;
 
-  msg ("POOL 0 (%d elements of %d Bytes): ", MEM_MNGT_MB0_NB_BLOCKS, MEM_MNGT_MB0_BLOCK_SIZE);
+  printf ("POOL 0 (%d elements of %d Bytes): ", MEM_MNGT_MB0_NB_BLOCKS, MEM_MNGT_MB0_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID0]);
-  msg ("POOL 1 (%d elements of %d Bytes): ", MEM_MNGT_MB1_NB_BLOCKS, MEM_MNGT_MB1_BLOCK_SIZE);
+  printf ("POOL 1 (%d elements of %d Bytes): ", MEM_MNGT_MB1_NB_BLOCKS, MEM_MNGT_MB1_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID1]);
-  msg ("POOL 2 (%d elements of %d Bytes): ", MEM_MNGT_MB2_NB_BLOCKS, MEM_MNGT_MB2_BLOCK_SIZE);
+  printf ("POOL 2 (%d elements of %d Bytes): ", MEM_MNGT_MB2_NB_BLOCKS, MEM_MNGT_MB2_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID2]);
-  msg ("POOL 3 (%d elements of %d Bytes): ", MEM_MNGT_MB3_NB_BLOCKS, MEM_MNGT_MB3_BLOCK_SIZE);
+  printf ("POOL 3 (%d elements of %d Bytes): ", MEM_MNGT_MB3_NB_BLOCKS, MEM_MNGT_MB3_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID3]);
-  msg ("POOL 4 (%d elements of %d Bytes): ", MEM_MNGT_MB4_NB_BLOCKS, MEM_MNGT_MB4_BLOCK_SIZE);
+  printf ("POOL 4 (%d elements of %d Bytes): ", MEM_MNGT_MB4_NB_BLOCKS, MEM_MNGT_MB4_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID4]);
-  msg ("POOL 5 (%d elements of %d Bytes): ", MEM_MNGT_MB5_NB_BLOCKS, MEM_MNGT_MB5_BLOCK_SIZE);
+  printf ("POOL 5 (%d elements of %d Bytes): ", MEM_MNGT_MB5_NB_BLOCKS, MEM_MNGT_MB5_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID5]);
-  msg ("POOL 6 (%d elements of %d Bytes): ", MEM_MNGT_MB6_NB_BLOCKS, MEM_MNGT_MB6_BLOCK_SIZE);
+  printf ("POOL 6 (%d elements of %d Bytes): ", MEM_MNGT_MB6_NB_BLOCKS, MEM_MNGT_MB6_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID6]);
-  msg ("POOL 7 (%d elements of %d Bytes): ", MEM_MNGT_MB7_NB_BLOCKS, MEM_MNGT_MB7_BLOCK_SIZE);
+  printf ("POOL 7 (%d elements of %d Bytes): ", MEM_MNGT_MB7_NB_BLOCKS, MEM_MNGT_MB7_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID7]);
-  msg ("POOL 8 (%d elements of %d Bytes): ", MEM_MNGT_MB8_NB_BLOCKS, MEM_MNGT_MB8_BLOCK_SIZE);
+  printf ("POOL 8 (%d elements of %d Bytes): ", MEM_MNGT_MB8_NB_BLOCKS, MEM_MNGT_MB8_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID8]);
-  msg ("POOL 9 (%d elements of %d Bytes): ", MEM_MNGT_MB9_NB_BLOCKS, MEM_MNGT_MB9_BLOCK_SIZE);
+  printf ("POOL 9 (%d elements of %d Bytes): ", MEM_MNGT_MB9_NB_BLOCKS, MEM_MNGT_MB9_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID9]);
-  msg ("POOL 10 (%d elements of %d Bytes): ", MEM_MNGT_MB10_NB_BLOCKS, MEM_MNGT_MB10_BLOCK_SIZE);
+  printf ("POOL 10 (%d elements of %d Bytes): ", MEM_MNGT_MB10_NB_BLOCKS, MEM_MNGT_MB10_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID10]);
-  msg ("POOL 11 (%d elements of %d Bytes): ", MEM_MNGT_MB11_NB_BLOCKS, MEM_MNGT_MB11_BLOCK_SIZE);
+  printf ("POOL 11 (%d elements of %d Bytes): ", MEM_MNGT_MB11_NB_BLOCKS, MEM_MNGT_MB11_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID11]);
-  msg ("POOL 12 (%d elements of %d Bytes): ", MEM_MNGT_MB12_NB_BLOCKS, MEM_MNGT_MB12_BLOCK_SIZE);
+  printf ("POOL 12 (%d elements of %d Bytes): ", MEM_MNGT_MB12_NB_BLOCKS, MEM_MNGT_MB12_BLOCK_SIZE);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID12]);
-  msg ("POOL C (%d elements): ", MEM_MNGT_MBCOPY_NB_BLOCKS);
+  printf ("POOL C (%d elements): ", MEM_MNGT_MBCOPY_NB_BLOCKS);
   list_display (&memory->mem_lists[MEM_MNGT_POOL_ID_COPY]);
 }
 

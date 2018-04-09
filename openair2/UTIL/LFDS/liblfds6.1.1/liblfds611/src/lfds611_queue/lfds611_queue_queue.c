@@ -1,7 +1,10 @@
 #include "lfds611_queue_internal.h"
 
 
-
+int lfds611_queue_check( struct lfds611_queue_state *qs )
+{
+  return qs->limiting_counter_total - qs->limiting_counter;
+}
 
 
 /****************************************************************************/
@@ -42,6 +45,7 @@ int lfds611_queue_guaranteed_enqueue( struct lfds611_queue_state *qs, void *user
     return( 0 );
 
   lfds611_queue_internal_queue( qs, qe );
+  qs->limiting_counter ++;
 
   return( 1 );
 }
@@ -179,6 +183,9 @@ int lfds611_queue_dequeue( struct lfds611_queue_state *qs, void **user_data )
   if( cas_result == 1 )
     lfds611_freelist_push( qs->fs, dequeue[LFDS611_QUEUE_POINTER]->fe );
 
+  if(qs->limiting_counter > 0) {
+    qs->limiting_counter --;
+   }
   return( rv );
 }
 

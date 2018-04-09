@@ -781,6 +781,16 @@ rlc_um_data_req (const protocol_ctxt_t* const ctxt_pP, void *rlc_pP, mem_block_t
   LOG_T(RLC, "%s", message_string);
 #endif
 #   endif
+
+#define SLEEP_US_THREAD 100
+#define LIST_THRESHOLD 2000
+while(1) {
+ volatile int elinlist = list_get_el_num(&rlc_p->input_sdus);
+   if(elinlist < LIST_THRESHOLD)
+     break;
+     usleep(SLEEP_US_THREAD);
+  }
+  int elinlist = list_get_el_num(&rlc_p->input_sdus);
   RLC_UM_MUTEX_LOCK(&rlc_p->lock_input_sdus, ctxt_pP, rlc_p);
   rlc_p->buffer_occupancy += ((struct rlc_um_tx_sdu_management *) (sdu_pP->data))->sdu_size;
   list_add_tail_eurecom(sdu_pP, &rlc_p->input_sdus);

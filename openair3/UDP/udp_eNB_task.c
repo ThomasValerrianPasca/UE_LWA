@@ -231,7 +231,7 @@ udp_eNB_send_to(
 #endif
   return 0;
 }
-
+volatile int dropped_messages = 0;
 
 void udp_eNB_receiver(struct udp_socket_desc_s *udp_sock_pP)
 {
@@ -270,10 +270,16 @@ void udp_eNB_receiver(struct udp_socket_desc_s *udp_sock_pP)
             n, inet_ntoa(addr.sin_addr), ntohs(addr.sin_port));
 #endif
 
-      if (itti_send_msg_to_task(udp_sock_pP->task_id, INSTANCE_DEFAULT, message_p) < 0) {
-        LOG_I(UDP_, "Failed to send message %d to task %d\n",
-              UDP_DATA_IND,
-              udp_sock_pP->task_id);
+//      if (itti_send_msg_to_task(udp_sock_pP->task_id, INSTANCE_DEFAULT, message_p) < 0) {
+//        LOG_I(UDP_, "Failed to send message %d to task %d\n",
+//              UDP_DATA_IND,
+//              udp_sock_pP->task_id);
+      if (itti_send_msg_to_task_try(udp_sock_pP->task_id, INSTANCE_DEFAULT, message_p) < 0) {
+              itti_free(TASK_UDP, message_p);
+              itti_free(TASK_UDP, forwarded_buffer);
+              dropped_messages ++;
+              if((dropped_messages % 10000) == 0)
+                LOG_I(UDP_, "dropped_messages = %d\n", dropped_messages);
         return;
       }
     }

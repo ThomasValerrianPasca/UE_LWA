@@ -236,6 +236,7 @@ void lfds611_queue_use( struct lfds611_queue_state *qs );
 void lfds611_queue_delete( struct lfds611_queue_state *qs, void (*user_data_delete_function)(void *user_data, void *user_state), void *user_state );
 
 int lfds611_queue_enqueue( struct lfds611_queue_state *qs, void *user_data );
+int lfds611_queue_check( struct lfds611_queue_state *qs );
 int lfds611_queue_guaranteed_enqueue( struct lfds611_queue_state *qs, void *user_data );
 int lfds611_queue_dequeue( struct lfds611_queue_state *qs, void **user_data );
 

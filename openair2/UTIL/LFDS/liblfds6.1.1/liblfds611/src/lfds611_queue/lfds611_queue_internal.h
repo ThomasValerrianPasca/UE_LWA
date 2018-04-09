@@ -24,6 +24,9 @@ struct lfds611_queue_state {
   lfds611_atom_t
   aba_counter;
 
+  lfds611_atom_t limiting_counter;
+  lfds611_atom_t limiting_counter_total;
+
   struct lfds611_freelist_state
       *fs;
 };

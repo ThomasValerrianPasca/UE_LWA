@@ -979,6 +979,7 @@ pdcp_data_ind(
 								thread_running=true; //if still packets are there
 								break;
 							}
+
 						}
 						thread_running=false;
 						//						printf("sending all the previously queued packet\n");
@@ -1031,6 +1032,7 @@ pdcp_data_ind(
 				//				printf("sending packet with sequence number %d to other queues and their queue size is %d\n",sequence_number, sdu_reorder_list_p->nb_elements);
 				last_oo_flag=oo_flag;
 				pdcp_lock=0;
+				free_mem_block(sdu_buffer_pP, __func__);
 				return TRUE;
 			}
 			last_oo_flag=oo_flag;

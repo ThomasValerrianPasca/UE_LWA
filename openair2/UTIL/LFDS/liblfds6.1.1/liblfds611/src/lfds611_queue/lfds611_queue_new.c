@@ -27,6 +27,8 @@ int lfds611_queue_new( struct lfds611_queue_state **qs, lfds611_atom_t number_el
       (*qs)->enqueue[LFDS611_QUEUE_POINTER] = (*qs)->dequeue[LFDS611_QUEUE_POINTER] = qe[LFDS611_QUEUE_POINTER];
       (*qs)->enqueue[LFDS611_QUEUE_COUNTER] = (*qs)->dequeue[LFDS611_QUEUE_COUNTER] = 0;
       (*qs)->aba_counter = 0;
+      (*qs)->limiting_counter = 0;
+      (*qs)->limiting_counter_total = number_elements;
       rv = 1;
     }
 

@@ -179,6 +179,10 @@ list_add_head (mem_block_t * elementP, list_t * listP)
 	}
 }
 
+int list_get_el_num(list_t * listP)
+{
+  return listP->nb_elements;
+}
 //-----------------------------------------------------------------------------
 /*
  *  add an element to the targetted_location
@@ -380,25 +384,25 @@ list_display (list_t * listP)
 	//-----------------------------------------------------------------------------
 
 	mem_block_t      *cursor;
-	//  unsigned short             nb_elements = 0;
+	  unsigned short             nb_elements = 0;
 
 	// test lists
 	if (listP) {
 		cursor = listP->head;
 
-		if (cursor) {
-			// almost one element
-			//msg ("Display list %s %p", listP->name, listP);
-			// while (cursor != NULL) {
-			// msg ("%d:", cursor->pool_id);
-			// msg ("\n");
-			// cursor = cursor->next;
-			// nb_elements++;
-			//}
-			//      msg (" found nb_elements %d nb_elements %d\n", nb_elements, listP->nb_elements);
-		}
+//		if (cursor) {
+//			// almost one element
+//			printf ("\n Display list %s and elements %d\n", listP->name, listP->nb_elements);
+//			 while (cursor != NULL) {
+//			// printf ("%d:", cursor->pool_id);
+//			// printf ("\n");
+//			 cursor = cursor->next;
+//			 nb_elements++;
+//			}
+//			      printf ("\n found nb_elements %d nb_elements %d\n", nb_elements, listP->nb_elements);
+//		}
 	} else {
-		//msg ("[SDU_MNGT][WARNING] display_cnt_list() : list is NULL\n");
+		printf ("[SDU_MNGT][WARNING] display_cnt_list() : list is NULL\n");
 	}
 }
 #ifndef LINUX_LIST

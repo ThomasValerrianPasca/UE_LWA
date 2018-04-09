@@ -111,6 +111,9 @@ int itti_send_broadcast_message(MessageDef *message_p);
  @returns -1 on failure, 0 otherwise
  **/
 int itti_send_msg_to_task(task_id_t task_id, instance_t instance, MessageDef *message);
+int itti_gtest(task_id_t destination_task_id);
+int itti_send_msg_to_task_try(task_id_t task_id, instance_t instance, MessageDef *message);
+
 
 /** \brief Add a new fd to monitor.
  * NOTE: it is up to the user to read data associated with the fd
